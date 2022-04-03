@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorTransparent"
+	android:padding="10dp">
+	<LinearLayout
+		android:background="@android:color/white"
+		android:layout_centerInParent="true"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/gender"
+			style="@style/SettingSubTitle"/>
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:layout_marginVertical="10dp"
+			android:background="@color/colorPrimary"
+			android:text="@string/title_setting"
+			style="@style/SettingSubTitle"/>
+		<MvvmCross.Platforms.Android.Binding.Views.MvxRadioGroup
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			app:MvxItemTemplate="@layout/dialogue_gender_item"
+			app:MvxBind="ItemsSource Genders;SelectedItem SelectedGender">
+		</MvvmCross.Platforms.Android.Binding.Views.MvxRadioGroup>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="end"
+			android:orientation="horizontal">
+			<TextView
+				android:gravity="center"
+				android:layout_width="80dp"
+				android:layout_height="60dp"
+				style="@style/SettingSubMenu"
+				android:text="@string/title_cancel"
+				app:MvxBind="Click CloseCommand"/>
+			<TextView
+				android:gravity="center"
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				style="@style/SettingSubMenu"
+				android:textColor="@color/colorAccent"
+				android:text="@string/title_ok"
+				app:MvxBind="Click GenderSelectedCommand"/>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

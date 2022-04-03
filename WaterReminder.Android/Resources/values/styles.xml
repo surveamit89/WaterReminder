@@ -1,0 +1,45 @@
+<resources>
+    <style name="SplashTheme" parent="SplashTheme.Base">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SplashTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PageTitle">
+         <item name="android:textSize">24dp</item>
+         <item name="android:layout_marginVertical">10dp</item>
+         <item name="android:textColor">@color/colorPrimary</item>
+         <item name="android:fontFamily">@font/sourcesanspro_bold</item>
+         <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="SettingSubTitle">
+         <item name="android:textSize">18dp</item>
+         <item name="android:textColor">@color/colorPrimary</item>
+         <item name="android:fontFamily">@font/sourcesanspro_semibold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="SettingSubMenu">
+         <item name="android:textSize">16dp</item>
+         <item name="android:textColor">@color/colorPrimary</item>
+         <item name="android:fontFamily">@font/sourcesanspro_regular</item>
+    </style>
+
+    <style name="SelectedValue">
+         <item name="android:textSize">14dp</item>
+         <item name="android:textColor">@color/colorAccent</item>
+         <item name="android:fontFamily">@font/sourcesanspro_semibold</item>
+    </style>
+    
+</resources>

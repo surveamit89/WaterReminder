@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<!--Reminder Setting-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/reminder_setting"
+			style="@style/SettingSubTitle"/>
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:layout_marginVertical="10dp"
+			android:background="@color/colorPrimary"
+			android:text="@string/title_setting"
+			style="@style/SettingSubTitle"/>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/reminder_schedule"
+				android:layout_alignParentStart="true"
+				style="@style/SettingSubMenu"/>
+			<androidx.appcompat.widget.AppCompatImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/right_arrow"
+				android:layout_marginVertical="5dp"
+				android:layout_alignParentEnd="true"
+				android:tint="@color/colorPrimary"/>
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/reminder_sound"
+				android:layout_alignParentStart="true"
+				style="@style/SettingSubMenu"/>
+			<androidx.appcompat.widget.AppCompatImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/right_arrow"
+				android:layout_marginVertical="5dp"
+				android:layout_alignParentEnd="true"
+				android:tint="@color/colorPrimary"/>
+		</RelativeLayout>
+	</LinearLayout>
+
+	<!--General -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/title_general"
+			style="@style/SettingSubTitle"/>
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:layout_marginVertical="10dp"
+			android:background="@color/colorPrimary"
+			android:text="@string/title_setting"
+			style="@style/SettingSubTitle"/>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal"
+			app:MvxBind="Click OpenDialogueCommand,CommandParameter='Unit'">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/unit"
+				android:layout_alignParentStart="true"
+				style="@style/SettingSubMenu"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/clickhere"
+				android:layout_alignParentEnd="true"
+				style="@style/SelectedValue"
+				app:MvxBind="Text AppProfileData.SelectedUnit"/>
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			app:MvxBind="Click OpenDialogueCommand,CommandParameter='IntakeGoal'">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/intake_goal"
+				android:layout_alignParentStart="true"
+				style="@style/SettingSubMenu"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/clickhere"
+				android:layout_alignParentEnd="true"
+				style="@style/SelectedValue"
+				app:MvxBind="Text AppProfileData.SelectedIntakeGoal"/>
+		</RelativeLayout>
+	</LinearLayout>
+
+	<!--Personal Information-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/setting_info"
+			style="@style/SettingSubTitle"/>
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:layout_marginVertical="10dp"
+			android:background="@color/colorPrimary"
+			android:text="@string/title_setting"
+			style="@style/SettingSubTitle"/>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal"
+			app:MvxBind="Click OpenDialogueCommand,CommandParameter='Gender'">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/gender"
+				android:layout_alignParentStart="true"
+				style="@style/SettingSubMenu"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/clickhere"
+				android:layout_alignParentEnd="true"
+				style="@style/SelectedValue"
+				app:MvxBind="Text AppProfileData.SelectedGender"/>
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal"
+			app:MvxBind="Click OpenDialogueCommand,CommandParameter='Weight'">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/weight"
+				android:layout_alignParentStart="true"
+				style="@style/SettingSubMenu"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/clickhere"
+				android:layout_alignParentEnd="true"
+				style="@style/SelectedValue"
+				app:MvxBind="Text AppProfileData.SelectedWeight"/>
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal"
+			app:MvxBind="Click OpenDialogueCommand,CommandParameter='WakeUpTime'">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/wake_up_time"
+				android:layout_alignParentStart="true"
+				style="@style/SettingSubMenu"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/clickhere"
+				android:layout_alignParentEnd="true"
+				style="@style/SelectedValue"
+				app:MvxBind="Text AppProfileData.SelectedWakeUpTime"/>
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal"
+			app:MvxBind="Click OpenDialogueCommand,CommandParameter='BedTime'">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/bedtime"
+				android:layout_alignParentStart="true"
+				style="@style/SettingSubMenu"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/clickhere"
+				android:layout_alignParentEnd="true"
+				style="@style/SelectedValue"
+				app:MvxBind="Text AppProfileData.SelectedBedTime"/>
+		</RelativeLayout>
+	</LinearLayout>
+
+	<TextView
+		android:layout_marginTop="30dp"
+		android:layout_gravity="center_horizontal"
+		android:id="@+id/txt_versionname"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="@style/SettingSubMenu"
+		app:MvxBind="Text VersionName"/>
+</LinearLayout>

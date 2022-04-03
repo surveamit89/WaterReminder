@@ -1,0 +1,55 @@
+﻿<resources>
+     <!--common-->
+    <string name="app_name">WaterReminder</string>
+    <string name="app_name_full">Drink Water Reminder</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+    <string name="exit_dialogue_title">Do you want to exit?</string>
+    <string name="title_yes">Yes</string>
+    <string name="title_cancel">Cancel</string>
+    <string name="title_ok">OK</string>
+
+    <!--setting Page-->
+     <string name="title_edit">Edit</string>
+    <string name="title_setting">Settings</string>
+    <string name="reminder_setting">Reminder Settings</string>
+    <string name="reminder_schedule">Reminder schedule</string>
+     <string name="reminder_sound">Reminder sound</string>
+
+    <string name="title_general">General</string>
+    <string name="unit">Unit</string>
+    <string name="intake_goal">Intake goal</string>
+
+    <string name="setting_info">Personal Information</string>
+    <string name="gender">Gender</string>
+    <string name="weight">Weight</string>
+    <string name="wake_up_time">Wake-up time</string>
+    <string name="bedtime">Bedtime</string>
+    
+
+    <!--home Page-->
+     <string name="home_message">Do not drink cold water immediately after hot drinks like tea or coffe</string>
+     <string name="more_tips">More Tips</string>
+     <string name="daily_drink_target">Daily Drink Target</string>
+     <string name="btn_confirm_desc">Confirm that you have just drunk water</string>
+     <string name="todays_record">Todays records</string>
+
+     <!--history Page-->
+     <string name="drink_water_report">Drink water report</string>
+     <string name="weekly_average">Weekly average</string>
+     <string name="monthly_average">Monthly average</string>
+     <string name="average_completion">Average completion</string>
+     <string name="drink_frequency">Drink frequency</string>
+
+     <!--profile Page-->
+     <string name="profile_page_title">Please complete your personal information to start app</string>
+     <string name="save_and_continue">Save And Continue</string>
+     <string name="male">Male</string>
+     <string name="female">Female</string>
+     <string name="clickhere">Click here</string>
+     <string name="adjust_intake_goal">Adjust intake goal</string>
+     <string name="recommended">Recommended \n(3000 ml)</string>
+     <string name="title_kg">kg</string>
+    
+</resources>

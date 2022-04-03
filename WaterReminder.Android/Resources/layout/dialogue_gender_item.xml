@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+    <RadioButton
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+	        xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:id="@+id/radio_male"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/male"
+			app:MvxBind = "Checked IsSelected;Text Gender"/>

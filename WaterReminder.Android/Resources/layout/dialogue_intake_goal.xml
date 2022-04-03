@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorTransparent"
+	android:padding="10dp">
+	<LinearLayout
+		android:background="@android:color/white"
+		android:layout_centerInParent="true"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/adjust_intake_goal"
+			android:textAllCaps="false"
+			style="@style/SettingSubTitle"/>
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:layout_marginVertical="10dp"
+			android:background="@color/colorPrimary"
+			android:text="@string/title_setting"
+			style="@style/SettingSubTitle"/>
+		<TextView
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@id/seekbar_value"
+			android:textAllCaps="false"
+			style="@style/SettingSubTitle"
+			android:drawablePadding="5dp"
+			android:drawableEnd="@drawable/ic_refresh"
+			app:MvxBind="Text DisplaySelectedValue;Click RefreshCommand"/>
+		<SeekBar
+			android:id="@+id/seekbar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:max="15000"
+			android:min="500"
+			android:background="@drawable/seekbar_background"/> 
+		<TextView
+			android:gravity="center"
+			android:layout_marginStart="30dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/recommended"
+			app:MvxBind="Click ShowRecommendedCommand"/> 
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="end"
+			android:orientation="horizontal">
+			<TextView
+				android:gravity="center"
+				android:layout_width="80dp"
+				android:layout_height="60dp"
+				style="@style/SettingSubMenu"
+				android:text="@string/title_cancel"
+				app:MvxBind="Click CloseCommand"/>
+			<TextView
+				android:gravity="center"
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				style="@style/SettingSubMenu"
+				android:textColor="@color/colorAccent"
+				android:text="@string/title_ok"
+				app:MvxBind="Click CloseCommand,CommandParameter=true"/>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
