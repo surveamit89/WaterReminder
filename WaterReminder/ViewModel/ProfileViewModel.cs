@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using MvvmCross.Commands;
@@ -23,25 +24,26 @@ namespace WaterReminder.ViewModel
         {
             AppProfileData = new ProfileData();
             AppProfileData.SelectedUnit = Constant.SelectedUnit;
-            VerifyProfileData();
             LoadProfileData();
-        }
-
-        private void VerifyProfileData()
-        {
             if (AppData.GetIsProfileDataSaved())
             {
                 CloseVisibility = AppData.GetIsProfileDataSaved();
             }
-            ButtonEnabled = true;
+            VerifyProfileData();
         }
-
         //properties
 
         public bool ButtonEnabled
         {
-            get => _buttonEnabled;
-            set => _buttonEnabled = value;
+            get
+            {
+                return _buttonEnabled;
+            }
+            set
+            {
+                _buttonEnabled = value;
+                RaisePropertyChanged(() => ButtonEnabled);
+            }
         }
         public bool CloseVisibility
         {
@@ -116,6 +118,16 @@ namespace WaterReminder.ViewModel
             {
                 LoadProfileData();
             }
+            VerifyProfileData();
+        }
+
+        private void VerifyProfileData()
+        {
+            bool isNullValue = AppProfileData.GetType().GetProperties()
+                .Where(pi => pi.PropertyType == typeof(string))
+                .Select(pi => (string)pi.GetValue(AppProfileData))
+                .Any(value => string.IsNullOrEmpty(value));
+            ButtonEnabled = !isNullValue;
         }
     }
 }

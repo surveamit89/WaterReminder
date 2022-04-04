@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Text;
+using MvvmCross.ViewModels;
 using WaterReminder.ViewModel;
 
 namespace WaterReminder.Model.Profile
 {
-    public class ProfileData:BaseViewModel
+    public class ProfileData:MvxViewModel
     {
         private string _selectedUnit;
         public string SelectedUnit
@@ -39,6 +40,7 @@ namespace WaterReminder.Model.Profile
             }
         }
 
+        //public string SelectedWeight { get; set; }
         private string _selectedWeight;
         public string SelectedWeight
         {

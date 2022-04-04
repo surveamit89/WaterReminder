@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using WaterReminder.DataService;
 using WaterReminder.Model.Profile;
 using WaterReminder.Utility;
@@ -8,6 +9,18 @@ namespace WaterReminder.ViewModel.Profile
     public class ProfileMainViewModel : BaseViewModel
     {
         private readonly string _selectedValueFormat = Constant.IntakGoalFormat;
+
+        private bool _isAllDataSet;
+
+        public bool IsAllDataSet
+        {
+            get { return _isAllDataSet; }
+            set
+            {
+                _isAllDataSet = value;
+                RaisePropertyChanged(() => IsAllDataSet);
+            }
+        }
 
         private ProfileData _appProfileData;
 
@@ -34,6 +47,7 @@ namespace WaterReminder.ViewModel.Profile
 
             AppProfileData.SelectedWakeUpTime = AppData.GetProfileData(AppDataKey.ProfileWakeUpTime);
             AppProfileData.SelectedBedTime = AppData.GetProfileData(AppDataKey.ProfileBedTime);
+
         }
     }
 }

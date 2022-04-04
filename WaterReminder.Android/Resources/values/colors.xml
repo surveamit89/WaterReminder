@@ -7,4 +7,5 @@
     <color name="colorAccentLight">#87CEEB</color>
     <color name="colorDivider">#DFE1E3</color>
     <color name="colorTransparent">#60000000</color>
+    <color name="colorDisabled">#D3D3D3</color>
 </resources>
