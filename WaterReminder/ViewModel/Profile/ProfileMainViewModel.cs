@@ -37,16 +37,16 @@ namespace WaterReminder.ViewModel.Profile
         public void LoadProfileData()
         {
             AppProfileData.SelectedUnit = Constant.SelectedUnit;
-            var selectedGoalIntake= AppData.GetProfileData(AppDataKey.ProfileIntakeGoal);
+            var selectedGoalIntake= AppData.GetData(AppDataKey.ProfileIntakeGoal);
             AppProfileData.SelectedIntakeGoal = string.IsNullOrEmpty(selectedGoalIntake) ? string.Format(_selectedValueFormat, Constant.IntakGoalRecommendation): string.Format(_selectedValueFormat, selectedGoalIntake);
 
-            AppProfileData.SelectedGender = AppData.GetProfileData(AppDataKey.ProfileGender);
+            AppProfileData.SelectedGender = AppData.GetData(AppDataKey.ProfileGender);
 
-            var selectedWeight = AppData.GetProfileData(AppDataKey.ProfileWeight);
+            var selectedWeight = AppData.GetData(AppDataKey.ProfileWeight);
             AppProfileData.SelectedWeight = string.IsNullOrEmpty(selectedWeight) ? null: string.Format(Constant.WightFormat, selectedWeight);
 
-            AppProfileData.SelectedWakeUpTime = AppData.GetProfileData(AppDataKey.ProfileWakeUpTime);
-            AppProfileData.SelectedBedTime = AppData.GetProfileData(AppDataKey.ProfileBedTime);
+            AppProfileData.SelectedWakeUpTime = AppData.GetData(AppDataKey.ProfileWakeUpTime);
+            AppProfileData.SelectedBedTime = AppData.GetData(AppDataKey.ProfileBedTime);
 
         }
     }

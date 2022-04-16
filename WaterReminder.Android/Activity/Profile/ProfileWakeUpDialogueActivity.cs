@@ -23,7 +23,7 @@ namespace WaterReminder.Android.Activity.Profile
 
         public override Dialog OnCreateDialog(Bundle savedInstanceState)
         {
-            DateTime currentTime = string.IsNullOrEmpty(AppData.GetProfileData(AppDataKey.ProfileWakeUpTime)) ? DateTime.Now : DateTime.Parse(AppData.GetProfileData(AppDataKey.ProfileWakeUpTime));
+            DateTime currentTime = string.IsNullOrEmpty(AppData.GetData(AppDataKey.ProfileWakeUpTime)) ? DateTime.Now : DateTime.Parse(AppData.GetData(AppDataKey.ProfileWakeUpTime));
             bool is24HourFormat = DateFormat.Is24HourFormat(Activity);
             TimePickerDialog dialog = new TimePickerDialog
                 (Activity, this, currentTime.Hour, currentTime.Minute, is24HourFormat);

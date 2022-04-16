@@ -20,7 +20,7 @@ namespace WaterReminder.ViewModel.Profile
         {
             if (BedTime != DateTime.MinValue)
             {
-                AppData.SetProfileData(AppDataKey.ProfileBedTime, BedTime.ToString("hh:mm tt"));
+                AppData.SetData(AppDataKey.ProfileBedTime, BedTime.ToString("hh:mm tt"));
             }
         }
 

@@ -61,7 +61,7 @@ namespace WaterReminder.ViewModel.Profile
         {
             if (isDataUpdated)
             {
-                AppData.SetProfileData(AppDataKey.ProfileWeight, SelectedWeight.Weight.ToString());
+                AppData.SetData(AppDataKey.ProfileWeight, SelectedWeight.Weight.ToString());
             }
             NavigationService.Close(this, isDataUpdated);
         }

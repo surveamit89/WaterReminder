@@ -84,13 +84,13 @@ namespace WaterReminder.ViewModel.Profile
 
         private void RefreshValue()
         {
-            if (string.IsNullOrEmpty(AppData.GetProfileData(AppDataKey.ProfileIntakeGoal)))
+            if (string.IsNullOrEmpty(AppData.GetData(AppDataKey.ProfileIntakeGoal)))
             {
                 SelectedValue = Constant.IntakGoalRecommendation;
             }
             else
             {
-                SelectedValue = Convert.ToInt32(AppData.GetProfileData(AppDataKey.ProfileIntakeGoal));
+                SelectedValue = Convert.ToInt32(AppData.GetData(AppDataKey.ProfileIntakeGoal));
             }
             RefreshSelectedValue?.Invoke(SelectedValue);
         }
@@ -99,7 +99,7 @@ namespace WaterReminder.ViewModel.Profile
         {
             if (isDataUpdated)
             {
-                AppData.SetProfileData(AppDataKey.ProfileIntakeGoal, SelectedValue.ToString());
+                AppData.SetData(AppDataKey.ProfileIntakeGoal, SelectedValue.ToString());
             }
             NavigationService.Close(this, isDataUpdated);
         }

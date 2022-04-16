@@ -1,9 +1,14 @@
 ﻿using System;
+using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using MvvmCross.Commands;
 using WaterReminder.DataService;
-using Xamarin.Essentials;
+using WaterReminder.Model;
+using Acr.UserDialogs;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace WaterReminder.ViewModel
 {
@@ -17,19 +22,27 @@ namespace WaterReminder.ViewModel
         private string _homeTip;
         private ICommand _drunkWaterCommand;
         private ICommand _moreTipsCommand;
+        private ICommand _deleteRecordCommand;
+        private ICommand _changeIntakeCommand;
 
         public HomeViewModel()
         {
-            IntakeWater = 300;
-            TotalIntakeWater = 30000;
+            IntakeWater = Convert.ToInt32(AppData.GetData(AppDataKey.ProfileIntakeTaken));
+
+            TotalIntakeWater = Convert.ToInt32(AppData.GetData(AppDataKey.ProfileIntakeGoal));
+            if (TotalIntakeWater == 0)
+            {
+                TotalIntakeWater = 3000;
+            }
             SelectedQuantityWater = 300;
             ShowHomeTip();
+            DisplayTodaysRecord();
         }
 
         private void ShowHomeTip()
         {
-            int tipCounter = Convert.ToInt32(AppData.GetProfileData(AppDataKey.TipCounter));
-            if (tipCounter< WaterGuideList.Count)
+            int tipCounter = Convert.ToInt32(AppData.GetData(AppDataKey.TipCounter));
+            if (tipCounter < WaterGuideList.Count)
             {
                 HomeTip = WaterGuideList[tipCounter].Tips;
             }
@@ -77,7 +90,27 @@ namespace WaterReminder.ViewModel
             set => _selectedQuantityWater = value;
         }
 
+        private ObservableCollection<TodaysRecordModel> _todaysRecords;
+        public ObservableCollection<TodaysRecordModel> TodaysRecords
+        {
+            get { return _todaysRecords; }
+            set
+            {
+                _todaysRecords = value;
+                RaisePropertyChanged(() => TodaysRecords);
+            }
+        }
+
         //command
+
+
+        public ICommand DeleteRecordCommand
+        {
+            get
+            {
+                return _deleteRecordCommand ?? (_deleteRecordCommand = new MvxCommand<TodaysRecordModel>(ProcessDeleteRecordCommand));
+            }
+        }
 
         public ICommand DrunkWaterCommand
         {
@@ -97,33 +130,123 @@ namespace WaterReminder.ViewModel
             }
         }
 
-        private void AddDrunkWater()
+        public ICommand ChangeIntakeCommand
         {
-            if (IntakeWater < TotalIntakeWater)
+            get
             {
-                IntakeWater += IntakeWater;
+                _changeIntakeCommand = _changeIntakeCommand ?? new MvxCommand(ChangeIntake);
+                return _changeIntakeCommand;
             }
-            else
-            {
-                IntakeWater = TotalIntakeWater;
-            }
-
-            int tipCounter = Convert.ToInt32(AppData.GetProfileData(AppDataKey.TipCounter));
-            if (tipCounter >= WaterGuideList.Count - 1)
-            {
-                AppData.SetProfileData(AppDataKey.TipCounter, null);
-            }
-            else
-            {
-                AppData.SetProfileData(AppDataKey.TipCounter, Convert.ToString(tipCounter + 1));
-            }
-
-            ShowHomeTip();
         }
 
         private async Task ShowMoreTips()
         {
             await NavigationService.Navigate<MoreTipsViewModel>();
+        }
+
+        private void ChangeIntake()
+        {
+            AppData.SetData(AppDataKey.ProfileIntakeTaken, null);
+            IntakeWater = 0;
+        }
+
+        private void AddDrunkWater()
+        {
+            CalculateIntakeWater();
+            AddTodaysRecord();
+            DisplayHomeTipData();
+        }
+
+        private void CalculateIntakeWater()
+        {
+            //if (IntakeWater <= TotalIntakeWater)
+            //{
+            //    IntakeWater += SelectedQuantityWater;
+            //    AddTodaysRecord();
+            //}
+            //else
+            //{
+            //    IntakeWater = TotalIntakeWater;
+            //}
+            IntakeWater += SelectedQuantityWater;
+            AppData.SetData(AppDataKey.ProfileIntakeTaken, Convert.ToString(IntakeWater));
+        }
+
+        private void DisplayHomeTipData()
+        {
+            int tipCounter = Convert.ToInt32(AppData.GetData(AppDataKey.TipCounter));
+            if (tipCounter >= WaterGuideList.Count - 1)
+            {
+                AppData.SetData(AppDataKey.TipCounter, null);
+            }
+            else
+            {
+                AppData.SetData(AppDataKey.TipCounter, Convert.ToString(tipCounter + 1));
+            }
+
+            ShowHomeTip();
+        }
+        private void AddTodaysRecord()
+        {
+            TodaysRecords.Add(
+                new TodaysRecordModel
+                {
+                    ActivityTime = DateTime.Now.ToString("hh:mm tt"),
+                    Intake = SelectedQuantityWater,
+                    DisplayIntake = DisplaySelectedQuantityWater,
+                    DeleteRecordCommand = DeleteRecordCommand
+                });
+            string jsonData = JsonConvert.SerializeObject(TodaysRecords);
+            if (!string.IsNullOrEmpty(jsonData))
+            {
+                AppData.SetData(AppDataKey.TodaysRecords, jsonData);
+            }
+        }
+
+        private void DisplayTodaysRecord()
+        {
+            string jsonData = AppData.GetData(AppDataKey.TodaysRecords);
+            if (string.IsNullOrEmpty(jsonData))
+            {
+                TodaysRecords = new ObservableCollection<TodaysRecordModel>();
+            }
+            else
+            {
+                TodaysRecords = new ObservableCollection<TodaysRecordModel>();
+                var records = JsonConvert.DeserializeObject<IList<TodaysRecordModel>>(jsonData);
+                foreach (var item in records)
+                {
+                    TodaysRecords.Add(new TodaysRecordModel
+                    {
+                        ActivityTime = item.ActivityTime,
+                        Intake = item.Intake,
+                        DisplayIntake = item.DisplayIntake,
+                        DeleteRecordCommand = DeleteRecordCommand
+                    });
+                }
+            }
+
+        }
+        private async void ProcessDeleteRecordCommand(TodaysRecordModel record)
+        {
+            var result = await UserDialogs.Instance.ConfirmAsync(new ConfirmConfig
+            {
+                Message = "Do you want to remove this record ?",
+                OkText = "Yes",
+                CancelText = "No"
+            });
+            if (result)
+            {
+                if (TodaysRecords.Any(a => a.ActivityTime == record.ActivityTime))
+                {
+                    var item = TodaysRecords.FirstOrDefault(a => a.ActivityTime == record.ActivityTime);
+                    if (item != null)
+                    {
+                        TodaysRecords.Remove(item);
+                        IntakeWater -= item.Intake;
+                    }
+                }
+            }
         }
     }
 }

@@ -18,9 +18,9 @@ namespace WaterReminder.ViewModel.Profile
 
         public ProfileGenderViewModel()
         {
-            if (!string.IsNullOrEmpty(AppData.GetProfileData(AppDataKey.ProfileGender)))
+            if (!string.IsNullOrEmpty(AppData.GetData(AppDataKey.ProfileGender)))
             {
-                if (AppData.GetProfileData(AppDataKey.ProfileGender)=="Male")
+                if (AppData.GetData(AppDataKey.ProfileGender)=="Male")
                 {
                     IsMaleSelected = true;
                     IsFemaleSelected = false;
@@ -105,7 +105,7 @@ namespace WaterReminder.ViewModel.Profile
             if (isDataUpdated)
             {
                 string seLectedGender = IsMaleSelected ? "Male" : "Female";
-                AppData.SetProfileData(AppDataKey.ProfileGender, seLectedGender);
+                AppData.SetData(AppDataKey.ProfileGender, seLectedGender);
             }
             NavigationService.Close(this, isDataUpdated);
         }

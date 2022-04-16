@@ -12,6 +12,8 @@ namespace WaterReminder.DataService
         public static string ProfileWeight = "profile_weight";
         public static string ProfileGender = "profile_gender";
         public static string TipCounter = "tip_counter";
+        public static string ProfileIntakeTaken = "profile_intake_taken";
+        public static string TodaysRecords = "todays_records";
     }
 
     public class AppData
@@ -27,12 +29,12 @@ namespace WaterReminder.DataService
             return response;
         }
 
-        public static void SetProfileData(string requestedKey, string requestedValue)
+        public static void SetData(string requestedKey, string requestedValue)
         {
             Preferences.Set(requestedKey, requestedValue);
         }
 
-        public static string GetProfileData(string requestedKey)
+        public static string GetData(string requestedKey)
         {
             var response = Preferences.Get(requestedKey, null);
             return response;
