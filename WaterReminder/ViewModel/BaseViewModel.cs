@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using MvvmCross;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
+using WaterReminder.DataService;
 using WaterReminder.Model.MoreTips;
 using Xamarin.Essentials;
 
@@ -25,8 +26,7 @@ namespace WaterReminder.ViewModel
                 new MoreTipsModel { Tips = "Do not drink water immediately after eating" },
                 new MoreTipsModel{ Tips = "Do not drink cold water immediately after hot drinks like tea or coffee" },
                 new MoreTipsModel { Tips = "Always drink water before urinating and do not drink water immediately after urinating" }
-            }
-            ;
+            };
         }
 
         public override void Prepare(bool parameter)

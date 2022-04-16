@@ -80,6 +80,8 @@
     <Compile Include="Activity\Profile\ProfileWakeUpDialogueActivity.cs" />
     <Compile Include="Activity\Profile\ProfileWeightDialogueActivity.cs" />
     <Compile Include="Activity\ChangeSizeActivity.cs" />
+    <Compile Include="StartServiceAndroid.cs" />
+    <Compile Include="ScheduledAlarmHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

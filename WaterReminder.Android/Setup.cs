@@ -5,6 +5,7 @@ using MvvmCross;
 using MvvmCross.Platforms.Android.Core;
 using MvvmCross.Platforms.Android.Presenters;
 using MvvmCross.ViewModels;
+using WaterReminder.DataService;
 
 namespace WaterReminder.Android
 {
@@ -18,6 +19,7 @@ namespace WaterReminder.Android
         protected override void InitializeFirstChance()
         {
             base.InitializeFirstChance();
+            Mvx.IoCProvider.RegisterSingleton<IStartService>(new StartServiceAndroid());
         }
 
         protected override IMvxAndroidViewPresenter CreateViewPresenter()

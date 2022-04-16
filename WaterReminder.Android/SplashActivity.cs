@@ -1,8 +1,9 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
+using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Views;
+using WaterReminder.DataService;
 using WaterReminder.ViewModel;
 
 namespace WaterReminder.Android
@@ -13,6 +14,21 @@ namespace WaterReminder.Android
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
+            if (AppData.GetIsProfileDataSaved())
+            {
+                var newIntent = new Intent(this, typeof(MainActivity));
+                //newIntent.AddFlags(ActivityFlags.ClearTop);
+                //newIntent.AddFlags(ActivityFlags.SingleTop);
+                StartActivity(newIntent);
+            }
+            else
+            {
+                var newIntent = new Intent(this, typeof(ProfileActivity));
+                //newIntent.AddFlags(ActivityFlags.ClearTop);
+                //newIntent.AddFlags(ActivityFlags.SingleTop);
+                StartActivity(newIntent);
+            }
         }
     }
 }
