@@ -24,11 +24,11 @@ namespace WaterReminder.Model
         {
             get
             {
-                return _deleteCommand ?? (_deleteCommand = new MvxCommand(ProcessDeleteCommandCommand));
+                return _deleteCommand ?? (_deleteCommand = new MvxCommand(ProcessDeleteCommand));
             }
         }
 
-        private void ProcessDeleteCommandCommand()
+        private void ProcessDeleteCommand()
         {
             DeleteRecordCommand?.Execute(this);
         }

@@ -9,12 +9,12 @@ using WaterReminder.Model;
 using Acr.UserDialogs;
 using Newtonsoft.Json;
 using System.Collections.Generic;
+using WaterReminder.Utility;
 
 namespace WaterReminder.ViewModel
 {
     public class HomeViewModel : BaseViewModel
     {
-
         //Property
         private double _intakeWater;
         private double _totalIntakeWater;
@@ -25,16 +25,24 @@ namespace WaterReminder.ViewModel
         private ICommand _deleteRecordCommand;
         private ICommand _changeIntakeCommand;
 
-        public HomeViewModel()
+        public override void ViewAppearing()
         {
-            IntakeWater = Convert.ToInt32(AppData.GetData(AppDataKey.ProfileIntakeTaken));
+            IntakeWater = Convert.ToDouble(AppData.GetData(AppDataKey.ProfileIntakeTaken));
 
-            TotalIntakeWater = Convert.ToInt32(AppData.GetData(AppDataKey.ProfileIntakeGoal));
+            TotalIntakeWater = Convert.ToDouble(AppData.GetData(AppDataKey.ProfileIntakeGoal));
             if (TotalIntakeWater == 0)
             {
                 TotalIntakeWater = 3000;
             }
-            SelectedQuantityWater = 300;
+            DisplayTotalIntakeWater= "/"+string.Format(Constant.IntakGoalFormat, TotalIntakeWater);
+
+            SelectedQuantityWater = Convert.ToDouble(AppData.GetData(AppDataKey.IntakeCupSize));
+            if (SelectedQuantityWater == 0)
+            {
+                SelectedQuantityWater = 300;
+                AppData.SetData(AppDataKey.IntakeCupSize, SelectedQuantityWater.ToString());
+            }
+            DisplaySelectedQuantityWater = string.Format(Constant.IntakGoalFormat, SelectedQuantityWater);
             ShowHomeTip();
             DisplayTodaysRecord();
         }
@@ -48,14 +56,26 @@ namespace WaterReminder.ViewModel
             }
         }
 
+        private string _displayTotalIntakeWater;
         public string DisplayTotalIntakeWater
         {
-            get { return "/" + TotalIntakeWater + " ml"; }
+            get { return _displayTotalIntakeWater; }
+            set
+            {
+                _displayTotalIntakeWater = value;
+                RaisePropertyChanged(() => DisplayTotalIntakeWater);
+            }
         }
 
+        private string _displaySelectedQuantityWater;
         public string DisplaySelectedQuantityWater
         {
-            get { return SelectedQuantityWater + " ml"; }
+            get { return _displaySelectedQuantityWater; }
+            set
+            {
+                _displaySelectedQuantityWater = value;
+                RaisePropertyChanged(() => DisplaySelectedQuantityWater);
+            }
         }
 
         public string HomeTip
@@ -134,7 +154,7 @@ namespace WaterReminder.ViewModel
         {
             get
             {
-                _changeIntakeCommand = _changeIntakeCommand ?? new MvxCommand(ChangeIntake);
+                _changeIntakeCommand = _changeIntakeCommand ?? new MvxAsyncCommand(ChangeIntake);
                 return _changeIntakeCommand;
             }
         }
@@ -144,10 +164,9 @@ namespace WaterReminder.ViewModel
             await NavigationService.Navigate<MoreTipsViewModel>();
         }
 
-        private void ChangeIntake()
+        private async Task ChangeIntake()
         {
-            AppData.SetData(AppDataKey.ProfileIntakeTaken, null);
-            IntakeWater = 0;
+            await NavigationService.Navigate<ChangeSizeViewModel>();
         }
 
         private void AddDrunkWater()
@@ -169,7 +188,7 @@ namespace WaterReminder.ViewModel
             //    IntakeWater = TotalIntakeWater;
             //}
             IntakeWater += SelectedQuantityWater;
-            AppData.SetData(AppDataKey.ProfileIntakeTaken, Convert.ToString(IntakeWater));
+            SaveIntakeData(IntakeWater);
         }
 
         private void DisplayHomeTipData()
@@ -196,11 +215,8 @@ namespace WaterReminder.ViewModel
                     DisplayIntake = DisplaySelectedQuantityWater,
                     DeleteRecordCommand = DeleteRecordCommand
                 });
-            string jsonData = JsonConvert.SerializeObject(TodaysRecords);
-            if (!string.IsNullOrEmpty(jsonData))
-            {
-                AppData.SetData(AppDataKey.TodaysRecords, jsonData);
-            }
+            TodaysRecords=new ObservableCollection<TodaysRecordModel>(TodaysRecords.Reverse());
+            SaveRecordsData(TodaysRecords);
         }
 
         private void DisplayTodaysRecord()
@@ -224,6 +240,7 @@ namespace WaterReminder.ViewModel
                         DeleteRecordCommand = DeleteRecordCommand
                     });
                 }
+                TodaysRecords = new ObservableCollection<TodaysRecordModel>(TodaysRecords.Reverse());
             }
 
         }
@@ -239,14 +256,29 @@ namespace WaterReminder.ViewModel
             {
                 if (TodaysRecords.Any(a => a.ActivityTime == record.ActivityTime))
                 {
-                    var item = TodaysRecords.FirstOrDefault(a => a.ActivityTime == record.ActivityTime);
+                    var item = TodaysRecords.FirstOrDefault(a => a.ActivityTime == record.ActivityTime && a.Intake == record.Intake);
                     if (item != null)
                     {
                         TodaysRecords.Remove(item);
                         IntakeWater -= item.Intake;
+                        SaveIntakeData(IntakeWater);
+                        SaveRecordsData(TodaysRecords);
                     }
                 }
             }
+        }
+        private void SaveRecordsData(ObservableCollection<TodaysRecordModel> todaysRecords)
+        {
+            string jsonData = JsonConvert.SerializeObject(todaysRecords);
+            if (!string.IsNullOrEmpty(jsonData))
+            {
+                AppData.SetData(AppDataKey.TodaysRecords, jsonData);
+            }
+        }
+
+        private void SaveIntakeData(double intakeWater)
+        {
+            AppData.SetData(AppDataKey.ProfileIntakeTaken, Convert.ToString(intakeWater));
         }
     }
 }

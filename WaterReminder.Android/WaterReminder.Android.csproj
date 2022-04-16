@@ -79,6 +79,7 @@
     <Compile Include="Activity\Profile\ProfileUnitDialogueActivity.cs" />
     <Compile Include="Activity\Profile\ProfileWakeUpDialogueActivity.cs" />
     <Compile Include="Activity\Profile\ProfileWeightDialogueActivity.cs" />
+    <Compile Include="Activity\ChangeSizeActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -286,6 +287,14 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\todays_record_single_item.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\activity_change_size.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\cup_size_single_item.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

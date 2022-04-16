@@ -13,6 +13,7 @@ namespace WaterReminder.DataService
         public static string ProfileGender = "profile_gender";
         public static string TipCounter = "tip_counter";
         public static string ProfileIntakeTaken = "profile_intake_taken";
+        public static string IntakeCupSize = "intake_cup_size";
         public static string TodaysRecords = "todays_records";
     }
 

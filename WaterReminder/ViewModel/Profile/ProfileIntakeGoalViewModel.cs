@@ -15,7 +15,6 @@ namespace WaterReminder.ViewModel.Profile
         private int _selectedValue;
         private string _displaySelectedValue;
         private ICommand _closeCommand;
-        private ICommand _valueSelectedCommand;
         private ICommand _refreshCommand;
         private ICommand _showRecommendedCommand;
 
