@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.Windows.Input;
 using MvvmCross.Commands;
+using WaterReminder.Model.MoreTips;
 
 namespace WaterReminder.ViewModel
 {
     public class MoreTipsViewModel : BaseViewModel
     {
         private ICommand _closeCommand;
+
+        public string PageTitle => "How to drink water correctly?";
 
         public ICommand CloseCommand
         {

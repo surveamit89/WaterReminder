@@ -11,6 +11,7 @@ namespace WaterReminder.DataService
         public static string ProfileIntakeGoal = "profile_intake_goal";
         public static string ProfileWeight = "profile_weight";
         public static string ProfileGender = "profile_gender";
+        public static string TipCounter = "tip_counter";
     }
 
     public class AppData

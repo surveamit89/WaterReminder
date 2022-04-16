@@ -41,7 +41,8 @@
 						android:layout_height="wrap_content"
 						android:text="@string/home_message"
 						android:textSize="16dp"
-						style="@style/SettingSubMenu"/>
+						style="@style/SettingSubMenu"
+						app:MvxBind="Text HomeTip"/>
 				</LinearLayout>
 				<LinearLayout
 					android:layout_alignParentEnd="true"

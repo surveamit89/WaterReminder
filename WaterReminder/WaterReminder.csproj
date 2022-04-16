@@ -23,6 +23,7 @@
     <None Remove="Converter\" />
     <None Remove="ViewModel\Profile\" />
     <None Remove="Utility\" />
+    <None Remove="Model\MoreTips\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModel\" />
@@ -32,5 +33,6 @@
     <Folder Include="Converter\" />
     <Folder Include="ViewModel\Profile\" />
     <Folder Include="Utility\" />
+    <Folder Include="Model\MoreTips\" />
   </ItemGroup>
 </Project>

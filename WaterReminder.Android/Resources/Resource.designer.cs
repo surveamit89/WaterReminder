@@ -5602,6 +5602,2926 @@ namespace WaterReminder.Android
 			global::MvvmCross.Resource.Styleable.View_paddingEnd = global::WaterReminder.Android.Resource.Styleable.View_paddingEnd;
 			global::MvvmCross.Resource.Styleable.View_paddingStart = global::WaterReminder.Android.Resource.Styleable.View_paddingStart;
 			global::MvvmCross.Resource.Styleable.View_theme = global::WaterReminder.Android.Resource.Styleable.View_theme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_fade_in = global::WaterReminder.Android.Resource.Animation.abc_fade_in;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_fade_out = global::WaterReminder.Android.Resource.Animation.abc_fade_out;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_grow_fade_in_from_bottom = global::WaterReminder.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_popup_enter = global::WaterReminder.Android.Resource.Animation.abc_popup_enter;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_popup_exit = global::WaterReminder.Android.Resource.Animation.abc_popup_exit;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_shrink_fade_out_from_bottom = global::WaterReminder.Android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_slide_in_bottom = global::WaterReminder.Android.Resource.Animation.abc_slide_in_bottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_slide_in_top = global::WaterReminder.Android.Resource.Animation.abc_slide_in_top;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_slide_out_bottom = global::WaterReminder.Android.Resource.Animation.abc_slide_out_bottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_slide_out_top = global::WaterReminder.Android.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_tooltip_enter = global::WaterReminder.Android.Resource.Animation.abc_tooltip_enter;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.abc_tooltip_exit = global::WaterReminder.Android.Resource.Animation.abc_tooltip_exit;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::WaterReminder.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::WaterReminder.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::WaterReminder.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::WaterReminder.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::WaterReminder.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::WaterReminder.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::WaterReminder.Android.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::WaterReminder.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::WaterReminder.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::WaterReminder.Android.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::WaterReminder.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::WaterReminder.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.design_bottom_sheet_slide_in = global::WaterReminder.Android.Resource.Animation.design_bottom_sheet_slide_in;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.design_bottom_sheet_slide_out = global::WaterReminder.Android.Resource.Animation.design_bottom_sheet_slide_out;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.design_snackbar_in = global::WaterReminder.Android.Resource.Animation.design_snackbar_in;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.design_snackbar_out = global::WaterReminder.Android.Resource.Animation.design_snackbar_out;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animation.fragment_fast_out_extra_slow_in = global::WaterReminder.Android.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.design_appbar_state_list_animator = global::WaterReminder.Android.Resource.Animator.design_appbar_state_list_animator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.design_fab_hide_motion_spec = global::WaterReminder.Android.Resource.Animator.design_fab_hide_motion_spec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.design_fab_show_motion_spec = global::WaterReminder.Android.Resource.Animator.design_fab_show_motion_spec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.mtrl_btn_state_list_anim = global::WaterReminder.Android.Resource.Animator.mtrl_btn_state_list_anim;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::WaterReminder.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.mtrl_chip_state_list_anim = global::WaterReminder.Android.Resource.Animator.mtrl_chip_state_list_anim;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.mtrl_fab_hide_motion_spec = global::WaterReminder.Android.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.mtrl_fab_show_motion_spec = global::WaterReminder.Android.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::WaterReminder.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::WaterReminder.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarDivider = global::WaterReminder.Android.Resource.Attribute.actionBarDivider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarItemBackground = global::WaterReminder.Android.Resource.Attribute.actionBarItemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarPopupTheme = global::WaterReminder.Android.Resource.Attribute.actionBarPopupTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarSize = global::WaterReminder.Android.Resource.Attribute.actionBarSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarSplitStyle = global::WaterReminder.Android.Resource.Attribute.actionBarSplitStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarStyle = global::WaterReminder.Android.Resource.Attribute.actionBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarTabBarStyle = global::WaterReminder.Android.Resource.Attribute.actionBarTabBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarTabStyle = global::WaterReminder.Android.Resource.Attribute.actionBarTabStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarTabTextStyle = global::WaterReminder.Android.Resource.Attribute.actionBarTabTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarTheme = global::WaterReminder.Android.Resource.Attribute.actionBarTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionBarWidgetTheme = global::WaterReminder.Android.Resource.Attribute.actionBarWidgetTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionButtonStyle = global::WaterReminder.Android.Resource.Attribute.actionButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionDropDownStyle = global::WaterReminder.Android.Resource.Attribute.actionDropDownStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionLayout = global::WaterReminder.Android.Resource.Attribute.actionLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionMenuTextAppearance = global::WaterReminder.Android.Resource.Attribute.actionMenuTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionMenuTextColor = global::WaterReminder.Android.Resource.Attribute.actionMenuTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeBackground = global::WaterReminder.Android.Resource.Attribute.actionModeBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeCloseButtonStyle = global::WaterReminder.Android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeCloseDrawable = global::WaterReminder.Android.Resource.Attribute.actionModeCloseDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeCopyDrawable = global::WaterReminder.Android.Resource.Attribute.actionModeCopyDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeCutDrawable = global::WaterReminder.Android.Resource.Attribute.actionModeCutDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeFindDrawable = global::WaterReminder.Android.Resource.Attribute.actionModeFindDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModePasteDrawable = global::WaterReminder.Android.Resource.Attribute.actionModePasteDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModePopupWindowStyle = global::WaterReminder.Android.Resource.Attribute.actionModePopupWindowStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeSelectAllDrawable = global::WaterReminder.Android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeShareDrawable = global::WaterReminder.Android.Resource.Attribute.actionModeShareDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeSplitBackground = global::WaterReminder.Android.Resource.Attribute.actionModeSplitBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeStyle = global::WaterReminder.Android.Resource.Attribute.actionModeStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionModeWebSearchDrawable = global::WaterReminder.Android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionOverflowButtonStyle = global::WaterReminder.Android.Resource.Attribute.actionOverflowButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionOverflowMenuStyle = global::WaterReminder.Android.Resource.Attribute.actionOverflowMenuStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionProviderClass = global::WaterReminder.Android.Resource.Attribute.actionProviderClass;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.actionViewClass = global::WaterReminder.Android.Resource.Attribute.actionViewClass;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.activityChooserViewStyle = global::WaterReminder.Android.Resource.Attribute.activityChooserViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.adjustable = global::WaterReminder.Android.Resource.Attribute.adjustable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.alertDialogButtonGroupStyle = global::WaterReminder.Android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.alertDialogCenterButtons = global::WaterReminder.Android.Resource.Attribute.alertDialogCenterButtons;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.alertDialogStyle = global::WaterReminder.Android.Resource.Attribute.alertDialogStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.alertDialogTheme = global::WaterReminder.Android.Resource.Attribute.alertDialogTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.allowDividerAbove = global::WaterReminder.Android.Resource.Attribute.allowDividerAbove;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.allowDividerAfterLastItem = global::WaterReminder.Android.Resource.Attribute.allowDividerAfterLastItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.allowDividerBelow = global::WaterReminder.Android.Resource.Attribute.allowDividerBelow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.allowStacking = global::WaterReminder.Android.Resource.Attribute.allowStacking;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.alpha = global::WaterReminder.Android.Resource.Attribute.alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.alphabeticModifiers = global::WaterReminder.Android.Resource.Attribute.alphabeticModifiers;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.arrowHeadLength = global::WaterReminder.Android.Resource.Attribute.arrowHeadLength;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.arrowShaftLength = global::WaterReminder.Android.Resource.Attribute.arrowShaftLength;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.autoCompleteTextViewStyle = global::WaterReminder.Android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.autoSizeMaxTextSize = global::WaterReminder.Android.Resource.Attribute.autoSizeMaxTextSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.autoSizeMinTextSize = global::WaterReminder.Android.Resource.Attribute.autoSizeMinTextSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.autoSizePresetSizes = global::WaterReminder.Android.Resource.Attribute.autoSizePresetSizes;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.autoSizeStepGranularity = global::WaterReminder.Android.Resource.Attribute.autoSizeStepGranularity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.autoSizeTextType = global::WaterReminder.Android.Resource.Attribute.autoSizeTextType;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.background = global::WaterReminder.Android.Resource.Attribute.background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.backgroundSplit = global::WaterReminder.Android.Resource.Attribute.backgroundSplit;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.backgroundStacked = global::WaterReminder.Android.Resource.Attribute.backgroundStacked;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.backgroundTint = global::WaterReminder.Android.Resource.Attribute.backgroundTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.backgroundTintMode = global::WaterReminder.Android.Resource.Attribute.backgroundTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.barLength = global::WaterReminder.Android.Resource.Attribute.barLength;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.behavior_autoHide = global::WaterReminder.Android.Resource.Attribute.behavior_autoHide;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.behavior_fitToContents = global::WaterReminder.Android.Resource.Attribute.behavior_fitToContents;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.behavior_hideable = global::WaterReminder.Android.Resource.Attribute.behavior_hideable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.behavior_overlapTop = global::WaterReminder.Android.Resource.Attribute.behavior_overlapTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.behavior_peekHeight = global::WaterReminder.Android.Resource.Attribute.behavior_peekHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.behavior_skipCollapsed = global::WaterReminder.Android.Resource.Attribute.behavior_skipCollapsed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.borderlessButtonStyle = global::WaterReminder.Android.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.borderWidth = global::WaterReminder.Android.Resource.Attribute.borderWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.bottomAppBarStyle = global::WaterReminder.Android.Resource.Attribute.bottomAppBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.bottomNavigationStyle = global::WaterReminder.Android.Resource.Attribute.bottomNavigationStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.bottomSheetDialogTheme = global::WaterReminder.Android.Resource.Attribute.bottomSheetDialogTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.bottomSheetStyle = global::WaterReminder.Android.Resource.Attribute.bottomSheetStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.boxBackgroundColor = global::WaterReminder.Android.Resource.Attribute.boxBackgroundColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.boxBackgroundMode = global::WaterReminder.Android.Resource.Attribute.boxBackgroundMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.boxCollapsedPaddingTop = global::WaterReminder.Android.Resource.Attribute.boxCollapsedPaddingTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.boxCornerRadiusBottomEnd = global::WaterReminder.Android.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.boxCornerRadiusBottomStart = global::WaterReminder.Android.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.boxCornerRadiusTopEnd = global::WaterReminder.Android.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.boxCornerRadiusTopStart = global::WaterReminder.Android.Resource.Attribute.boxCornerRadiusTopStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.boxStrokeColor = global::WaterReminder.Android.Resource.Attribute.boxStrokeColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.boxStrokeWidth = global::WaterReminder.Android.Resource.Attribute.boxStrokeWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonBarButtonStyle = global::WaterReminder.Android.Resource.Attribute.buttonBarButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonBarNegativeButtonStyle = global::WaterReminder.Android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonBarNeutralButtonStyle = global::WaterReminder.Android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonBarPositiveButtonStyle = global::WaterReminder.Android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonBarStyle = global::WaterReminder.Android.Resource.Attribute.buttonBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonCompat = global::WaterReminder.Android.Resource.Attribute.buttonCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonGravity = global::WaterReminder.Android.Resource.Attribute.buttonGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonIconDimen = global::WaterReminder.Android.Resource.Attribute.buttonIconDimen;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonPanelSideLayout = global::WaterReminder.Android.Resource.Attribute.buttonPanelSideLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonStyle = global::WaterReminder.Android.Resource.Attribute.buttonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonStyleSmall = global::WaterReminder.Android.Resource.Attribute.buttonStyleSmall;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonTint = global::WaterReminder.Android.Resource.Attribute.buttonTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.buttonTintMode = global::WaterReminder.Android.Resource.Attribute.buttonTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.cardBackgroundColor = global::WaterReminder.Android.Resource.Attribute.cardBackgroundColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.cardCornerRadius = global::WaterReminder.Android.Resource.Attribute.cardCornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.cardElevation = global::WaterReminder.Android.Resource.Attribute.cardElevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.cardMaxElevation = global::WaterReminder.Android.Resource.Attribute.cardMaxElevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.cardPreventCornerOverlap = global::WaterReminder.Android.Resource.Attribute.cardPreventCornerOverlap;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.cardUseCompatPadding = global::WaterReminder.Android.Resource.Attribute.cardUseCompatPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.cardViewStyle = global::WaterReminder.Android.Resource.Attribute.cardViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.checkBoxPreferenceStyle = global::WaterReminder.Android.Resource.Attribute.checkBoxPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.checkboxStyle = global::WaterReminder.Android.Resource.Attribute.checkboxStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.checkedChip = global::WaterReminder.Android.Resource.Attribute.checkedChip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.checkedIcon = global::WaterReminder.Android.Resource.Attribute.checkedIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.checkedIconEnabled = global::WaterReminder.Android.Resource.Attribute.checkedIconEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.checkedIconVisible = global::WaterReminder.Android.Resource.Attribute.checkedIconVisible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.checkedTextViewStyle = global::WaterReminder.Android.Resource.Attribute.checkedTextViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipBackgroundColor = global::WaterReminder.Android.Resource.Attribute.chipBackgroundColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipCornerRadius = global::WaterReminder.Android.Resource.Attribute.chipCornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipEndPadding = global::WaterReminder.Android.Resource.Attribute.chipEndPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipGroupStyle = global::WaterReminder.Android.Resource.Attribute.chipGroupStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipIcon = global::WaterReminder.Android.Resource.Attribute.chipIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipIconEnabled = global::WaterReminder.Android.Resource.Attribute.chipIconEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipIconSize = global::WaterReminder.Android.Resource.Attribute.chipIconSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipIconTint = global::WaterReminder.Android.Resource.Attribute.chipIconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipIconVisible = global::WaterReminder.Android.Resource.Attribute.chipIconVisible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipMinHeight = global::WaterReminder.Android.Resource.Attribute.chipMinHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipSpacing = global::WaterReminder.Android.Resource.Attribute.chipSpacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipSpacingHorizontal = global::WaterReminder.Android.Resource.Attribute.chipSpacingHorizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipSpacingVertical = global::WaterReminder.Android.Resource.Attribute.chipSpacingVertical;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipStandaloneStyle = global::WaterReminder.Android.Resource.Attribute.chipStandaloneStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipStartPadding = global::WaterReminder.Android.Resource.Attribute.chipStartPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipStrokeColor = global::WaterReminder.Android.Resource.Attribute.chipStrokeColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipStrokeWidth = global::WaterReminder.Android.Resource.Attribute.chipStrokeWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.chipStyle = global::WaterReminder.Android.Resource.Attribute.chipStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.closeIcon = global::WaterReminder.Android.Resource.Attribute.closeIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.closeIconEnabled = global::WaterReminder.Android.Resource.Attribute.closeIconEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.closeIconEndPadding = global::WaterReminder.Android.Resource.Attribute.closeIconEndPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.closeIconSize = global::WaterReminder.Android.Resource.Attribute.closeIconSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.closeIconStartPadding = global::WaterReminder.Android.Resource.Attribute.closeIconStartPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.closeIconTint = global::WaterReminder.Android.Resource.Attribute.closeIconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.closeIconVisible = global::WaterReminder.Android.Resource.Attribute.closeIconVisible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.closeItemLayout = global::WaterReminder.Android.Resource.Attribute.closeItemLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.collapseContentDescription = global::WaterReminder.Android.Resource.Attribute.collapseContentDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.collapsedTitleGravity = global::WaterReminder.Android.Resource.Attribute.collapsedTitleGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.collapsedTitleTextAppearance = global::WaterReminder.Android.Resource.Attribute.collapsedTitleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.collapseIcon = global::WaterReminder.Android.Resource.Attribute.collapseIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.color = global::WaterReminder.Android.Resource.Attribute.color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorAccent = global::WaterReminder.Android.Resource.Attribute.colorAccent;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorBackgroundFloating = global::WaterReminder.Android.Resource.Attribute.colorBackgroundFloating;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorButtonNormal = global::WaterReminder.Android.Resource.Attribute.colorButtonNormal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorControlActivated = global::WaterReminder.Android.Resource.Attribute.colorControlActivated;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorControlHighlight = global::WaterReminder.Android.Resource.Attribute.colorControlHighlight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorControlNormal = global::WaterReminder.Android.Resource.Attribute.colorControlNormal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorError = global::WaterReminder.Android.Resource.Attribute.colorError;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorPrimary = global::WaterReminder.Android.Resource.Attribute.colorPrimary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorPrimaryDark = global::WaterReminder.Android.Resource.Attribute.colorPrimaryDark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorSecondary = global::WaterReminder.Android.Resource.Attribute.colorSecondary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.colorSwitchThumbNormal = global::WaterReminder.Android.Resource.Attribute.colorSwitchThumbNormal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.commitIcon = global::WaterReminder.Android.Resource.Attribute.commitIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentDescription = global::WaterReminder.Android.Resource.Attribute.contentDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentInsetEnd = global::WaterReminder.Android.Resource.Attribute.contentInsetEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentInsetEndWithActions = global::WaterReminder.Android.Resource.Attribute.contentInsetEndWithActions;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentInsetLeft = global::WaterReminder.Android.Resource.Attribute.contentInsetLeft;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentInsetRight = global::WaterReminder.Android.Resource.Attribute.contentInsetRight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentInsetStart = global::WaterReminder.Android.Resource.Attribute.contentInsetStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentInsetStartWithNavigation = global::WaterReminder.Android.Resource.Attribute.contentInsetStartWithNavigation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentPadding = global::WaterReminder.Android.Resource.Attribute.contentPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentPaddingBottom = global::WaterReminder.Android.Resource.Attribute.contentPaddingBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentPaddingLeft = global::WaterReminder.Android.Resource.Attribute.contentPaddingLeft;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentPaddingRight = global::WaterReminder.Android.Resource.Attribute.contentPaddingRight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentPaddingTop = global::WaterReminder.Android.Resource.Attribute.contentPaddingTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.contentScrim = global::WaterReminder.Android.Resource.Attribute.contentScrim;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.controlBackground = global::WaterReminder.Android.Resource.Attribute.controlBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.coordinatorLayoutStyle = global::WaterReminder.Android.Resource.Attribute.coordinatorLayoutStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.cornerRadius = global::WaterReminder.Android.Resource.Attribute.cornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.counterEnabled = global::WaterReminder.Android.Resource.Attribute.counterEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.counterMaxLength = global::WaterReminder.Android.Resource.Attribute.counterMaxLength;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.counterOverflowTextAppearance = global::WaterReminder.Android.Resource.Attribute.counterOverflowTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.counterTextAppearance = global::WaterReminder.Android.Resource.Attribute.counterTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.customNavigationLayout = global::WaterReminder.Android.Resource.Attribute.customNavigationLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.defaultQueryHint = global::WaterReminder.Android.Resource.Attribute.defaultQueryHint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.defaultValue = global::WaterReminder.Android.Resource.Attribute.defaultValue;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dependency = global::WaterReminder.Android.Resource.Attribute.dependency;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dialogCornerRadius = global::WaterReminder.Android.Resource.Attribute.dialogCornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dialogIcon = global::WaterReminder.Android.Resource.Attribute.dialogIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dialogLayout = global::WaterReminder.Android.Resource.Attribute.dialogLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dialogMessage = global::WaterReminder.Android.Resource.Attribute.dialogMessage;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dialogPreferenceStyle = global::WaterReminder.Android.Resource.Attribute.dialogPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dialogPreferredPadding = global::WaterReminder.Android.Resource.Attribute.dialogPreferredPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dialogTheme = global::WaterReminder.Android.Resource.Attribute.dialogTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dialogTitle = global::WaterReminder.Android.Resource.Attribute.dialogTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.disableDependentsState = global::WaterReminder.Android.Resource.Attribute.disableDependentsState;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.displayOptions = global::WaterReminder.Android.Resource.Attribute.displayOptions;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.divider = global::WaterReminder.Android.Resource.Attribute.divider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dividerHorizontal = global::WaterReminder.Android.Resource.Attribute.dividerHorizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dividerPadding = global::WaterReminder.Android.Resource.Attribute.dividerPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dividerVertical = global::WaterReminder.Android.Resource.Attribute.dividerVertical;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawableBottomCompat = global::WaterReminder.Android.Resource.Attribute.drawableBottomCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawableEndCompat = global::WaterReminder.Android.Resource.Attribute.drawableEndCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawableLeftCompat = global::WaterReminder.Android.Resource.Attribute.drawableLeftCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawableRightCompat = global::WaterReminder.Android.Resource.Attribute.drawableRightCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawableSize = global::WaterReminder.Android.Resource.Attribute.drawableSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawableStartCompat = global::WaterReminder.Android.Resource.Attribute.drawableStartCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawableTint = global::WaterReminder.Android.Resource.Attribute.drawableTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawableTintMode = global::WaterReminder.Android.Resource.Attribute.drawableTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawableTopCompat = global::WaterReminder.Android.Resource.Attribute.drawableTopCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.drawerArrowStyle = global::WaterReminder.Android.Resource.Attribute.drawerArrowStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dropdownListPreferredItemHeight = global::WaterReminder.Android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dropDownListViewStyle = global::WaterReminder.Android.Resource.Attribute.dropDownListViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.dropdownPreferenceStyle = global::WaterReminder.Android.Resource.Attribute.dropdownPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.editTextBackground = global::WaterReminder.Android.Resource.Attribute.editTextBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.editTextColor = global::WaterReminder.Android.Resource.Attribute.editTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.editTextPreferenceStyle = global::WaterReminder.Android.Resource.Attribute.editTextPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.editTextStyle = global::WaterReminder.Android.Resource.Attribute.editTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.elevation = global::WaterReminder.Android.Resource.Attribute.elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.enableCopying = global::WaterReminder.Android.Resource.Attribute.enableCopying;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.enabled = global::WaterReminder.Android.Resource.Attribute.enabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.enforceMaterialTheme = global::WaterReminder.Android.Resource.Attribute.enforceMaterialTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.enforceTextAppearance = global::WaterReminder.Android.Resource.Attribute.enforceTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.entries = global::WaterReminder.Android.Resource.Attribute.entries;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.entryValues = global::WaterReminder.Android.Resource.Attribute.entryValues;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.errorEnabled = global::WaterReminder.Android.Resource.Attribute.errorEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.errorTextAppearance = global::WaterReminder.Android.Resource.Attribute.errorTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.expandActivityOverflowButtonDrawable = global::WaterReminder.Android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.expanded = global::WaterReminder.Android.Resource.Attribute.expanded;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.expandedTitleGravity = global::WaterReminder.Android.Resource.Attribute.expandedTitleGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.expandedTitleMargin = global::WaterReminder.Android.Resource.Attribute.expandedTitleMargin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.expandedTitleMarginBottom = global::WaterReminder.Android.Resource.Attribute.expandedTitleMarginBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.expandedTitleMarginEnd = global::WaterReminder.Android.Resource.Attribute.expandedTitleMarginEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.expandedTitleMarginStart = global::WaterReminder.Android.Resource.Attribute.expandedTitleMarginStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.expandedTitleMarginTop = global::WaterReminder.Android.Resource.Attribute.expandedTitleMarginTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.expandedTitleTextAppearance = global::WaterReminder.Android.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fabAlignmentMode = global::WaterReminder.Android.Resource.Attribute.fabAlignmentMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fabCradleMargin = global::WaterReminder.Android.Resource.Attribute.fabCradleMargin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fabCradleRoundedCornerRadius = global::WaterReminder.Android.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fabCradleVerticalOffset = global::WaterReminder.Android.Resource.Attribute.fabCradleVerticalOffset;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fabCustomSize = global::WaterReminder.Android.Resource.Attribute.fabCustomSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fabSize = global::WaterReminder.Android.Resource.Attribute.fabSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fastScrollEnabled = global::WaterReminder.Android.Resource.Attribute.fastScrollEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::WaterReminder.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::WaterReminder.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fastScrollVerticalThumbDrawable = global::WaterReminder.Android.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fastScrollVerticalTrackDrawable = global::WaterReminder.Android.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.firstBaselineToTopHeight = global::WaterReminder.Android.Resource.Attribute.firstBaselineToTopHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.floatingActionButtonStyle = global::WaterReminder.Android.Resource.Attribute.floatingActionButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.font = global::WaterReminder.Android.Resource.Attribute.font;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontFamily = global::WaterReminder.Android.Resource.Attribute.fontFamily;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontProviderAuthority = global::WaterReminder.Android.Resource.Attribute.fontProviderAuthority;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontProviderCerts = global::WaterReminder.Android.Resource.Attribute.fontProviderCerts;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontProviderFetchStrategy = global::WaterReminder.Android.Resource.Attribute.fontProviderFetchStrategy;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontProviderFetchTimeout = global::WaterReminder.Android.Resource.Attribute.fontProviderFetchTimeout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontProviderPackage = global::WaterReminder.Android.Resource.Attribute.fontProviderPackage;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontProviderQuery = global::WaterReminder.Android.Resource.Attribute.fontProviderQuery;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontStyle = global::WaterReminder.Android.Resource.Attribute.fontStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontVariationSettings = global::WaterReminder.Android.Resource.Attribute.fontVariationSettings;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fontWeight = global::WaterReminder.Android.Resource.Attribute.fontWeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.foregroundInsidePadding = global::WaterReminder.Android.Resource.Attribute.foregroundInsidePadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.fragment = global::WaterReminder.Android.Resource.Attribute.fragment;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.gapBetweenBars = global::WaterReminder.Android.Resource.Attribute.gapBetweenBars;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.goIcon = global::WaterReminder.Android.Resource.Attribute.goIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.headerLayout = global::WaterReminder.Android.Resource.Attribute.headerLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.height = global::WaterReminder.Android.Resource.Attribute.height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.helperText = global::WaterReminder.Android.Resource.Attribute.helperText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.helperTextEnabled = global::WaterReminder.Android.Resource.Attribute.helperTextEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.helperTextTextAppearance = global::WaterReminder.Android.Resource.Attribute.helperTextTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.hideMotionSpec = global::WaterReminder.Android.Resource.Attribute.hideMotionSpec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.hideOnContentScroll = global::WaterReminder.Android.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.hideOnScroll = global::WaterReminder.Android.Resource.Attribute.hideOnScroll;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.hintAnimationEnabled = global::WaterReminder.Android.Resource.Attribute.hintAnimationEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.hintEnabled = global::WaterReminder.Android.Resource.Attribute.hintEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.hintTextAppearance = global::WaterReminder.Android.Resource.Attribute.hintTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.homeAsUpIndicator = global::WaterReminder.Android.Resource.Attribute.homeAsUpIndicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.homeLayout = global::WaterReminder.Android.Resource.Attribute.homeLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.hoveredFocusedTranslationZ = global::WaterReminder.Android.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.icon = global::WaterReminder.Android.Resource.Attribute.icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.iconEndPadding = global::WaterReminder.Android.Resource.Attribute.iconEndPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.iconGravity = global::WaterReminder.Android.Resource.Attribute.iconGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.iconifiedByDefault = global::WaterReminder.Android.Resource.Attribute.iconifiedByDefault;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.iconPadding = global::WaterReminder.Android.Resource.Attribute.iconPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.iconSize = global::WaterReminder.Android.Resource.Attribute.iconSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.iconSpaceReserved = global::WaterReminder.Android.Resource.Attribute.iconSpaceReserved;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.iconStartPadding = global::WaterReminder.Android.Resource.Attribute.iconStartPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.iconTint = global::WaterReminder.Android.Resource.Attribute.iconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.iconTintMode = global::WaterReminder.Android.Resource.Attribute.iconTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.imageButtonStyle = global::WaterReminder.Android.Resource.Attribute.imageButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.indeterminateProgressStyle = global::WaterReminder.Android.Resource.Attribute.indeterminateProgressStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.initialActivityCount = global::WaterReminder.Android.Resource.Attribute.initialActivityCount;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.initialExpandedChildrenCount = global::WaterReminder.Android.Resource.Attribute.initialExpandedChildrenCount;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.insetForeground = global::WaterReminder.Android.Resource.Attribute.insetForeground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.isLightTheme = global::WaterReminder.Android.Resource.Attribute.isLightTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.isPreferenceVisible = global::WaterReminder.Android.Resource.Attribute.isPreferenceVisible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemBackground = global::WaterReminder.Android.Resource.Attribute.itemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemHorizontalPadding = global::WaterReminder.Android.Resource.Attribute.itemHorizontalPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemHorizontalTranslationEnabled = global::WaterReminder.Android.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemIconPadding = global::WaterReminder.Android.Resource.Attribute.itemIconPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemIconSize = global::WaterReminder.Android.Resource.Attribute.itemIconSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemIconTint = global::WaterReminder.Android.Resource.Attribute.itemIconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemPadding = global::WaterReminder.Android.Resource.Attribute.itemPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemSpacing = global::WaterReminder.Android.Resource.Attribute.itemSpacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemTextAppearance = global::WaterReminder.Android.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemTextAppearanceActive = global::WaterReminder.Android.Resource.Attribute.itemTextAppearanceActive;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemTextAppearanceInactive = global::WaterReminder.Android.Resource.Attribute.itemTextAppearanceInactive;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.itemTextColor = global::WaterReminder.Android.Resource.Attribute.itemTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.key = global::WaterReminder.Android.Resource.Attribute.key;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.keylines = global::WaterReminder.Android.Resource.Attribute.keylines;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.labelVisibilityMode = global::WaterReminder.Android.Resource.Attribute.labelVisibilityMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.lastBaselineToBottomHeight = global::WaterReminder.Android.Resource.Attribute.lastBaselineToBottomHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout = global::WaterReminder.Android.Resource.Attribute.layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layoutManager = global::WaterReminder.Android.Resource.Attribute.layoutManager;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_anchor = global::WaterReminder.Android.Resource.Attribute.layout_anchor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_anchorGravity = global::WaterReminder.Android.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_behavior = global::WaterReminder.Android.Resource.Attribute.layout_behavior;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_collapseMode = global::WaterReminder.Android.Resource.Attribute.layout_collapseMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_collapseParallaxMultiplier = global::WaterReminder.Android.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_dodgeInsetEdges = global::WaterReminder.Android.Resource.Attribute.layout_dodgeInsetEdges;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_insetEdge = global::WaterReminder.Android.Resource.Attribute.layout_insetEdge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_keyline = global::WaterReminder.Android.Resource.Attribute.layout_keyline;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_scrollFlags = global::WaterReminder.Android.Resource.Attribute.layout_scrollFlags;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.layout_scrollInterpolator = global::WaterReminder.Android.Resource.Attribute.layout_scrollInterpolator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.liftOnScroll = global::WaterReminder.Android.Resource.Attribute.liftOnScroll;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.lineHeight = global::WaterReminder.Android.Resource.Attribute.lineHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.lineSpacing = global::WaterReminder.Android.Resource.Attribute.lineSpacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listChoiceBackgroundIndicator = global::WaterReminder.Android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::WaterReminder.Android.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::WaterReminder.Android.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listDividerAlertDialog = global::WaterReminder.Android.Resource.Attribute.listDividerAlertDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listItemLayout = global::WaterReminder.Android.Resource.Attribute.listItemLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listLayout = global::WaterReminder.Android.Resource.Attribute.listLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listMenuViewStyle = global::WaterReminder.Android.Resource.Attribute.listMenuViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listPopupWindowStyle = global::WaterReminder.Android.Resource.Attribute.listPopupWindowStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listPreferredItemHeight = global::WaterReminder.Android.Resource.Attribute.listPreferredItemHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listPreferredItemHeightLarge = global::WaterReminder.Android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listPreferredItemHeightSmall = global::WaterReminder.Android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listPreferredItemPaddingEnd = global::WaterReminder.Android.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listPreferredItemPaddingLeft = global::WaterReminder.Android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listPreferredItemPaddingRight = global::WaterReminder.Android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.listPreferredItemPaddingStart = global::WaterReminder.Android.Resource.Attribute.listPreferredItemPaddingStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.logo = global::WaterReminder.Android.Resource.Attribute.logo;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.logoDescription = global::WaterReminder.Android.Resource.Attribute.logoDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.materialButtonStyle = global::WaterReminder.Android.Resource.Attribute.materialButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.materialCardViewStyle = global::WaterReminder.Android.Resource.Attribute.materialCardViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.maxActionInlineWidth = global::WaterReminder.Android.Resource.Attribute.maxActionInlineWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.maxButtonHeight = global::WaterReminder.Android.Resource.Attribute.maxButtonHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.maxHeight = global::WaterReminder.Android.Resource.Attribute.maxHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.maxImageSize = global::WaterReminder.Android.Resource.Attribute.maxImageSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.maxWidth = global::WaterReminder.Android.Resource.Attribute.maxWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.measureWithLargestChild = global::WaterReminder.Android.Resource.Attribute.measureWithLargestChild;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.menu = global::WaterReminder.Android.Resource.Attribute.menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.min = global::WaterReminder.Android.Resource.Attribute.min;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.multiChoiceItemLayout = global::WaterReminder.Android.Resource.Attribute.multiChoiceItemLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.MvxBind = global::WaterReminder.Android.Resource.Attribute.MvxBind;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.MvxDropDownItemTemplate = global::WaterReminder.Android.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.MvxGroupItemTemplate = global::WaterReminder.Android.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.MvxItemTemplate = global::WaterReminder.Android.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.MvxLang = global::WaterReminder.Android.Resource.Attribute.MvxLang;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.MvxTemplate = global::WaterReminder.Android.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.MvxTemplateSelector = global::WaterReminder.Android.Resource.Attribute.MvxTemplateSelector;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.navigationContentDescription = global::WaterReminder.Android.Resource.Attribute.navigationContentDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.navigationIcon = global::WaterReminder.Android.Resource.Attribute.navigationIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.navigationMode = global::WaterReminder.Android.Resource.Attribute.navigationMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.navigationViewStyle = global::WaterReminder.Android.Resource.Attribute.navigationViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.negativeButtonText = global::WaterReminder.Android.Resource.Attribute.negativeButtonText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.numericModifiers = global::WaterReminder.Android.Resource.Attribute.numericModifiers;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.order = global::WaterReminder.Android.Resource.Attribute.order;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.orderingFromXml = global::WaterReminder.Android.Resource.Attribute.orderingFromXml;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.overlapAnchor = global::WaterReminder.Android.Resource.Attribute.overlapAnchor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.paddingBottomNoButtons = global::WaterReminder.Android.Resource.Attribute.paddingBottomNoButtons;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.paddingEnd = global::WaterReminder.Android.Resource.Attribute.paddingEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.paddingStart = global::WaterReminder.Android.Resource.Attribute.paddingStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.paddingTopNoTitle = global::WaterReminder.Android.Resource.Attribute.paddingTopNoTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.panelBackground = global::WaterReminder.Android.Resource.Attribute.panelBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.panelMenuListTheme = global::WaterReminder.Android.Resource.Attribute.panelMenuListTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.panelMenuListWidth = global::WaterReminder.Android.Resource.Attribute.panelMenuListWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.passwordToggleContentDescription = global::WaterReminder.Android.Resource.Attribute.passwordToggleContentDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.passwordToggleDrawable = global::WaterReminder.Android.Resource.Attribute.passwordToggleDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.passwordToggleEnabled = global::WaterReminder.Android.Resource.Attribute.passwordToggleEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.passwordToggleTint = global::WaterReminder.Android.Resource.Attribute.passwordToggleTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.passwordToggleTintMode = global::WaterReminder.Android.Resource.Attribute.passwordToggleTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.persistent = global::WaterReminder.Android.Resource.Attribute.persistent;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.popupMenuStyle = global::WaterReminder.Android.Resource.Attribute.popupMenuStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.popupTheme = global::WaterReminder.Android.Resource.Attribute.popupTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.popupWindowStyle = global::WaterReminder.Android.Resource.Attribute.popupWindowStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.positiveButtonText = global::WaterReminder.Android.Resource.Attribute.positiveButtonText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preferenceCategoryStyle = global::WaterReminder.Android.Resource.Attribute.preferenceCategoryStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preferenceCategoryTitleTextAppearance = global::WaterReminder.Android.Resource.Attribute.preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preferenceFragmentCompatStyle = global::WaterReminder.Android.Resource.Attribute.preferenceFragmentCompatStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preferenceFragmentListStyle = global::WaterReminder.Android.Resource.Attribute.preferenceFragmentListStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preferenceFragmentStyle = global::WaterReminder.Android.Resource.Attribute.preferenceFragmentStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preferenceInformationStyle = global::WaterReminder.Android.Resource.Attribute.preferenceInformationStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preferenceScreenStyle = global::WaterReminder.Android.Resource.Attribute.preferenceScreenStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preferenceStyle = global::WaterReminder.Android.Resource.Attribute.preferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preferenceTheme = global::WaterReminder.Android.Resource.Attribute.preferenceTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.preserveIconSpacing = global::WaterReminder.Android.Resource.Attribute.preserveIconSpacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.pressedTranslationZ = global::WaterReminder.Android.Resource.Attribute.pressedTranslationZ;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.progressBarPadding = global::WaterReminder.Android.Resource.Attribute.progressBarPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.progressBarStyle = global::WaterReminder.Android.Resource.Attribute.progressBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.queryBackground = global::WaterReminder.Android.Resource.Attribute.queryBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.queryHint = global::WaterReminder.Android.Resource.Attribute.queryHint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.radioButtonStyle = global::WaterReminder.Android.Resource.Attribute.radioButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.ratingBarStyle = global::WaterReminder.Android.Resource.Attribute.ratingBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.ratingBarStyleIndicator = global::WaterReminder.Android.Resource.Attribute.ratingBarStyleIndicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.ratingBarStyleSmall = global::WaterReminder.Android.Resource.Attribute.ratingBarStyleSmall;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.recyclerViewStyle = global::WaterReminder.Android.Resource.Attribute.recyclerViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.reverseLayout = global::WaterReminder.Android.Resource.Attribute.reverseLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.rippleColor = global::WaterReminder.Android.Resource.Attribute.rippleColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.scrimAnimationDuration = global::WaterReminder.Android.Resource.Attribute.scrimAnimationDuration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.scrimBackground = global::WaterReminder.Android.Resource.Attribute.scrimBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.scrimVisibleHeightTrigger = global::WaterReminder.Android.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.searchHintIcon = global::WaterReminder.Android.Resource.Attribute.searchHintIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.searchIcon = global::WaterReminder.Android.Resource.Attribute.searchIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.searchViewStyle = global::WaterReminder.Android.Resource.Attribute.searchViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.seekBarIncrement = global::WaterReminder.Android.Resource.Attribute.seekBarIncrement;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.seekBarPreferenceStyle = global::WaterReminder.Android.Resource.Attribute.seekBarPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.seekBarStyle = global::WaterReminder.Android.Resource.Attribute.seekBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.selectable = global::WaterReminder.Android.Resource.Attribute.selectable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.selectableItemBackground = global::WaterReminder.Android.Resource.Attribute.selectableItemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.selectableItemBackgroundBorderless = global::WaterReminder.Android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.shouldDisableView = global::WaterReminder.Android.Resource.Attribute.shouldDisableView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.showAsAction = global::WaterReminder.Android.Resource.Attribute.showAsAction;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.showDividers = global::WaterReminder.Android.Resource.Attribute.showDividers;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.showMotionSpec = global::WaterReminder.Android.Resource.Attribute.showMotionSpec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.showSeekBarValue = global::WaterReminder.Android.Resource.Attribute.showSeekBarValue;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.showText = global::WaterReminder.Android.Resource.Attribute.showText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.showTitle = global::WaterReminder.Android.Resource.Attribute.showTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.singleChoiceItemLayout = global::WaterReminder.Android.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.singleLine = global::WaterReminder.Android.Resource.Attribute.singleLine;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.singleLineTitle = global::WaterReminder.Android.Resource.Attribute.singleLineTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.singleSelection = global::WaterReminder.Android.Resource.Attribute.singleSelection;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.snackbarButtonStyle = global::WaterReminder.Android.Resource.Attribute.snackbarButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.snackbarStyle = global::WaterReminder.Android.Resource.Attribute.snackbarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.spanCount = global::WaterReminder.Android.Resource.Attribute.spanCount;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.spinBars = global::WaterReminder.Android.Resource.Attribute.spinBars;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.spinnerDropDownItemStyle = global::WaterReminder.Android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.spinnerStyle = global::WaterReminder.Android.Resource.Attribute.spinnerStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.splitTrack = global::WaterReminder.Android.Resource.Attribute.splitTrack;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.srcCompat = global::WaterReminder.Android.Resource.Attribute.srcCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.stackFromEnd = global::WaterReminder.Android.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.state_above_anchor = global::WaterReminder.Android.Resource.Attribute.state_above_anchor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.state_collapsed = global::WaterReminder.Android.Resource.Attribute.state_collapsed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.state_collapsible = global::WaterReminder.Android.Resource.Attribute.state_collapsible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.state_liftable = global::WaterReminder.Android.Resource.Attribute.state_liftable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.state_lifted = global::WaterReminder.Android.Resource.Attribute.state_lifted;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.statusBarBackground = global::WaterReminder.Android.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.statusBarScrim = global::WaterReminder.Android.Resource.Attribute.statusBarScrim;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.strokeColor = global::WaterReminder.Android.Resource.Attribute.strokeColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.strokeWidth = global::WaterReminder.Android.Resource.Attribute.strokeWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.subMenuArrow = global::WaterReminder.Android.Resource.Attribute.subMenuArrow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.submitBackground = global::WaterReminder.Android.Resource.Attribute.submitBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.subtitle = global::WaterReminder.Android.Resource.Attribute.subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.subtitleTextAppearance = global::WaterReminder.Android.Resource.Attribute.subtitleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.subtitleTextColor = global::WaterReminder.Android.Resource.Attribute.subtitleTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.subtitleTextStyle = global::WaterReminder.Android.Resource.Attribute.subtitleTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.suggestionRowLayout = global::WaterReminder.Android.Resource.Attribute.suggestionRowLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.summary = global::WaterReminder.Android.Resource.Attribute.summary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.summaryOff = global::WaterReminder.Android.Resource.Attribute.summaryOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.summaryOn = global::WaterReminder.Android.Resource.Attribute.summaryOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.switchMinWidth = global::WaterReminder.Android.Resource.Attribute.switchMinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.switchPadding = global::WaterReminder.Android.Resource.Attribute.switchPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.switchPreferenceCompatStyle = global::WaterReminder.Android.Resource.Attribute.switchPreferenceCompatStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.switchPreferenceStyle = global::WaterReminder.Android.Resource.Attribute.switchPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.switchStyle = global::WaterReminder.Android.Resource.Attribute.switchStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.switchTextAppearance = global::WaterReminder.Android.Resource.Attribute.switchTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.switchTextOff = global::WaterReminder.Android.Resource.Attribute.switchTextOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.switchTextOn = global::WaterReminder.Android.Resource.Attribute.switchTextOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabBackground = global::WaterReminder.Android.Resource.Attribute.tabBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabContentStart = global::WaterReminder.Android.Resource.Attribute.tabContentStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabGravity = global::WaterReminder.Android.Resource.Attribute.tabGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabIconTint = global::WaterReminder.Android.Resource.Attribute.tabIconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabIconTintMode = global::WaterReminder.Android.Resource.Attribute.tabIconTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabIndicator = global::WaterReminder.Android.Resource.Attribute.tabIndicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabIndicatorAnimationDuration = global::WaterReminder.Android.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabIndicatorColor = global::WaterReminder.Android.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabIndicatorFullWidth = global::WaterReminder.Android.Resource.Attribute.tabIndicatorFullWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabIndicatorGravity = global::WaterReminder.Android.Resource.Attribute.tabIndicatorGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabIndicatorHeight = global::WaterReminder.Android.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabInlineLabel = global::WaterReminder.Android.Resource.Attribute.tabInlineLabel;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabMaxWidth = global::WaterReminder.Android.Resource.Attribute.tabMaxWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabMinWidth = global::WaterReminder.Android.Resource.Attribute.tabMinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabMode = global::WaterReminder.Android.Resource.Attribute.tabMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabPadding = global::WaterReminder.Android.Resource.Attribute.tabPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabPaddingBottom = global::WaterReminder.Android.Resource.Attribute.tabPaddingBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabPaddingEnd = global::WaterReminder.Android.Resource.Attribute.tabPaddingEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabPaddingStart = global::WaterReminder.Android.Resource.Attribute.tabPaddingStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabPaddingTop = global::WaterReminder.Android.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabRippleColor = global::WaterReminder.Android.Resource.Attribute.tabRippleColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabSelectedTextColor = global::WaterReminder.Android.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabStyle = global::WaterReminder.Android.Resource.Attribute.tabStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabTextAppearance = global::WaterReminder.Android.Resource.Attribute.tabTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabTextColor = global::WaterReminder.Android.Resource.Attribute.tabTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tabUnboundedRipple = global::WaterReminder.Android.Resource.Attribute.tabUnboundedRipple;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAllCaps = global::WaterReminder.Android.Resource.Attribute.textAllCaps;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceBody1 = global::WaterReminder.Android.Resource.Attribute.textAppearanceBody1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceBody2 = global::WaterReminder.Android.Resource.Attribute.textAppearanceBody2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceButton = global::WaterReminder.Android.Resource.Attribute.textAppearanceButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceCaption = global::WaterReminder.Android.Resource.Attribute.textAppearanceCaption;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceHeadline1 = global::WaterReminder.Android.Resource.Attribute.textAppearanceHeadline1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceHeadline2 = global::WaterReminder.Android.Resource.Attribute.textAppearanceHeadline2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceHeadline3 = global::WaterReminder.Android.Resource.Attribute.textAppearanceHeadline3;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceHeadline4 = global::WaterReminder.Android.Resource.Attribute.textAppearanceHeadline4;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceHeadline5 = global::WaterReminder.Android.Resource.Attribute.textAppearanceHeadline5;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceHeadline6 = global::WaterReminder.Android.Resource.Attribute.textAppearanceHeadline6;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceLargePopupMenu = global::WaterReminder.Android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceListItem = global::WaterReminder.Android.Resource.Attribute.textAppearanceListItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceListItemSecondary = global::WaterReminder.Android.Resource.Attribute.textAppearanceListItemSecondary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceListItemSmall = global::WaterReminder.Android.Resource.Attribute.textAppearanceListItemSmall;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceOverline = global::WaterReminder.Android.Resource.Attribute.textAppearanceOverline;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearancePopupMenuHeader = global::WaterReminder.Android.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceSearchResultSubtitle = global::WaterReminder.Android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceSearchResultTitle = global::WaterReminder.Android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceSmallPopupMenu = global::WaterReminder.Android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceSubtitle1 = global::WaterReminder.Android.Resource.Attribute.textAppearanceSubtitle1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textAppearanceSubtitle2 = global::WaterReminder.Android.Resource.Attribute.textAppearanceSubtitle2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textColorAlertDialogListItem = global::WaterReminder.Android.Resource.Attribute.textColorAlertDialogListItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textColorSearchUrl = global::WaterReminder.Android.Resource.Attribute.textColorSearchUrl;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textEndPadding = global::WaterReminder.Android.Resource.Attribute.textEndPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textInputStyle = global::WaterReminder.Android.Resource.Attribute.textInputStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textLocale = global::WaterReminder.Android.Resource.Attribute.textLocale;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.textStartPadding = global::WaterReminder.Android.Resource.Attribute.textStartPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.theme = global::WaterReminder.Android.Resource.Attribute.theme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.thickness = global::WaterReminder.Android.Resource.Attribute.thickness;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.thumbTextPadding = global::WaterReminder.Android.Resource.Attribute.thumbTextPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.thumbTint = global::WaterReminder.Android.Resource.Attribute.thumbTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.thumbTintMode = global::WaterReminder.Android.Resource.Attribute.thumbTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tickMark = global::WaterReminder.Android.Resource.Attribute.tickMark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tickMarkTint = global::WaterReminder.Android.Resource.Attribute.tickMarkTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tickMarkTintMode = global::WaterReminder.Android.Resource.Attribute.tickMarkTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tint = global::WaterReminder.Android.Resource.Attribute.tint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tintMode = global::WaterReminder.Android.Resource.Attribute.tintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.title = global::WaterReminder.Android.Resource.Attribute.title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleEnabled = global::WaterReminder.Android.Resource.Attribute.titleEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleMargin = global::WaterReminder.Android.Resource.Attribute.titleMargin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleMarginBottom = global::WaterReminder.Android.Resource.Attribute.titleMarginBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleMarginEnd = global::WaterReminder.Android.Resource.Attribute.titleMarginEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleMargins = global::WaterReminder.Android.Resource.Attribute.titleMargins;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleMarginStart = global::WaterReminder.Android.Resource.Attribute.titleMarginStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleMarginTop = global::WaterReminder.Android.Resource.Attribute.titleMarginTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleTextAppearance = global::WaterReminder.Android.Resource.Attribute.titleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleTextColor = global::WaterReminder.Android.Resource.Attribute.titleTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.titleTextStyle = global::WaterReminder.Android.Resource.Attribute.titleTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.toolbarId = global::WaterReminder.Android.Resource.Attribute.toolbarId;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.toolbarNavigationButtonStyle = global::WaterReminder.Android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.toolbarStyle = global::WaterReminder.Android.Resource.Attribute.toolbarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tooltipForegroundColor = global::WaterReminder.Android.Resource.Attribute.tooltipForegroundColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tooltipFrameBackground = global::WaterReminder.Android.Resource.Attribute.tooltipFrameBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.tooltipText = global::WaterReminder.Android.Resource.Attribute.tooltipText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.track = global::WaterReminder.Android.Resource.Attribute.track;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.trackTint = global::WaterReminder.Android.Resource.Attribute.trackTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.trackTintMode = global::WaterReminder.Android.Resource.Attribute.trackTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.ttcIndex = global::WaterReminder.Android.Resource.Attribute.ttcIndex;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.updatesContinuously = global::WaterReminder.Android.Resource.Attribute.updatesContinuously;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.useCompatPadding = global::WaterReminder.Android.Resource.Attribute.useCompatPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.useSimpleSummaryProvider = global::WaterReminder.Android.Resource.Attribute.useSimpleSummaryProvider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.viewInflaterClass = global::WaterReminder.Android.Resource.Attribute.viewInflaterClass;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.voiceIcon = global::WaterReminder.Android.Resource.Attribute.voiceIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.widgetLayout = global::WaterReminder.Android.Resource.Attribute.widgetLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowActionBar = global::WaterReminder.Android.Resource.Attribute.windowActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowActionBarOverlay = global::WaterReminder.Android.Resource.Attribute.windowActionBarOverlay;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowActionModeOverlay = global::WaterReminder.Android.Resource.Attribute.windowActionModeOverlay;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowFixedHeightMajor = global::WaterReminder.Android.Resource.Attribute.windowFixedHeightMajor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowFixedHeightMinor = global::WaterReminder.Android.Resource.Attribute.windowFixedHeightMinor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowFixedWidthMajor = global::WaterReminder.Android.Resource.Attribute.windowFixedWidthMajor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowFixedWidthMinor = global::WaterReminder.Android.Resource.Attribute.windowFixedWidthMinor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowMinWidthMajor = global::WaterReminder.Android.Resource.Attribute.windowMinWidthMajor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowMinWidthMinor = global::WaterReminder.Android.Resource.Attribute.windowMinWidthMinor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Attribute.windowNoTitle = global::WaterReminder.Android.Resource.Attribute.windowNoTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Boolean.abc_action_bar_embed_tabs = global::WaterReminder.Android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Boolean.abc_allow_stacked_button_bar = global::WaterReminder.Android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::WaterReminder.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Boolean.config_materialPreferenceIconSpaceReserved = global::WaterReminder.Android.Resource.Boolean.config_materialPreferenceIconSpaceReserved;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::WaterReminder.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_background_cache_hint_selector_material_dark = global::WaterReminder.Android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_background_cache_hint_selector_material_light = global::WaterReminder.Android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_btn_colored_borderless_text_material = global::WaterReminder.Android.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_btn_colored_text_material = global::WaterReminder.Android.Resource.Color.abc_btn_colored_text_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_color_highlight_material = global::WaterReminder.Android.Resource.Color.abc_color_highlight_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_hint_foreground_material_dark = global::WaterReminder.Android.Resource.Color.abc_hint_foreground_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_hint_foreground_material_light = global::WaterReminder.Android.Resource.Color.abc_hint_foreground_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_input_method_navigation_guard = global::WaterReminder.Android.Resource.Color.abc_input_method_navigation_guard;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_primary_text_disable_only_material_dark = global::WaterReminder.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_primary_text_disable_only_material_light = global::WaterReminder.Android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_primary_text_material_dark = global::WaterReminder.Android.Resource.Color.abc_primary_text_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_primary_text_material_light = global::WaterReminder.Android.Resource.Color.abc_primary_text_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_search_url_text = global::WaterReminder.Android.Resource.Color.abc_search_url_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_search_url_text_normal = global::WaterReminder.Android.Resource.Color.abc_search_url_text_normal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_search_url_text_pressed = global::WaterReminder.Android.Resource.Color.abc_search_url_text_pressed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_search_url_text_selected = global::WaterReminder.Android.Resource.Color.abc_search_url_text_selected;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_secondary_text_material_dark = global::WaterReminder.Android.Resource.Color.abc_secondary_text_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_secondary_text_material_light = global::WaterReminder.Android.Resource.Color.abc_secondary_text_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_tint_btn_checkable = global::WaterReminder.Android.Resource.Color.abc_tint_btn_checkable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_tint_default = global::WaterReminder.Android.Resource.Color.abc_tint_default;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_tint_edittext = global::WaterReminder.Android.Resource.Color.abc_tint_edittext;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_tint_seek_thumb = global::WaterReminder.Android.Resource.Color.abc_tint_seek_thumb;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_tint_spinner = global::WaterReminder.Android.Resource.Color.abc_tint_spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.abc_tint_switch_track = global::WaterReminder.Android.Resource.Color.abc_tint_switch_track;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.accent_material_dark = global::WaterReminder.Android.Resource.Color.accent_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.accent_material_light = global::WaterReminder.Android.Resource.Color.accent_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.background_floating_material_dark = global::WaterReminder.Android.Resource.Color.background_floating_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.background_floating_material_light = global::WaterReminder.Android.Resource.Color.background_floating_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.background_material_dark = global::WaterReminder.Android.Resource.Color.background_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.background_material_light = global::WaterReminder.Android.Resource.Color.background_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.bright_foreground_disabled_material_dark = global::WaterReminder.Android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.bright_foreground_disabled_material_light = global::WaterReminder.Android.Resource.Color.bright_foreground_disabled_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.bright_foreground_inverse_material_dark = global::WaterReminder.Android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.bright_foreground_inverse_material_light = global::WaterReminder.Android.Resource.Color.bright_foreground_inverse_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.bright_foreground_material_dark = global::WaterReminder.Android.Resource.Color.bright_foreground_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.bright_foreground_material_light = global::WaterReminder.Android.Resource.Color.bright_foreground_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.button_material_dark = global::WaterReminder.Android.Resource.Color.button_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.button_material_light = global::WaterReminder.Android.Resource.Color.button_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.cardview_dark_background = global::WaterReminder.Android.Resource.Color.cardview_dark_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.cardview_light_background = global::WaterReminder.Android.Resource.Color.cardview_light_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.cardview_shadow_end_color = global::WaterReminder.Android.Resource.Color.cardview_shadow_end_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.cardview_shadow_start_color = global::WaterReminder.Android.Resource.Color.cardview_shadow_start_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_bottom_navigation_shadow_color = global::WaterReminder.Android.Resource.Color.design_bottom_navigation_shadow_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_default_color_primary = global::WaterReminder.Android.Resource.Color.design_default_color_primary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_default_color_primary_dark = global::WaterReminder.Android.Resource.Color.design_default_color_primary_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_error = global::WaterReminder.Android.Resource.Color.design_error;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_fab_shadow_end_color = global::WaterReminder.Android.Resource.Color.design_fab_shadow_end_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_fab_shadow_mid_color = global::WaterReminder.Android.Resource.Color.design_fab_shadow_mid_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_fab_shadow_start_color = global::WaterReminder.Android.Resource.Color.design_fab_shadow_start_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_fab_stroke_end_inner_color = global::WaterReminder.Android.Resource.Color.design_fab_stroke_end_inner_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_fab_stroke_end_outer_color = global::WaterReminder.Android.Resource.Color.design_fab_stroke_end_outer_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_fab_stroke_top_inner_color = global::WaterReminder.Android.Resource.Color.design_fab_stroke_top_inner_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_fab_stroke_top_outer_color = global::WaterReminder.Android.Resource.Color.design_fab_stroke_top_outer_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_snackbar_background_color = global::WaterReminder.Android.Resource.Color.design_snackbar_background_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.design_tint_password_toggle = global::WaterReminder.Android.Resource.Color.design_tint_password_toggle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.dim_foreground_disabled_material_dark = global::WaterReminder.Android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.dim_foreground_disabled_material_light = global::WaterReminder.Android.Resource.Color.dim_foreground_disabled_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.dim_foreground_material_dark = global::WaterReminder.Android.Resource.Color.dim_foreground_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.dim_foreground_material_light = global::WaterReminder.Android.Resource.Color.dim_foreground_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.error_color_material_dark = global::WaterReminder.Android.Resource.Color.error_color_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.error_color_material_light = global::WaterReminder.Android.Resource.Color.error_color_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.foreground_material_dark = global::WaterReminder.Android.Resource.Color.foreground_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.foreground_material_light = global::WaterReminder.Android.Resource.Color.foreground_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.highlighted_text_material_dark = global::WaterReminder.Android.Resource.Color.highlighted_text_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.highlighted_text_material_light = global::WaterReminder.Android.Resource.Color.highlighted_text_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_blue_grey_800 = global::WaterReminder.Android.Resource.Color.material_blue_grey_800;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_blue_grey_900 = global::WaterReminder.Android.Resource.Color.material_blue_grey_900;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_blue_grey_950 = global::WaterReminder.Android.Resource.Color.material_blue_grey_950;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_deep_teal_200 = global::WaterReminder.Android.Resource.Color.material_deep_teal_200;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_deep_teal_500 = global::WaterReminder.Android.Resource.Color.material_deep_teal_500;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_grey_100 = global::WaterReminder.Android.Resource.Color.material_grey_100;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_grey_300 = global::WaterReminder.Android.Resource.Color.material_grey_300;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_grey_50 = global::WaterReminder.Android.Resource.Color.material_grey_50;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_grey_600 = global::WaterReminder.Android.Resource.Color.material_grey_600;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_grey_800 = global::WaterReminder.Android.Resource.Color.material_grey_800;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_grey_850 = global::WaterReminder.Android.Resource.Color.material_grey_850;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.material_grey_900 = global::WaterReminder.Android.Resource.Color.material_grey_900;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::WaterReminder.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_bottom_nav_item_tint = global::WaterReminder.Android.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_btn_bg_color_disabled = global::WaterReminder.Android.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_btn_bg_color_selector = global::WaterReminder.Android.Resource.Color.mtrl_btn_bg_color_selector;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_btn_ripple_color = global::WaterReminder.Android.Resource.Color.mtrl_btn_ripple_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_btn_stroke_color_selector = global::WaterReminder.Android.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_btn_text_btn_ripple_color = global::WaterReminder.Android.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_btn_text_color_disabled = global::WaterReminder.Android.Resource.Color.mtrl_btn_text_color_disabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_btn_text_color_selector = global::WaterReminder.Android.Resource.Color.mtrl_btn_text_color_selector;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_btn_transparent_bg_color = global::WaterReminder.Android.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_chip_background_color = global::WaterReminder.Android.Resource.Color.mtrl_chip_background_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_chip_close_icon_tint = global::WaterReminder.Android.Resource.Color.mtrl_chip_close_icon_tint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_chip_ripple_color = global::WaterReminder.Android.Resource.Color.mtrl_chip_ripple_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_chip_text_color = global::WaterReminder.Android.Resource.Color.mtrl_chip_text_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_fab_ripple_color = global::WaterReminder.Android.Resource.Color.mtrl_fab_ripple_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_scrim_color = global::WaterReminder.Android.Resource.Color.mtrl_scrim_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_tabs_colored_ripple_color = global::WaterReminder.Android.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_tabs_icon_color_selector = global::WaterReminder.Android.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::WaterReminder.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::WaterReminder.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_tabs_ripple_color = global::WaterReminder.Android.Resource.Color.mtrl_tabs_ripple_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_textinput_default_box_stroke_color = global::WaterReminder.Android.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_textinput_disabled_color = global::WaterReminder.Android.Resource.Color.mtrl_textinput_disabled_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::WaterReminder.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::WaterReminder.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.mtrl_text_btn_text_color_selector = global::WaterReminder.Android.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.notification_action_color_filter = global::WaterReminder.Android.Resource.Color.notification_action_color_filter;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.notification_icon_bg_color = global::WaterReminder.Android.Resource.Color.notification_icon_bg_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.preference_fallback_accent_color = global::WaterReminder.Android.Resource.Color.preference_fallback_accent_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.primary_dark_material_dark = global::WaterReminder.Android.Resource.Color.primary_dark_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.primary_dark_material_light = global::WaterReminder.Android.Resource.Color.primary_dark_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.primary_material_dark = global::WaterReminder.Android.Resource.Color.primary_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.primary_material_light = global::WaterReminder.Android.Resource.Color.primary_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.primary_text_default_material_dark = global::WaterReminder.Android.Resource.Color.primary_text_default_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.primary_text_default_material_light = global::WaterReminder.Android.Resource.Color.primary_text_default_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.primary_text_disabled_material_dark = global::WaterReminder.Android.Resource.Color.primary_text_disabled_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.primary_text_disabled_material_light = global::WaterReminder.Android.Resource.Color.primary_text_disabled_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.ripple_material_dark = global::WaterReminder.Android.Resource.Color.ripple_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.ripple_material_light = global::WaterReminder.Android.Resource.Color.ripple_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.secondary_text_default_material_dark = global::WaterReminder.Android.Resource.Color.secondary_text_default_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.secondary_text_default_material_light = global::WaterReminder.Android.Resource.Color.secondary_text_default_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.secondary_text_disabled_material_dark = global::WaterReminder.Android.Resource.Color.secondary_text_disabled_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.secondary_text_disabled_material_light = global::WaterReminder.Android.Resource.Color.secondary_text_disabled_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.switch_thumb_disabled_material_dark = global::WaterReminder.Android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.switch_thumb_disabled_material_light = global::WaterReminder.Android.Resource.Color.switch_thumb_disabled_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.switch_thumb_material_dark = global::WaterReminder.Android.Resource.Color.switch_thumb_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.switch_thumb_material_light = global::WaterReminder.Android.Resource.Color.switch_thumb_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.switch_thumb_normal_material_dark = global::WaterReminder.Android.Resource.Color.switch_thumb_normal_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.switch_thumb_normal_material_light = global::WaterReminder.Android.Resource.Color.switch_thumb_normal_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.tooltip_background_dark = global::WaterReminder.Android.Resource.Color.tooltip_background_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Color.tooltip_background_light = global::WaterReminder.Android.Resource.Color.tooltip_background_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_content_inset_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_default_height_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_default_padding_end_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_default_padding_start_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_elevation_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_elevation_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_stacked_max_height = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::WaterReminder.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_button_min_height_material = global::WaterReminder.Android.Resource.Dimension.abc_action_button_min_height_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_button_min_width_material = global::WaterReminder.Android.Resource.Dimension.abc_action_button_min_width_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_action_button_min_width_overflow_material = global::WaterReminder.Android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_alert_dialog_button_bar_height = global::WaterReminder.Android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_alert_dialog_button_dimen = global::WaterReminder.Android.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_button_inset_horizontal_material = global::WaterReminder.Android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_button_inset_vertical_material = global::WaterReminder.Android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_button_padding_horizontal_material = global::WaterReminder.Android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_button_padding_vertical_material = global::WaterReminder.Android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::WaterReminder.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_config_prefDialogWidth = global::WaterReminder.Android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_control_corner_material = global::WaterReminder.Android.Resource.Dimension.abc_control_corner_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_control_inset_material = global::WaterReminder.Android.Resource.Dimension.abc_control_inset_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_control_padding_material = global::WaterReminder.Android.Resource.Dimension.abc_control_padding_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_corner_radius_material = global::WaterReminder.Android.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_fixed_height_major = global::WaterReminder.Android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_fixed_height_minor = global::WaterReminder.Android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_fixed_width_major = global::WaterReminder.Android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_fixed_width_minor = global::WaterReminder.Android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::WaterReminder.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::WaterReminder.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_min_width_major = global::WaterReminder.Android.Resource.Dimension.abc_dialog_min_width_major;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_min_width_minor = global::WaterReminder.Android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_padding_material = global::WaterReminder.Android.Resource.Dimension.abc_dialog_padding_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_padding_top_material = global::WaterReminder.Android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dialog_title_divider_material = global::WaterReminder.Android.Resource.Dimension.abc_dialog_title_divider_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_disabled_alpha_material_dark = global::WaterReminder.Android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_disabled_alpha_material_light = global::WaterReminder.Android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dropdownitem_icon_width = global::WaterReminder.Android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dropdownitem_text_padding_left = global::WaterReminder.Android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_dropdownitem_text_padding_right = global::WaterReminder.Android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_edit_text_inset_bottom_material = global::WaterReminder.Android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::WaterReminder.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_edit_text_inset_top_material = global::WaterReminder.Android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_floating_window_z = global::WaterReminder.Android.Resource.Dimension.abc_floating_window_z;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_list_item_height_large_material = global::WaterReminder.Android.Resource.Dimension.abc_list_item_height_large_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_list_item_height_material = global::WaterReminder.Android.Resource.Dimension.abc_list_item_height_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_list_item_height_small_material = global::WaterReminder.Android.Resource.Dimension.abc_list_item_height_small_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_list_item_padding_horizontal_material = global::WaterReminder.Android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_panel_menu_list_width = global::WaterReminder.Android.Resource.Dimension.abc_panel_menu_list_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_progress_bar_height_material = global::WaterReminder.Android.Resource.Dimension.abc_progress_bar_height_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_search_view_preferred_height = global::WaterReminder.Android.Resource.Dimension.abc_search_view_preferred_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_search_view_preferred_width = global::WaterReminder.Android.Resource.Dimension.abc_search_view_preferred_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_seekbar_track_background_height_material = global::WaterReminder.Android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_seekbar_track_progress_height_material = global::WaterReminder.Android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_select_dialog_padding_start_material = global::WaterReminder.Android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_switch_padding = global::WaterReminder.Android.Resource.Dimension.abc_switch_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_body_1_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_body_1_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_body_2_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_body_2_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_button_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_button_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_caption_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_caption_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_display_1_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_display_1_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_display_2_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_display_2_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_display_3_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_display_3_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_display_4_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_display_4_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_headline_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_headline_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_large_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_large_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_medium_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_medium_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_menu_header_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_menu_header_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_menu_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_menu_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_small_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_small_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_subhead_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_subhead_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::WaterReminder.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_title_material = global::WaterReminder.Android.Resource.Dimension.abc_text_size_title_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.abc_text_size_title_material_toolbar = global::WaterReminder.Android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.cardview_compat_inset_shadow = global::WaterReminder.Android.Resource.Dimension.cardview_compat_inset_shadow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.cardview_default_elevation = global::WaterReminder.Android.Resource.Dimension.cardview_default_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.cardview_default_radius = global::WaterReminder.Android.Resource.Dimension.cardview_default_radius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.compat_button_inset_horizontal_material = global::WaterReminder.Android.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.compat_button_inset_vertical_material = global::WaterReminder.Android.Resource.Dimension.compat_button_inset_vertical_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.compat_button_padding_horizontal_material = global::WaterReminder.Android.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.compat_button_padding_vertical_material = global::WaterReminder.Android.Resource.Dimension.compat_button_padding_vertical_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.compat_control_corner_material = global::WaterReminder.Android.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.compat_notification_large_icon_max_height = global::WaterReminder.Android.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.compat_notification_large_icon_max_width = global::WaterReminder.Android.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_appbar_elevation = global::WaterReminder.Android.Resource.Dimension.design_appbar_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_active_text_size = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_elevation = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_height = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_icon_size = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_item_max_width = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_item_min_width = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_margin = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_margin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_shadow_height = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_navigation_text_size = global::WaterReminder.Android.Resource.Dimension.design_bottom_navigation_text_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_sheet_modal_elevation = global::WaterReminder.Android.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_bottom_sheet_peek_height_min = global::WaterReminder.Android.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_fab_border_width = global::WaterReminder.Android.Resource.Dimension.design_fab_border_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_fab_elevation = global::WaterReminder.Android.Resource.Dimension.design_fab_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_fab_image_size = global::WaterReminder.Android.Resource.Dimension.design_fab_image_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_fab_size_mini = global::WaterReminder.Android.Resource.Dimension.design_fab_size_mini;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_fab_size_normal = global::WaterReminder.Android.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_fab_translation_z_hovered_focused = global::WaterReminder.Android.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_fab_translation_z_pressed = global::WaterReminder.Android.Resource.Dimension.design_fab_translation_z_pressed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_navigation_elevation = global::WaterReminder.Android.Resource.Dimension.design_navigation_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_navigation_icon_padding = global::WaterReminder.Android.Resource.Dimension.design_navigation_icon_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_navigation_icon_size = global::WaterReminder.Android.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_navigation_item_horizontal_padding = global::WaterReminder.Android.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_navigation_item_icon_padding = global::WaterReminder.Android.Resource.Dimension.design_navigation_item_icon_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_navigation_max_width = global::WaterReminder.Android.Resource.Dimension.design_navigation_max_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_navigation_padding_bottom = global::WaterReminder.Android.Resource.Dimension.design_navigation_padding_bottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_navigation_separator_vertical_padding = global::WaterReminder.Android.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_action_inline_max_width = global::WaterReminder.Android.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_background_corner_radius = global::WaterReminder.Android.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_elevation = global::WaterReminder.Android.Resource.Dimension.design_snackbar_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::WaterReminder.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_max_width = global::WaterReminder.Android.Resource.Dimension.design_snackbar_max_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_min_width = global::WaterReminder.Android.Resource.Dimension.design_snackbar_min_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_padding_horizontal = global::WaterReminder.Android.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_padding_vertical = global::WaterReminder.Android.Resource.Dimension.design_snackbar_padding_vertical;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::WaterReminder.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_snackbar_text_size = global::WaterReminder.Android.Resource.Dimension.design_snackbar_text_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_tab_max_width = global::WaterReminder.Android.Resource.Dimension.design_tab_max_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_tab_scrollable_min_width = global::WaterReminder.Android.Resource.Dimension.design_tab_scrollable_min_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_tab_text_size = global::WaterReminder.Android.Resource.Dimension.design_tab_text_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_tab_text_size_2line = global::WaterReminder.Android.Resource.Dimension.design_tab_text_size_2line;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.design_textinput_caption_translate_y = global::WaterReminder.Android.Resource.Dimension.design_textinput_caption_translate_y;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.disabled_alpha_material_dark = global::WaterReminder.Android.Resource.Dimension.disabled_alpha_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.disabled_alpha_material_light = global::WaterReminder.Android.Resource.Dimension.disabled_alpha_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.fastscroll_default_thickness = global::WaterReminder.Android.Resource.Dimension.fastscroll_default_thickness;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.fastscroll_margin = global::WaterReminder.Android.Resource.Dimension.fastscroll_margin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.fastscroll_minimum_range = global::WaterReminder.Android.Resource.Dimension.fastscroll_minimum_range;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.highlight_alpha_material_colored = global::WaterReminder.Android.Resource.Dimension.highlight_alpha_material_colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.highlight_alpha_material_dark = global::WaterReminder.Android.Resource.Dimension.highlight_alpha_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.highlight_alpha_material_light = global::WaterReminder.Android.Resource.Dimension.highlight_alpha_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.hint_alpha_material_dark = global::WaterReminder.Android.Resource.Dimension.hint_alpha_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.hint_alpha_material_light = global::WaterReminder.Android.Resource.Dimension.hint_alpha_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.hint_pressed_alpha_material_dark = global::WaterReminder.Android.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.hint_pressed_alpha_material_light = global::WaterReminder.Android.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::WaterReminder.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::WaterReminder.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::WaterReminder.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::WaterReminder.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::WaterReminder.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::WaterReminder.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::WaterReminder.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_bottomappbar_height = global::WaterReminder.Android.Resource.Dimension.mtrl_bottomappbar_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_corner_radius = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_corner_radius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_disabled_elevation = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_disabled_z = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_disabled_z;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_elevation = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_focused_z = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_focused_z;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_hovered_z = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_hovered_z;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_icon_padding = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_icon_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_inset = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_inset;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_letter_spacing = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_padding_bottom = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_padding_left = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_padding_left;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_padding_right = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_padding_right;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_padding_top = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_padding_top;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_pressed_z = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_pressed_z;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_stroke_size = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_stroke_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_text_size = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_text_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_btn_z = global::WaterReminder.Android.Resource.Dimension.mtrl_btn_z;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_card_elevation = global::WaterReminder.Android.Resource.Dimension.mtrl_card_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_card_spacing = global::WaterReminder.Android.Resource.Dimension.mtrl_card_spacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_chip_pressed_translation_z = global::WaterReminder.Android.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_chip_text_size = global::WaterReminder.Android.Resource.Dimension.mtrl_chip_text_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_fab_elevation = global::WaterReminder.Android.Resource.Dimension.mtrl_fab_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::WaterReminder.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_fab_translation_z_pressed = global::WaterReminder.Android.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_navigation_elevation = global::WaterReminder.Android.Resource.Dimension.mtrl_navigation_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::WaterReminder.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_navigation_item_icon_padding = global::WaterReminder.Android.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::WaterReminder.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_snackbar_margin = global::WaterReminder.Android.Resource.Dimension.mtrl_snackbar_margin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::WaterReminder.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::WaterReminder.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::WaterReminder.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::WaterReminder.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_textinput_box_padding_end = global::WaterReminder.Android.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::WaterReminder.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::WaterReminder.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::WaterReminder.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.mtrl_toolbar_default_height = global::WaterReminder.Android.Resource.Dimension.mtrl_toolbar_default_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_action_icon_size = global::WaterReminder.Android.Resource.Dimension.notification_action_icon_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_action_text_size = global::WaterReminder.Android.Resource.Dimension.notification_action_text_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_big_circle_margin = global::WaterReminder.Android.Resource.Dimension.notification_big_circle_margin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_content_margin_start = global::WaterReminder.Android.Resource.Dimension.notification_content_margin_start;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_large_icon_height = global::WaterReminder.Android.Resource.Dimension.notification_large_icon_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_large_icon_width = global::WaterReminder.Android.Resource.Dimension.notification_large_icon_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_main_column_padding_top = global::WaterReminder.Android.Resource.Dimension.notification_main_column_padding_top;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_media_narrow_margin = global::WaterReminder.Android.Resource.Dimension.notification_media_narrow_margin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_right_icon_size = global::WaterReminder.Android.Resource.Dimension.notification_right_icon_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_right_side_padding_top = global::WaterReminder.Android.Resource.Dimension.notification_right_side_padding_top;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_small_icon_background_padding = global::WaterReminder.Android.Resource.Dimension.notification_small_icon_background_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_small_icon_size_as_large = global::WaterReminder.Android.Resource.Dimension.notification_small_icon_size_as_large;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_subtext_size = global::WaterReminder.Android.Resource.Dimension.notification_subtext_size;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_top_pad = global::WaterReminder.Android.Resource.Dimension.notification_top_pad;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.notification_top_pad_large_text = global::WaterReminder.Android.Resource.Dimension.notification_top_pad_large_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.preference_dropdown_padding_start = global::WaterReminder.Android.Resource.Dimension.preference_dropdown_padding_start;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.preference_icon_minWidth = global::WaterReminder.Android.Resource.Dimension.preference_icon_minWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.preference_seekbar_padding_horizontal = global::WaterReminder.Android.Resource.Dimension.preference_seekbar_padding_horizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.preference_seekbar_padding_vertical = global::WaterReminder.Android.Resource.Dimension.preference_seekbar_padding_vertical;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.preference_seekbar_value_minWidth = global::WaterReminder.Android.Resource.Dimension.preference_seekbar_value_minWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.tooltip_corner_radius = global::WaterReminder.Android.Resource.Dimension.tooltip_corner_radius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.tooltip_horizontal_padding = global::WaterReminder.Android.Resource.Dimension.tooltip_horizontal_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.tooltip_margin = global::WaterReminder.Android.Resource.Dimension.tooltip_margin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::WaterReminder.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.tooltip_precise_anchor_threshold = global::WaterReminder.Android.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.tooltip_vertical_padding = global::WaterReminder.Android.Resource.Dimension.tooltip_vertical_padding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.tooltip_y_offset_non_touch = global::WaterReminder.Android.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Dimension.tooltip_y_offset_touch = global::WaterReminder.Android.Resource.Dimension.tooltip_y_offset_touch;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_action_bar_item_background_material = global::WaterReminder.Android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_borderless_material = global::WaterReminder.Android.Resource.Drawable.abc_btn_borderless_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_check_material = global::WaterReminder.Android.Resource.Drawable.abc_btn_check_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_check_material_anim = global::WaterReminder.Android.Resource.Drawable.abc_btn_check_material_anim;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::WaterReminder.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::WaterReminder.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_colored_material = global::WaterReminder.Android.Resource.Drawable.abc_btn_colored_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_default_mtrl_shape = global::WaterReminder.Android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_radio_material = global::WaterReminder.Android.Resource.Drawable.abc_btn_radio_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_radio_material_anim = global::WaterReminder.Android.Resource.Drawable.abc_btn_radio_material_anim;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::WaterReminder.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::WaterReminder.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::WaterReminder.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::WaterReminder.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_cab_background_internal_bg = global::WaterReminder.Android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_cab_background_top_material = global::WaterReminder.Android.Resource.Drawable.abc_cab_background_top_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_control_background_material = global::WaterReminder.Android.Resource.Drawable.abc_control_background_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_dialog_material_background = global::WaterReminder.Android.Resource.Drawable.abc_dialog_material_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_edit_text_material = global::WaterReminder.Android.Resource.Drawable.abc_edit_text_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_ab_back_material = global::WaterReminder.Android.Resource.Drawable.abc_ic_ab_back_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::WaterReminder.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_clear_material = global::WaterReminder.Android.Resource.Drawable.abc_ic_clear_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_go_search_api_material = global::WaterReminder.Android.Resource.Drawable.abc_ic_go_search_api_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::WaterReminder.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_menu_overflow_material = global::WaterReminder.Android.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::WaterReminder.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_search_api_material = global::WaterReminder.Android.Resource.Drawable.abc_ic_search_api_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_star_black_16dp = global::WaterReminder.Android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_star_black_36dp = global::WaterReminder.Android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_star_black_48dp = global::WaterReminder.Android.Resource.Drawable.abc_ic_star_black_48dp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_star_half_black_16dp = global::WaterReminder.Android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_star_half_black_36dp = global::WaterReminder.Android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_star_half_black_48dp = global::WaterReminder.Android.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ic_voice_search_api_material = global::WaterReminder.Android.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_item_background_holo_dark = global::WaterReminder.Android.Resource.Drawable.abc_item_background_holo_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_item_background_holo_light = global::WaterReminder.Android.Resource.Drawable.abc_item_background_holo_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_divider_material = global::WaterReminder.Android.Resource.Drawable.abc_list_divider_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_divider_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_focused_holo = global::WaterReminder.Android.Resource.Drawable.abc_list_focused_holo;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_longpressed_holo = global::WaterReminder.Android.Resource.Drawable.abc_list_longpressed_holo;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_pressed_holo_dark = global::WaterReminder.Android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_pressed_holo_light = global::WaterReminder.Android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::WaterReminder.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::WaterReminder.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::WaterReminder.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_selector_disabled_holo_light = global::WaterReminder.Android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_selector_holo_dark = global::WaterReminder.Android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_list_selector_holo_light = global::WaterReminder.Android.Resource.Drawable.abc_list_selector_holo_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::WaterReminder.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_popup_background_mtrl_mult = global::WaterReminder.Android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ratingbar_indicator_material = global::WaterReminder.Android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ratingbar_material = global::WaterReminder.Android.Resource.Drawable.abc_ratingbar_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_ratingbar_small_material = global::WaterReminder.Android.Resource.Drawable.abc_ratingbar_small_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::WaterReminder.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::WaterReminder.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_seekbar_thumb_material = global::WaterReminder.Android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_seekbar_tick_mark_material = global::WaterReminder.Android.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_seekbar_track_material = global::WaterReminder.Android.Resource.Drawable.abc_seekbar_track_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::WaterReminder.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_spinner_textfield_background_material = global::WaterReminder.Android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_switch_thumb_material = global::WaterReminder.Android.Resource.Drawable.abc_switch_thumb_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_switch_track_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_tab_indicator_material = global::WaterReminder.Android.Resource.Drawable.abc_tab_indicator_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::WaterReminder.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_textfield_search_material = global::WaterReminder.Android.Resource.Drawable.abc_textfield_search_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_text_cursor_material = global::WaterReminder.Android.Resource.Drawable.abc_text_cursor_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::WaterReminder.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::WaterReminder.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::WaterReminder.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::WaterReminder.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::WaterReminder.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::WaterReminder.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.abc_vector_test = global::WaterReminder.Android.Resource.Drawable.abc_vector_test;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.avd_hide_password = global::WaterReminder.Android.Resource.Drawable.avd_hide_password;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.avd_show_password = global::WaterReminder.Android.Resource.Drawable.avd_show_password;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.btn_checkbox_checked_mtrl = global::WaterReminder.Android.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::WaterReminder.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::WaterReminder.Android.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::WaterReminder.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.btn_radio_off_mtrl = global::WaterReminder.Android.Resource.Drawable.btn_radio_off_mtrl;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::WaterReminder.Android.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.btn_radio_on_mtrl = global::WaterReminder.Android.Resource.Drawable.btn_radio_on_mtrl;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::WaterReminder.Android.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.design_bottom_navigation_item_background = global::WaterReminder.Android.Resource.Drawable.design_bottom_navigation_item_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.design_fab_background = global::WaterReminder.Android.Resource.Drawable.design_fab_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.design_ic_visibility = global::WaterReminder.Android.Resource.Drawable.design_ic_visibility;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.design_ic_visibility_off = global::WaterReminder.Android.Resource.Drawable.design_ic_visibility_off;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.design_password_eye = global::WaterReminder.Android.Resource.Drawable.design_password_eye;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.design_snackbar_background = global::WaterReminder.Android.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.ic_arrow_down_24dp = global::WaterReminder.Android.Resource.Drawable.ic_arrow_down_24dp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.ic_mtrl_chip_checked_black = global::WaterReminder.Android.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.ic_mtrl_chip_checked_circle = global::WaterReminder.Android.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.ic_mtrl_chip_close_circle = global::WaterReminder.Android.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.mtrl_snackbar_background = global::WaterReminder.Android.Resource.Drawable.mtrl_snackbar_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.mtrl_tabs_default_indicator = global::WaterReminder.Android.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.navigation_empty_icon = global::WaterReminder.Android.Resource.Drawable.navigation_empty_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_action_background = global::WaterReminder.Android.Resource.Drawable.notification_action_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_bg = global::WaterReminder.Android.Resource.Drawable.notification_bg;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_bg_low = global::WaterReminder.Android.Resource.Drawable.notification_bg_low;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_bg_low_normal = global::WaterReminder.Android.Resource.Drawable.notification_bg_low_normal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_bg_low_pressed = global::WaterReminder.Android.Resource.Drawable.notification_bg_low_pressed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_bg_normal = global::WaterReminder.Android.Resource.Drawable.notification_bg_normal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_bg_normal_pressed = global::WaterReminder.Android.Resource.Drawable.notification_bg_normal_pressed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_icon_background = global::WaterReminder.Android.Resource.Drawable.notification_icon_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_template_icon_bg = global::WaterReminder.Android.Resource.Drawable.notification_template_icon_bg;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_template_icon_low_bg = global::WaterReminder.Android.Resource.Drawable.notification_template_icon_low_bg;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notification_tile_bg = global::WaterReminder.Android.Resource.Drawable.notification_tile_bg;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.notify_panel_notification_icon_bg = global::WaterReminder.Android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.preference_list_divider_material = global::WaterReminder.Android.Resource.Drawable.preference_list_divider_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.tooltip_frame_dark = global::WaterReminder.Android.Resource.Drawable.tooltip_frame_dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Drawable.tooltip_frame_light = global::WaterReminder.Android.Resource.Drawable.tooltip_frame_light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_action_clickable_span = global::WaterReminder.Android.Resource.Id.accessibility_action_clickable_span;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_0 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_0;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_1 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_10 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_10;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_11 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_11;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_12 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_12;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_13 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_13;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_14 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_14;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_15 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_15;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_16 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_16;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_17 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_17;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_18 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_18;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_19 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_19;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_2 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_20 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_20;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_21 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_21;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_22 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_22;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_23 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_23;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_24 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_24;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_25 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_25;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_26 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_26;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_27 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_27;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_28 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_28;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_29 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_29;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_3 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_3;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_30 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_30;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_31 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_31;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_4 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_4;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_5 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_5;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_6 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_6;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_7 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_7;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_8 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_8;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.accessibility_custom_action_9 = global::WaterReminder.Android.Resource.Id.accessibility_custom_action_9;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.actions = global::WaterReminder.Android.Resource.Id.actions;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_bar = global::WaterReminder.Android.Resource.Id.action_bar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_bar_activity_content = global::WaterReminder.Android.Resource.Id.action_bar_activity_content;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_bar_container = global::WaterReminder.Android.Resource.Id.action_bar_container;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_bar_root = global::WaterReminder.Android.Resource.Id.action_bar_root;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_bar_spinner = global::WaterReminder.Android.Resource.Id.action_bar_spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_bar_subtitle = global::WaterReminder.Android.Resource.Id.action_bar_subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_bar_title = global::WaterReminder.Android.Resource.Id.action_bar_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_container = global::WaterReminder.Android.Resource.Id.action_container;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_context_bar = global::WaterReminder.Android.Resource.Id.action_context_bar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_divider = global::WaterReminder.Android.Resource.Id.action_divider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_image = global::WaterReminder.Android.Resource.Id.action_image;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_menu_divider = global::WaterReminder.Android.Resource.Id.action_menu_divider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_menu_presenter = global::WaterReminder.Android.Resource.Id.action_menu_presenter;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_mode_bar = global::WaterReminder.Android.Resource.Id.action_mode_bar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_mode_bar_stub = global::WaterReminder.Android.Resource.Id.action_mode_bar_stub;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_mode_close_button = global::WaterReminder.Android.Resource.Id.action_mode_close_button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.action_text = global::WaterReminder.Android.Resource.Id.action_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.activity_chooser_view_content = global::WaterReminder.Android.Resource.Id.activity_chooser_view_content;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.add = global::WaterReminder.Android.Resource.Id.add;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.alertTitle = global::WaterReminder.Android.Resource.Id.alertTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.all = global::WaterReminder.Android.Resource.Id.all;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.ALT = global::WaterReminder.Android.Resource.Id.ALT;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.always = global::WaterReminder.Android.Resource.Id.always;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.async = global::WaterReminder.Android.Resource.Id.async;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.auto = global::WaterReminder.Android.Resource.Id.auto;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.beginning = global::WaterReminder.Android.Resource.Id.beginning;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.blocking = global::WaterReminder.Android.Resource.Id.blocking;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.bottom = global::WaterReminder.Android.Resource.Id.bottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.buttonPanel = global::WaterReminder.Android.Resource.Id.buttonPanel;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.center = global::WaterReminder.Android.Resource.Id.center;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.center_horizontal = global::WaterReminder.Android.Resource.Id.center_horizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.center_vertical = global::WaterReminder.Android.Resource.Id.center_vertical;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.checkbox = global::WaterReminder.Android.Resource.Id.checkbox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.@checked = global::WaterReminder.Android.Resource.Id.@checked;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.chronometer = global::WaterReminder.Android.Resource.Id.chronometer;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.clip_horizontal = global::WaterReminder.Android.Resource.Id.clip_horizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.clip_vertical = global::WaterReminder.Android.Resource.Id.clip_vertical;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.collapseActionView = global::WaterReminder.Android.Resource.Id.collapseActionView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.container = global::WaterReminder.Android.Resource.Id.container;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.content = global::WaterReminder.Android.Resource.Id.content;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.contentPanel = global::WaterReminder.Android.Resource.Id.contentPanel;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.coordinator = global::WaterReminder.Android.Resource.Id.coordinator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.CTRL = global::WaterReminder.Android.Resource.Id.CTRL;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.custom = global::WaterReminder.Android.Resource.Id.custom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.customPanel = global::WaterReminder.Android.Resource.Id.customPanel;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.decor_content_parent = global::WaterReminder.Android.Resource.Id.decor_content_parent;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.default_activity_button = global::WaterReminder.Android.Resource.Id.default_activity_button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.design_bottom_sheet = global::WaterReminder.Android.Resource.Id.design_bottom_sheet;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.design_menu_item_action_area = global::WaterReminder.Android.Resource.Id.design_menu_item_action_area;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.design_menu_item_action_area_stub = global::WaterReminder.Android.Resource.Id.design_menu_item_action_area_stub;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.design_menu_item_text = global::WaterReminder.Android.Resource.Id.design_menu_item_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.design_navigation_view = global::WaterReminder.Android.Resource.Id.design_navigation_view;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.dialog_button = global::WaterReminder.Android.Resource.Id.dialog_button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.disableHome = global::WaterReminder.Android.Resource.Id.disableHome;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.edit_query = global::WaterReminder.Android.Resource.Id.edit_query;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.end = global::WaterReminder.Android.Resource.Id.end;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.enterAlways = global::WaterReminder.Android.Resource.Id.enterAlways;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.enterAlwaysCollapsed = global::WaterReminder.Android.Resource.Id.enterAlwaysCollapsed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.exitUntilCollapsed = global::WaterReminder.Android.Resource.Id.exitUntilCollapsed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.expanded_menu = global::WaterReminder.Android.Resource.Id.expanded_menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.expand_activities_button = global::WaterReminder.Android.Resource.Id.expand_activities_button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.fill = global::WaterReminder.Android.Resource.Id.fill;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.filled = global::WaterReminder.Android.Resource.Id.filled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.fill_horizontal = global::WaterReminder.Android.Resource.Id.fill_horizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.fill_vertical = global::WaterReminder.Android.Resource.Id.fill_vertical;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.@fixed = global::WaterReminder.Android.Resource.Id.@fixed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.forever = global::WaterReminder.Android.Resource.Id.forever;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.fragment_container_view_tag = global::WaterReminder.Android.Resource.Id.fragment_container_view_tag;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.FUNCTION = global::WaterReminder.Android.Resource.Id.FUNCTION;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.ghost_view = global::WaterReminder.Android.Resource.Id.ghost_view;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.ghost_view_holder = global::WaterReminder.Android.Resource.Id.ghost_view_holder;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.group_divider = global::WaterReminder.Android.Resource.Id.group_divider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.home = global::WaterReminder.Android.Resource.Id.home;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.homeAsUp = global::WaterReminder.Android.Resource.Id.homeAsUp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.icon = global::WaterReminder.Android.Resource.Id.icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.icon_frame = global::WaterReminder.Android.Resource.Id.icon_frame;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.icon_group = global::WaterReminder.Android.Resource.Id.icon_group;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.ifRoom = global::WaterReminder.Android.Resource.Id.ifRoom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.image = global::WaterReminder.Android.Resource.Id.image;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.info = global::WaterReminder.Android.Resource.Id.info;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.italic = global::WaterReminder.Android.Resource.Id.italic;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.item_touch_helper_previous_elevation = global::WaterReminder.Android.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.labeled = global::WaterReminder.Android.Resource.Id.labeled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.largeLabel = global::WaterReminder.Android.Resource.Id.largeLabel;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.left = global::WaterReminder.Android.Resource.Id.left;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.line1 = global::WaterReminder.Android.Resource.Id.line1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.line3 = global::WaterReminder.Android.Resource.Id.line3;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.listMode = global::WaterReminder.Android.Resource.Id.listMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.list_item = global::WaterReminder.Android.Resource.Id.list_item;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.masked = global::WaterReminder.Android.Resource.Id.masked;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.message = global::WaterReminder.Android.Resource.Id.message;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.META = global::WaterReminder.Android.Resource.Id.META;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.middle = global::WaterReminder.Android.Resource.Id.middle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.mini = global::WaterReminder.Android.Resource.Id.mini;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.mtrl_child_content_container = global::WaterReminder.Android.Resource.Id.mtrl_child_content_container;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.mtrl_internal_children_alpha_tag = global::WaterReminder.Android.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.multiply = global::WaterReminder.Android.Resource.Id.multiply;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.MvvmCrossTagId = global::WaterReminder.Android.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.MvxBindingTagUnique = global::WaterReminder.Android.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.navigation_header_container = global::WaterReminder.Android.Resource.Id.navigation_header_container;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.never = global::WaterReminder.Android.Resource.Id.never;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.none = global::WaterReminder.Android.Resource.Id.none;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.normal = global::WaterReminder.Android.Resource.Id.normal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.notification_background = global::WaterReminder.Android.Resource.Id.notification_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.notification_main_column = global::WaterReminder.Android.Resource.Id.notification_main_column;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.notification_main_column_container = global::WaterReminder.Android.Resource.Id.notification_main_column_container;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.off = global::WaterReminder.Android.Resource.Id.off;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.on = global::WaterReminder.Android.Resource.Id.on;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.outline = global::WaterReminder.Android.Resource.Id.outline;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.parallax = global::WaterReminder.Android.Resource.Id.parallax;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.parentPanel = global::WaterReminder.Android.Resource.Id.parentPanel;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.parent_matrix = global::WaterReminder.Android.Resource.Id.parent_matrix;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.pin = global::WaterReminder.Android.Resource.Id.pin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.progress_circular = global::WaterReminder.Android.Resource.Id.progress_circular;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.progress_horizontal = global::WaterReminder.Android.Resource.Id.progress_horizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.radio = global::WaterReminder.Android.Resource.Id.radio;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.recycler_view = global::WaterReminder.Android.Resource.Id.recycler_view;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.right = global::WaterReminder.Android.Resource.Id.right;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.right_icon = global::WaterReminder.Android.Resource.Id.right_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.right_side = global::WaterReminder.Android.Resource.Id.right_side;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.save_non_transition_alpha = global::WaterReminder.Android.Resource.Id.save_non_transition_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.save_overlay_view = global::WaterReminder.Android.Resource.Id.save_overlay_view;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.screen = global::WaterReminder.Android.Resource.Id.screen;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.scroll = global::WaterReminder.Android.Resource.Id.scroll;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.scrollable = global::WaterReminder.Android.Resource.Id.scrollable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.scrollIndicatorDown = global::WaterReminder.Android.Resource.Id.scrollIndicatorDown;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.scrollIndicatorUp = global::WaterReminder.Android.Resource.Id.scrollIndicatorUp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.scrollView = global::WaterReminder.Android.Resource.Id.scrollView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_badge = global::WaterReminder.Android.Resource.Id.search_badge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_bar = global::WaterReminder.Android.Resource.Id.search_bar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_button = global::WaterReminder.Android.Resource.Id.search_button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_close_btn = global::WaterReminder.Android.Resource.Id.search_close_btn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_edit_frame = global::WaterReminder.Android.Resource.Id.search_edit_frame;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_go_btn = global::WaterReminder.Android.Resource.Id.search_go_btn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_mag_icon = global::WaterReminder.Android.Resource.Id.search_mag_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_plate = global::WaterReminder.Android.Resource.Id.search_plate;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_src_text = global::WaterReminder.Android.Resource.Id.search_src_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.search_voice_btn = global::WaterReminder.Android.Resource.Id.search_voice_btn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.seekbar = global::WaterReminder.Android.Resource.Id.seekbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.seekbar_value = global::WaterReminder.Android.Resource.Id.seekbar_value;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.selected = global::WaterReminder.Android.Resource.Id.selected;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.select_dialog_listview = global::WaterReminder.Android.Resource.Id.select_dialog_listview;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.SHIFT = global::WaterReminder.Android.Resource.Id.SHIFT;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.shortcut = global::WaterReminder.Android.Resource.Id.shortcut;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.showCustom = global::WaterReminder.Android.Resource.Id.showCustom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.showHome = global::WaterReminder.Android.Resource.Id.showHome;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.showTitle = global::WaterReminder.Android.Resource.Id.showTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.smallLabel = global::WaterReminder.Android.Resource.Id.smallLabel;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.snackbar_action = global::WaterReminder.Android.Resource.Id.snackbar_action;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.snackbar_text = global::WaterReminder.Android.Resource.Id.snackbar_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.snap = global::WaterReminder.Android.Resource.Id.snap;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.snapMargins = global::WaterReminder.Android.Resource.Id.snapMargins;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.spacer = global::WaterReminder.Android.Resource.Id.spacer;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.spinner = global::WaterReminder.Android.Resource.Id.spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.split_action_bar = global::WaterReminder.Android.Resource.Id.split_action_bar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.src_atop = global::WaterReminder.Android.Resource.Id.src_atop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.src_in = global::WaterReminder.Android.Resource.Id.src_in;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.src_over = global::WaterReminder.Android.Resource.Id.src_over;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.start = global::WaterReminder.Android.Resource.Id.start;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.stretch = global::WaterReminder.Android.Resource.Id.stretch;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.submenuarrow = global::WaterReminder.Android.Resource.Id.submenuarrow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.submit_area = global::WaterReminder.Android.Resource.Id.submit_area;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.switchWidget = global::WaterReminder.Android.Resource.Id.switchWidget;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.SYM = global::WaterReminder.Android.Resource.Id.SYM;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.tabMode = global::WaterReminder.Android.Resource.Id.tabMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.tag_accessibility_actions = global::WaterReminder.Android.Resource.Id.tag_accessibility_actions;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.tag_accessibility_clickable_spans = global::WaterReminder.Android.Resource.Id.tag_accessibility_clickable_spans;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.tag_accessibility_heading = global::WaterReminder.Android.Resource.Id.tag_accessibility_heading;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.tag_accessibility_pane_title = global::WaterReminder.Android.Resource.Id.tag_accessibility_pane_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.tag_screen_reader_focusable = global::WaterReminder.Android.Resource.Id.tag_screen_reader_focusable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.tag_transition_group = global::WaterReminder.Android.Resource.Id.tag_transition_group;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.tag_unhandled_key_event_manager = global::WaterReminder.Android.Resource.Id.tag_unhandled_key_event_manager;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.tag_unhandled_key_listeners = global::WaterReminder.Android.Resource.Id.tag_unhandled_key_listeners;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.text = global::WaterReminder.Android.Resource.Id.text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.text2 = global::WaterReminder.Android.Resource.Id.text2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.textinput_counter = global::WaterReminder.Android.Resource.Id.textinput_counter;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.textinput_error = global::WaterReminder.Android.Resource.Id.textinput_error;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.textinput_helper_text = global::WaterReminder.Android.Resource.Id.textinput_helper_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.textSpacerNoButtons = global::WaterReminder.Android.Resource.Id.textSpacerNoButtons;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.textSpacerNoTitle = global::WaterReminder.Android.Resource.Id.textSpacerNoTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.textStart = global::WaterReminder.Android.Resource.Id.textStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.text_input_password_toggle = global::WaterReminder.Android.Resource.Id.text_input_password_toggle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.time = global::WaterReminder.Android.Resource.Id.time;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.title = global::WaterReminder.Android.Resource.Id.title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.titleDividerNoCustom = global::WaterReminder.Android.Resource.Id.titleDividerNoCustom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.title_template = global::WaterReminder.Android.Resource.Id.title_template;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.top = global::WaterReminder.Android.Resource.Id.top;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.topPanel = global::WaterReminder.Android.Resource.Id.topPanel;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.touch_outside = global::WaterReminder.Android.Resource.Id.touch_outside;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.transition_current_scene = global::WaterReminder.Android.Resource.Id.transition_current_scene;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.transition_layout_save = global::WaterReminder.Android.Resource.Id.transition_layout_save;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.transition_position = global::WaterReminder.Android.Resource.Id.transition_position;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.transition_scene_layoutid_cache = global::WaterReminder.Android.Resource.Id.transition_scene_layoutid_cache;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.transition_transform = global::WaterReminder.Android.Resource.Id.transition_transform;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.@unchecked = global::WaterReminder.Android.Resource.Id.@unchecked;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.uniform = global::WaterReminder.Android.Resource.Id.uniform;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.unlabeled = global::WaterReminder.Android.Resource.Id.unlabeled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.up = global::WaterReminder.Android.Resource.Id.up;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.useLogo = global::WaterReminder.Android.Resource.Id.useLogo;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.view_offset_helper = global::WaterReminder.Android.Resource.Id.view_offset_helper;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.visible = global::WaterReminder.Android.Resource.Id.visible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.visible_removing_fragment_view_tag = global::WaterReminder.Android.Resource.Id.visible_removing_fragment_view_tag;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.withText = global::WaterReminder.Android.Resource.Id.withText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Id.wrap_content = global::WaterReminder.Android.Resource.Id.wrap_content;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.abc_config_activityDefaultDur = global::WaterReminder.Android.Resource.Integer.abc_config_activityDefaultDur;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.abc_config_activityShortDur = global::WaterReminder.Android.Resource.Integer.abc_config_activityShortDur;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.app_bar_elevation_anim_duration = global::WaterReminder.Android.Resource.Integer.app_bar_elevation_anim_duration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.bottom_sheet_slide_duration = global::WaterReminder.Android.Resource.Integer.bottom_sheet_slide_duration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.cancel_button_image_alpha = global::WaterReminder.Android.Resource.Integer.cancel_button_image_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.config_tooltipAnimTime = global::WaterReminder.Android.Resource.Integer.config_tooltipAnimTime;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.design_snackbar_text_max_lines = global::WaterReminder.Android.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.design_tab_indicator_anim_duration_ms = global::WaterReminder.Android.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.hide_password_duration = global::WaterReminder.Android.Resource.Integer.hide_password_duration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.mtrl_btn_anim_delay_ms = global::WaterReminder.Android.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.mtrl_btn_anim_duration_ms = global::WaterReminder.Android.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.mtrl_chip_anim_duration = global::WaterReminder.Android.Resource.Integer.mtrl_chip_anim_duration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::WaterReminder.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.show_password_duration = global::WaterReminder.Android.Resource.Integer.show_password_duration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Integer.status_bar_notification_info_maxnum = global::WaterReminder.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::WaterReminder.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::WaterReminder.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::WaterReminder.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::WaterReminder.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::WaterReminder.Android.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::WaterReminder.Android.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.fast_out_slow_in = global::WaterReminder.Android.Resource.Interpolator.fast_out_slow_in;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.mtrl_fast_out_linear_in = global::WaterReminder.Android.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.mtrl_fast_out_slow_in = global::WaterReminder.Android.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.mtrl_linear = global::WaterReminder.Android.Resource.Interpolator.mtrl_linear;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Interpolator.mtrl_linear_out_slow_in = global::WaterReminder.Android.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_action_bar_title_item = global::WaterReminder.Android.Resource.Layout.abc_action_bar_title_item;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_action_bar_up_container = global::WaterReminder.Android.Resource.Layout.abc_action_bar_up_container;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_action_menu_item_layout = global::WaterReminder.Android.Resource.Layout.abc_action_menu_item_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_action_menu_layout = global::WaterReminder.Android.Resource.Layout.abc_action_menu_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_action_mode_bar = global::WaterReminder.Android.Resource.Layout.abc_action_mode_bar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_action_mode_close_item_material = global::WaterReminder.Android.Resource.Layout.abc_action_mode_close_item_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_activity_chooser_view = global::WaterReminder.Android.Resource.Layout.abc_activity_chooser_view;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_activity_chooser_view_list_item = global::WaterReminder.Android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_alert_dialog_button_bar_material = global::WaterReminder.Android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_alert_dialog_material = global::WaterReminder.Android.Resource.Layout.abc_alert_dialog_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_alert_dialog_title_material = global::WaterReminder.Android.Resource.Layout.abc_alert_dialog_title_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_cascading_menu_item_layout = global::WaterReminder.Android.Resource.Layout.abc_cascading_menu_item_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_dialog_title_material = global::WaterReminder.Android.Resource.Layout.abc_dialog_title_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_expanded_menu_layout = global::WaterReminder.Android.Resource.Layout.abc_expanded_menu_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_list_menu_item_checkbox = global::WaterReminder.Android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_list_menu_item_icon = global::WaterReminder.Android.Resource.Layout.abc_list_menu_item_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_list_menu_item_layout = global::WaterReminder.Android.Resource.Layout.abc_list_menu_item_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_list_menu_item_radio = global::WaterReminder.Android.Resource.Layout.abc_list_menu_item_radio;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_popup_menu_header_item_layout = global::WaterReminder.Android.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_popup_menu_item_layout = global::WaterReminder.Android.Resource.Layout.abc_popup_menu_item_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_screen_content_include = global::WaterReminder.Android.Resource.Layout.abc_screen_content_include;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_screen_simple = global::WaterReminder.Android.Resource.Layout.abc_screen_simple;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_screen_simple_overlay_action_mode = global::WaterReminder.Android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_screen_toolbar = global::WaterReminder.Android.Resource.Layout.abc_screen_toolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_search_dropdown_item_icons_2line = global::WaterReminder.Android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_search_view = global::WaterReminder.Android.Resource.Layout.abc_search_view;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_select_dialog_material = global::WaterReminder.Android.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.abc_tooltip = global::WaterReminder.Android.Resource.Layout.abc_tooltip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.custom_dialog = global::WaterReminder.Android.Resource.Layout.custom_dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_bottom_navigation_item = global::WaterReminder.Android.Resource.Layout.design_bottom_navigation_item;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_bottom_sheet_dialog = global::WaterReminder.Android.Resource.Layout.design_bottom_sheet_dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_layout_snackbar = global::WaterReminder.Android.Resource.Layout.design_layout_snackbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_layout_snackbar_include = global::WaterReminder.Android.Resource.Layout.design_layout_snackbar_include;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_layout_tab_icon = global::WaterReminder.Android.Resource.Layout.design_layout_tab_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_layout_tab_text = global::WaterReminder.Android.Resource.Layout.design_layout_tab_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_menu_item_action_area = global::WaterReminder.Android.Resource.Layout.design_menu_item_action_area;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_navigation_item = global::WaterReminder.Android.Resource.Layout.design_navigation_item;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_navigation_item_header = global::WaterReminder.Android.Resource.Layout.design_navigation_item_header;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_navigation_item_separator = global::WaterReminder.Android.Resource.Layout.design_navigation_item_separator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_navigation_item_subheader = global::WaterReminder.Android.Resource.Layout.design_navigation_item_subheader;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_navigation_menu = global::WaterReminder.Android.Resource.Layout.design_navigation_menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_navigation_menu_item = global::WaterReminder.Android.Resource.Layout.design_navigation_menu_item;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.design_text_input_password_icon = global::WaterReminder.Android.Resource.Layout.design_text_input_password_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.expand_button = global::WaterReminder.Android.Resource.Layout.expand_button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.image_frame = global::WaterReminder.Android.Resource.Layout.image_frame;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.mtrl_layout_snackbar = global::WaterReminder.Android.Resource.Layout.mtrl_layout_snackbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.mtrl_layout_snackbar_include = global::WaterReminder.Android.Resource.Layout.mtrl_layout_snackbar_include;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.notification_action = global::WaterReminder.Android.Resource.Layout.notification_action;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.notification_action_tombstone = global::WaterReminder.Android.Resource.Layout.notification_action_tombstone;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.notification_template_custom_big = global::WaterReminder.Android.Resource.Layout.notification_template_custom_big;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.notification_template_icon_group = global::WaterReminder.Android.Resource.Layout.notification_template_icon_group;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.notification_template_part_chronometer = global::WaterReminder.Android.Resource.Layout.notification_template_part_chronometer;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.notification_template_part_time = global::WaterReminder.Android.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference = global::WaterReminder.Android.Resource.Layout.preference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_category = global::WaterReminder.Android.Resource.Layout.preference_category;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_category_material = global::WaterReminder.Android.Resource.Layout.preference_category_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_dialog_edittext = global::WaterReminder.Android.Resource.Layout.preference_dialog_edittext;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_dropdown = global::WaterReminder.Android.Resource.Layout.preference_dropdown;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_dropdown_material = global::WaterReminder.Android.Resource.Layout.preference_dropdown_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_information = global::WaterReminder.Android.Resource.Layout.preference_information;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_information_material = global::WaterReminder.Android.Resource.Layout.preference_information_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_list_fragment = global::WaterReminder.Android.Resource.Layout.preference_list_fragment;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_material = global::WaterReminder.Android.Resource.Layout.preference_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_recyclerview = global::WaterReminder.Android.Resource.Layout.preference_recyclerview;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_widget_checkbox = global::WaterReminder.Android.Resource.Layout.preference_widget_checkbox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_widget_seekbar = global::WaterReminder.Android.Resource.Layout.preference_widget_seekbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_widget_seekbar_material = global::WaterReminder.Android.Resource.Layout.preference_widget_seekbar_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_widget_switch = global::WaterReminder.Android.Resource.Layout.preference_widget_switch;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.preference_widget_switch_compat = global::WaterReminder.Android.Resource.Layout.preference_widget_switch_compat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.select_dialog_item_material = global::WaterReminder.Android.Resource.Layout.select_dialog_item_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.select_dialog_multichoice_material = global::WaterReminder.Android.Resource.Layout.select_dialog_multichoice_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.select_dialog_singlechoice_material = global::WaterReminder.Android.Resource.Layout.select_dialog_singlechoice_material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Layout.support_simple_spinner_dropdown_item = global::WaterReminder.Android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_action_bar_home_description = global::WaterReminder.Android.Resource.String.abc_action_bar_home_description;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_action_bar_up_description = global::WaterReminder.Android.Resource.String.abc_action_bar_up_description;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_action_menu_overflow_description = global::WaterReminder.Android.Resource.String.abc_action_menu_overflow_description;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_action_mode_done = global::WaterReminder.Android.Resource.String.abc_action_mode_done;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_activitychooserview_choose_application = global::WaterReminder.Android.Resource.String.abc_activitychooserview_choose_application;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_activity_chooser_view_see_all = global::WaterReminder.Android.Resource.String.abc_activity_chooser_view_see_all;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_capital_off = global::WaterReminder.Android.Resource.String.abc_capital_off;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_capital_on = global::WaterReminder.Android.Resource.String.abc_capital_on;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_menu_alt_shortcut_label = global::WaterReminder.Android.Resource.String.abc_menu_alt_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_menu_ctrl_shortcut_label = global::WaterReminder.Android.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_menu_delete_shortcut_label = global::WaterReminder.Android.Resource.String.abc_menu_delete_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_menu_enter_shortcut_label = global::WaterReminder.Android.Resource.String.abc_menu_enter_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_menu_function_shortcut_label = global::WaterReminder.Android.Resource.String.abc_menu_function_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_menu_meta_shortcut_label = global::WaterReminder.Android.Resource.String.abc_menu_meta_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_menu_shift_shortcut_label = global::WaterReminder.Android.Resource.String.abc_menu_shift_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_menu_space_shortcut_label = global::WaterReminder.Android.Resource.String.abc_menu_space_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_menu_sym_shortcut_label = global::WaterReminder.Android.Resource.String.abc_menu_sym_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_prepend_shortcut_label = global::WaterReminder.Android.Resource.String.abc_prepend_shortcut_label;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_searchview_description_clear = global::WaterReminder.Android.Resource.String.abc_searchview_description_clear;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_searchview_description_query = global::WaterReminder.Android.Resource.String.abc_searchview_description_query;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_searchview_description_search = global::WaterReminder.Android.Resource.String.abc_searchview_description_search;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_searchview_description_submit = global::WaterReminder.Android.Resource.String.abc_searchview_description_submit;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_searchview_description_voice = global::WaterReminder.Android.Resource.String.abc_searchview_description_voice;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_search_hint = global::WaterReminder.Android.Resource.String.abc_search_hint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_shareactionprovider_share_with = global::WaterReminder.Android.Resource.String.abc_shareactionprovider_share_with;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_shareactionprovider_share_with_application = global::WaterReminder.Android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.abc_toolbar_collapse_description = global::WaterReminder.Android.Resource.String.abc_toolbar_collapse_description;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.appbar_scrolling_view_behavior = global::WaterReminder.Android.Resource.String.appbar_scrolling_view_behavior;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.bottom_sheet_behavior = global::WaterReminder.Android.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.character_counter_content_description = global::WaterReminder.Android.Resource.String.character_counter_content_description;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.character_counter_pattern = global::WaterReminder.Android.Resource.String.character_counter_pattern;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.copy = global::WaterReminder.Android.Resource.String.copy;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.expand_button_title = global::WaterReminder.Android.Resource.String.expand_button_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.fab_transformation_scrim_behavior = global::WaterReminder.Android.Resource.String.fab_transformation_scrim_behavior;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.fab_transformation_sheet_behavior = global::WaterReminder.Android.Resource.String.fab_transformation_sheet_behavior;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.hide_bottom_view_on_scroll_behavior = global::WaterReminder.Android.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.mtrl_chip_close_icon_content_description = global::WaterReminder.Android.Resource.String.mtrl_chip_close_icon_content_description;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.not_set = global::WaterReminder.Android.Resource.String.not_set;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.password_toggle_content_description = global::WaterReminder.Android.Resource.String.password_toggle_content_description;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.path_password_eye = global::WaterReminder.Android.Resource.String.path_password_eye;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.path_password_eye_mask_strike_through = global::WaterReminder.Android.Resource.String.path_password_eye_mask_strike_through;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.path_password_eye_mask_visible = global::WaterReminder.Android.Resource.String.path_password_eye_mask_visible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.path_password_strike_through = global::WaterReminder.Android.Resource.String.path_password_strike_through;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.preference_copied = global::WaterReminder.Android.Resource.String.preference_copied;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.search_menu_title = global::WaterReminder.Android.Resource.String.search_menu_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.status_bar_notification_info_overflow = global::WaterReminder.Android.Resource.String.status_bar_notification_info_overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.summary_collapsed_preference_list = global::WaterReminder.Android.Resource.String.summary_collapsed_preference_list;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.v7_preference_off = global::WaterReminder.Android.Resource.String.v7_preference_off;
+			global::MvvmCross.DroidX.RecyclerView.Resource.String.v7_preference_on = global::WaterReminder.Android.Resource.String.v7_preference_on;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.AlertDialog_AppCompat = global::WaterReminder.Android.Resource.Style.AlertDialog_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.AlertDialog_AppCompat_Light = global::WaterReminder.Android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Animation_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.Animation_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Animation_AppCompat_DropDownUp = global::WaterReminder.Android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Animation_AppCompat_Tooltip = global::WaterReminder.Android.Resource.Style.Animation_AppCompat_Tooltip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Animation_Design_BottomSheetDialog = global::WaterReminder.Android.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_AlertDialog_AppCompat = global::WaterReminder.Android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_AlertDialog_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Animation_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::WaterReminder.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Animation_AppCompat_Tooltip = global::WaterReminder.Android.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_CardView = global::WaterReminder.Android.Resource.Style.Base_CardView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::WaterReminder.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_DialogWindowTitle_AppCompat = global::WaterReminder.Android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Button = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Large = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Small = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Title = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::WaterReminder.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_ThemeOverlay_AppCompat = global::WaterReminder.Android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::WaterReminder.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::WaterReminder.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::WaterReminder.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::WaterReminder.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::WaterReminder.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Light = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::WaterReminder.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::WaterReminder.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V14_Theme_MaterialComponents = global::WaterReminder.Android.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::WaterReminder.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::WaterReminder.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::WaterReminder.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::WaterReminder.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::WaterReminder.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::WaterReminder.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V21_Theme_AppCompat = global::WaterReminder.Android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V21_Theme_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::WaterReminder.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V22_Theme_AppCompat = global::WaterReminder.Android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V22_Theme_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V23_Theme_AppCompat = global::WaterReminder.Android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V23_Theme_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V26_Theme_AppCompat = global::WaterReminder.Android.Resource.Style.Base_V26_Theme_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V26_Theme_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::WaterReminder.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V28_Theme_AppCompat = global::WaterReminder.Android.Resource.Style.Base_V28_Theme_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V28_Theme_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V7_Theme_AppCompat = global::WaterReminder.Android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V7_Theme_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::WaterReminder.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::WaterReminder.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::WaterReminder.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::WaterReminder.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActionBar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActionButton = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActionMode = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Button = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Button_Small = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_EditText = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ImageButton = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ListView = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_RatingBar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_SearchView = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_SeekBar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Spinner = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_TextView = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Toolbar = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::WaterReminder.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_Design_TabLayout = global::WaterReminder.Android.Resource.Style.Base_Widget_Design_TabLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_MaterialComponents_Chip = global::WaterReminder.Android.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::WaterReminder.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::WaterReminder.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.CardView = global::WaterReminder.Android.Resource.Style.CardView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.CardView_Dark = global::WaterReminder.Android.Resource.Style.CardView_Dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.CardView_Light = global::WaterReminder.Android.Resource.Style.CardView_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_AppCompat = global::WaterReminder.Android.Resource.Style.Platform_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Platform_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_MaterialComponents = global::WaterReminder.Android.Resource.Style.Platform_MaterialComponents;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_MaterialComponents_Dialog = global::WaterReminder.Android.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_MaterialComponents_Light = global::WaterReminder.Android.Resource.Style.Platform_MaterialComponents_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::WaterReminder.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_ThemeOverlay_AppCompat = global::WaterReminder.Android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::WaterReminder.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_V21_AppCompat = global::WaterReminder.Android.Resource.Style.Platform_V21_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_V21_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Platform_V21_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_V25_AppCompat = global::WaterReminder.Android.Resource.Style.Platform_V25_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_V25_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Platform_V25_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Platform_Widget_AppCompat_Spinner = global::WaterReminder.Android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference = global::WaterReminder.Android.Resource.Style.Preference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.PreferenceCategoryTitleTextStyle = global::WaterReminder.Android.Resource.Style.PreferenceCategoryTitleTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.PreferenceFragment = global::WaterReminder.Android.Resource.Style.PreferenceFragment;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.PreferenceFragmentList = global::WaterReminder.Android.Resource.Style.PreferenceFragmentList;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.PreferenceFragmentList_Material = global::WaterReminder.Android.Resource.Style.PreferenceFragmentList_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.PreferenceFragment_Material = global::WaterReminder.Android.Resource.Style.PreferenceFragment_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.PreferenceSummaryTextStyle = global::WaterReminder.Android.Resource.Style.PreferenceSummaryTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.PreferenceThemeOverlay = global::WaterReminder.Android.Resource.Style.PreferenceThemeOverlay;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.PreferenceThemeOverlay_v14 = global::WaterReminder.Android.Resource.Style.PreferenceThemeOverlay_v14;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.PreferenceThemeOverlay_v14_Material = global::WaterReminder.Android.Resource.Style.PreferenceThemeOverlay_v14_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_Category = global::WaterReminder.Android.Resource.Style.Preference_Category;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_Category_Material = global::WaterReminder.Android.Resource.Style.Preference_Category_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_CheckBoxPreference = global::WaterReminder.Android.Resource.Style.Preference_CheckBoxPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_CheckBoxPreference_Material = global::WaterReminder.Android.Resource.Style.Preference_CheckBoxPreference_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_DialogPreference = global::WaterReminder.Android.Resource.Style.Preference_DialogPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_DialogPreference_EditTextPreference = global::WaterReminder.Android.Resource.Style.Preference_DialogPreference_EditTextPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_DialogPreference_EditTextPreference_Material = global::WaterReminder.Android.Resource.Style.Preference_DialogPreference_EditTextPreference_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_DialogPreference_Material = global::WaterReminder.Android.Resource.Style.Preference_DialogPreference_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_DropDown = global::WaterReminder.Android.Resource.Style.Preference_DropDown;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_DropDown_Material = global::WaterReminder.Android.Resource.Style.Preference_DropDown_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_Information = global::WaterReminder.Android.Resource.Style.Preference_Information;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_Information_Material = global::WaterReminder.Android.Resource.Style.Preference_Information_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_Material = global::WaterReminder.Android.Resource.Style.Preference_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_PreferenceScreen = global::WaterReminder.Android.Resource.Style.Preference_PreferenceScreen;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_PreferenceScreen_Material = global::WaterReminder.Android.Resource.Style.Preference_PreferenceScreen_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_SeekBarPreference = global::WaterReminder.Android.Resource.Style.Preference_SeekBarPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_SeekBarPreference_Material = global::WaterReminder.Android.Resource.Style.Preference_SeekBarPreference_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_SwitchPreference = global::WaterReminder.Android.Resource.Style.Preference_SwitchPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_SwitchPreferenceCompat = global::WaterReminder.Android.Resource.Style.Preference_SwitchPreferenceCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_SwitchPreferenceCompat_Material = global::WaterReminder.Android.Resource.Style.Preference_SwitchPreferenceCompat_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Preference_SwitchPreference_Material = global::WaterReminder.Android.Resource.Style.Preference_SwitchPreference_Material;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::WaterReminder.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::WaterReminder.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::WaterReminder.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::WaterReminder.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Body1 = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Body2 = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Button = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Caption = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Display1 = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Display2 = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Display3 = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Display4 = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Headline = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Large = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Medium = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Menu = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Small = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Subhead = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Title = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Tooltip = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WaterReminder.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Compat_Notification = global::WaterReminder.Android.Resource.Style.TextAppearance_Compat_Notification;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Info = global::WaterReminder.Android.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::WaterReminder.Android.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Time = global::WaterReminder.Android.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Title = global::WaterReminder.Android.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::WaterReminder.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Design_Counter = global::WaterReminder.Android.Resource.Style.TextAppearance_Design_Counter;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Design_Counter_Overflow = global::WaterReminder.Android.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Design_Error = global::WaterReminder.Android.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Design_HelperText = global::WaterReminder.Android.Resource.Style.TextAppearance_Design_HelperText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Design_Hint = global::WaterReminder.Android.Resource.Style.TextAppearance_Design_Hint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Design_Snackbar_Message = global::WaterReminder.Android.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Design_Tab = global::WaterReminder.Android.Resource.Style.TextAppearance_Design_Tab;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Button = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Caption = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Chip = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Overline = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_MaterialComponents_Tab = global::WaterReminder.Android.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WaterReminder.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WaterReminder.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::WaterReminder.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_AppCompat = global::WaterReminder.Android.Resource.Style.ThemeOverlay_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::WaterReminder.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_AppCompat_Dark = global::WaterReminder.Android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::WaterReminder.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::WaterReminder.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::WaterReminder.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::WaterReminder.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_AppCompat_Light = global::WaterReminder.Android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::WaterReminder.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat = global::WaterReminder.Android.Resource.Style.Theme_AppCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_CompactMenu = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_DayNight = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_DayNight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Dialog = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Light = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Light_Dialog = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_AppCompat_NoActionBar = global::WaterReminder.Android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_Design = global::WaterReminder.Android.Resource.Style.Theme_Design;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_Design_BottomSheetDialog = global::WaterReminder.Android.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_Design_Light = global::WaterReminder.Android.Resource.Style.Theme_Design_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::WaterReminder.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_Design_Light_NoActionBar = global::WaterReminder.Android.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_Design_NoActionBar = global::WaterReminder.Android.Resource.Style.Theme_Design_NoActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Bridge = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_CompactMenu = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Dialog = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_NoActionBar = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::WaterReminder.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActionBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActionButton = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActionMode = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ActivityChooserView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Button = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ButtonBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Button_Borderless = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Button_Colored = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Button_Small = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_EditText = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_EditText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ImageButton = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionButton = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_SearchView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ListMenuView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ListPopupWindow = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ListView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ListView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ListView_DropDown = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ListView_Menu = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_PopupMenu = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_PopupWindow = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ProgressBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_RatingBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_RatingBar_Small = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_SearchView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_SearchView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_SeekBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Spinner = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_TextView = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_TextView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Toolbar = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::WaterReminder.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Compat_NotificationActionContainer = global::WaterReminder.Android.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Compat_NotificationActionText = global::WaterReminder.Android.Resource.Style.Widget_Compat_NotificationActionText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_AppBarLayout = global::WaterReminder.Android.Resource.Style.Widget_Design_AppBarLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_BottomNavigationView = global::WaterReminder.Android.Resource.Style.Widget_Design_BottomNavigationView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_BottomSheet_Modal = global::WaterReminder.Android.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_CollapsingToolbar = global::WaterReminder.Android.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_FloatingActionButton = global::WaterReminder.Android.Resource.Style.Widget_Design_FloatingActionButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_NavigationView = global::WaterReminder.Android.Resource.Style.Widget_Design_NavigationView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::WaterReminder.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_Snackbar = global::WaterReminder.Android.Resource.Style.Widget_Design_Snackbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_TabLayout = global::WaterReminder.Android.Resource.Style.Widget_Design_TabLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Design_TextInputLayout = global::WaterReminder.Android.Resource.Style.Widget_Design_TextInputLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button_Icon = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_CardView = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_CardView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_ChipGroup = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Chip_Action = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_NavigationView = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Snackbar = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TabLayout = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_MaterialComponents_Toolbar = global::WaterReminder.Android.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Style.Widget_Support_CoordinatorLayout = global::WaterReminder.Android.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar = global::WaterReminder.Android.Resource.Styleable.ActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBarLayout = global::WaterReminder.Android.Resource.Styleable.ActionBarLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::WaterReminder.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_background = global::WaterReminder.Android.Resource.Styleable.ActionBar_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_backgroundSplit = global::WaterReminder.Android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_backgroundStacked = global::WaterReminder.Android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_contentInsetEnd = global::WaterReminder.Android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::WaterReminder.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_contentInsetLeft = global::WaterReminder.Android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_contentInsetRight = global::WaterReminder.Android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_contentInsetStart = global::WaterReminder.Android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::WaterReminder.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_customNavigationLayout = global::WaterReminder.Android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_displayOptions = global::WaterReminder.Android.Resource.Styleable.ActionBar_displayOptions;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_divider = global::WaterReminder.Android.Resource.Styleable.ActionBar_divider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_elevation = global::WaterReminder.Android.Resource.Styleable.ActionBar_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_height = global::WaterReminder.Android.Resource.Styleable.ActionBar_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_hideOnContentScroll = global::WaterReminder.Android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_homeAsUpIndicator = global::WaterReminder.Android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_homeLayout = global::WaterReminder.Android.Resource.Styleable.ActionBar_homeLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_icon = global::WaterReminder.Android.Resource.Styleable.ActionBar_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::WaterReminder.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_itemPadding = global::WaterReminder.Android.Resource.Styleable.ActionBar_itemPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_logo = global::WaterReminder.Android.Resource.Styleable.ActionBar_logo;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_navigationMode = global::WaterReminder.Android.Resource.Styleable.ActionBar_navigationMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_popupTheme = global::WaterReminder.Android.Resource.Styleable.ActionBar_popupTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_progressBarPadding = global::WaterReminder.Android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_progressBarStyle = global::WaterReminder.Android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_subtitle = global::WaterReminder.Android.Resource.Styleable.ActionBar_subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_subtitleTextStyle = global::WaterReminder.Android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_title = global::WaterReminder.Android.Resource.Styleable.ActionBar_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionBar_titleTextStyle = global::WaterReminder.Android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMenuItemView = global::WaterReminder.Android.Resource.Styleable.ActionMenuItemView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMenuItemView_android_minWidth = global::WaterReminder.Android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMenuView = global::WaterReminder.Android.Resource.Styleable.ActionMenuView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMode = global::WaterReminder.Android.Resource.Styleable.ActionMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMode_background = global::WaterReminder.Android.Resource.Styleable.ActionMode_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMode_backgroundSplit = global::WaterReminder.Android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMode_closeItemLayout = global::WaterReminder.Android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMode_height = global::WaterReminder.Android.Resource.Styleable.ActionMode_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMode_subtitleTextStyle = global::WaterReminder.Android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActionMode_titleTextStyle = global::WaterReminder.Android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActivityChooserView = global::WaterReminder.Android.Resource.Styleable.ActivityChooserView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::WaterReminder.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ActivityChooserView_initialActivityCount = global::WaterReminder.Android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AlertDialog = global::WaterReminder.Android.Resource.Styleable.AlertDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AlertDialog_android_layout = global::WaterReminder.Android.Resource.Styleable.AlertDialog_android_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AlertDialog_buttonIconDimen = global::WaterReminder.Android.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::WaterReminder.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AlertDialog_listItemLayout = global::WaterReminder.Android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AlertDialog_listLayout = global::WaterReminder.Android.Resource.Styleable.AlertDialog_listLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::WaterReminder.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AlertDialog_showTitle = global::WaterReminder.Android.Resource.Styleable.AlertDialog_showTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::WaterReminder.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableCompat = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableItem = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableTransition = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::WaterReminder.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout = global::WaterReminder.Android.Resource.Styleable.AppBarLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayoutStates = global::WaterReminder.Android.Resource.Styleable.AppBarLayoutStates;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::WaterReminder.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::WaterReminder.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayoutStates_state_liftable = global::WaterReminder.Android.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayoutStates_state_lifted = global::WaterReminder.Android.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout_android_background = global::WaterReminder.Android.Resource.Styleable.AppBarLayout_android_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::WaterReminder.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::WaterReminder.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout_elevation = global::WaterReminder.Android.Resource.Styleable.AppBarLayout_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout_expanded = global::WaterReminder.Android.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout_Layout = global::WaterReminder.Android.Resource.Styleable.AppBarLayout_Layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::WaterReminder.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::WaterReminder.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppBarLayout_liftOnScroll = global::WaterReminder.Android.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatImageView = global::WaterReminder.Android.Resource.Styleable.AppCompatImageView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatImageView_android_src = global::WaterReminder.Android.Resource.Styleable.AppCompatImageView_android_src;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatImageView_srcCompat = global::WaterReminder.Android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatImageView_tint = global::WaterReminder.Android.Resource.Styleable.AppCompatImageView_tint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatImageView_tintMode = global::WaterReminder.Android.Resource.Styleable.AppCompatImageView_tintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatSeekBar = global::WaterReminder.Android.Resource.Styleable.AppCompatSeekBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatSeekBar_android_thumb = global::WaterReminder.Android.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatSeekBar_tickMark = global::WaterReminder.Android.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::WaterReminder.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::WaterReminder.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextHelper = global::WaterReminder.Android.Resource.Styleable.AppCompatTextHelper;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::WaterReminder.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::WaterReminder.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::WaterReminder.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::WaterReminder.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::WaterReminder.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::WaterReminder.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::WaterReminder.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_android_textAppearance = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_drawableTint = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_drawableTintMode = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_fontFamily = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_lineHeight = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_textAllCaps = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTextView_textLocale = global::WaterReminder.Android.Resource.Styleable.AppCompatTextView_textLocale;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarDivider = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarSize = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarTheme = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeBackground = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_buttonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_checkboxStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorAccent = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorControlActivated = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorControlNormal = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorError = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorError;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorPrimary = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_controlBackground = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_dialogTheme = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_dividerVertical = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_editTextBackground = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_editTextColor = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_editTextStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_panelBackground = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_searchViewStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_seekBarStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_spinnerStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_switchStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_toolbarStyle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowActionBar = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.AppCompatTheme_windowNoTitle = global::WaterReminder.Android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BackgroundStyle = global::WaterReminder.Android.Resource.Styleable.BackgroundStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BackgroundStyle_android_selectableItemBackground = global::WaterReminder.Android.Resource.Styleable.BackgroundStyle_android_selectableItemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BackgroundStyle_selectableItemBackground = global::WaterReminder.Android.Resource.Styleable.BackgroundStyle_selectableItemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomAppBar = global::WaterReminder.Android.Resource.Styleable.BottomAppBar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomAppBar_backgroundTint = global::WaterReminder.Android.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::WaterReminder.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomAppBar_fabCradleMargin = global::WaterReminder.Android.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::WaterReminder.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::WaterReminder.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomAppBar_hideOnScroll = global::WaterReminder.Android.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_elevation = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_itemBackground = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_itemIconSize = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_itemIconTint = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_itemTextColor = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomNavigationView_menu = global::WaterReminder.Android.Resource.Styleable.BottomNavigationView_menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomSheetBehavior_Layout = global::WaterReminder.Android.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::WaterReminder.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::WaterReminder.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::WaterReminder.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::WaterReminder.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ButtonBarLayout = global::WaterReminder.Android.Resource.Styleable.ButtonBarLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ButtonBarLayout_allowStacking = global::WaterReminder.Android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView = global::WaterReminder.Android.Resource.Styleable.CardView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_android_minHeight = global::WaterReminder.Android.Resource.Styleable.CardView_android_minHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_android_minWidth = global::WaterReminder.Android.Resource.Styleable.CardView_android_minWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_cardBackgroundColor = global::WaterReminder.Android.Resource.Styleable.CardView_cardBackgroundColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_cardCornerRadius = global::WaterReminder.Android.Resource.Styleable.CardView_cardCornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_cardElevation = global::WaterReminder.Android.Resource.Styleable.CardView_cardElevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_cardMaxElevation = global::WaterReminder.Android.Resource.Styleable.CardView_cardMaxElevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_cardPreventCornerOverlap = global::WaterReminder.Android.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_cardUseCompatPadding = global::WaterReminder.Android.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_contentPadding = global::WaterReminder.Android.Resource.Styleable.CardView_contentPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_contentPaddingBottom = global::WaterReminder.Android.Resource.Styleable.CardView_contentPaddingBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_contentPaddingLeft = global::WaterReminder.Android.Resource.Styleable.CardView_contentPaddingLeft;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_contentPaddingRight = global::WaterReminder.Android.Resource.Styleable.CardView_contentPaddingRight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CardView_contentPaddingTop = global::WaterReminder.Android.Resource.Styleable.CardView_contentPaddingTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CheckBoxPreference = global::WaterReminder.Android.Resource.Styleable.CheckBoxPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CheckBoxPreference_android_disableDependentsState = global::WaterReminder.Android.Resource.Styleable.CheckBoxPreference_android_disableDependentsState;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CheckBoxPreference_android_summaryOff = global::WaterReminder.Android.Resource.Styleable.CheckBoxPreference_android_summaryOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CheckBoxPreference_android_summaryOn = global::WaterReminder.Android.Resource.Styleable.CheckBoxPreference_android_summaryOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CheckBoxPreference_disableDependentsState = global::WaterReminder.Android.Resource.Styleable.CheckBoxPreference_disableDependentsState;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CheckBoxPreference_summaryOff = global::WaterReminder.Android.Resource.Styleable.CheckBoxPreference_summaryOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CheckBoxPreference_summaryOn = global::WaterReminder.Android.Resource.Styleable.CheckBoxPreference_summaryOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip = global::WaterReminder.Android.Resource.Styleable.Chip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ChipGroup = global::WaterReminder.Android.Resource.Styleable.ChipGroup;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ChipGroup_checkedChip = global::WaterReminder.Android.Resource.Styleable.ChipGroup_checkedChip;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ChipGroup_chipSpacing = global::WaterReminder.Android.Resource.Styleable.ChipGroup_chipSpacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::WaterReminder.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ChipGroup_chipSpacingVertical = global::WaterReminder.Android.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ChipGroup_singleLine = global::WaterReminder.Android.Resource.Styleable.ChipGroup_singleLine;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ChipGroup_singleSelection = global::WaterReminder.Android.Resource.Styleable.ChipGroup_singleSelection;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_android_checkable = global::WaterReminder.Android.Resource.Styleable.Chip_android_checkable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_android_ellipsize = global::WaterReminder.Android.Resource.Styleable.Chip_android_ellipsize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_android_maxWidth = global::WaterReminder.Android.Resource.Styleable.Chip_android_maxWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_android_text = global::WaterReminder.Android.Resource.Styleable.Chip_android_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_android_textAppearance = global::WaterReminder.Android.Resource.Styleable.Chip_android_textAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_checkedIcon = global::WaterReminder.Android.Resource.Styleable.Chip_checkedIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_checkedIconEnabled = global::WaterReminder.Android.Resource.Styleable.Chip_checkedIconEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_checkedIconVisible = global::WaterReminder.Android.Resource.Styleable.Chip_checkedIconVisible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipBackgroundColor = global::WaterReminder.Android.Resource.Styleable.Chip_chipBackgroundColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipCornerRadius = global::WaterReminder.Android.Resource.Styleable.Chip_chipCornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipEndPadding = global::WaterReminder.Android.Resource.Styleable.Chip_chipEndPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipIcon = global::WaterReminder.Android.Resource.Styleable.Chip_chipIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipIconEnabled = global::WaterReminder.Android.Resource.Styleable.Chip_chipIconEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipIconSize = global::WaterReminder.Android.Resource.Styleable.Chip_chipIconSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipIconTint = global::WaterReminder.Android.Resource.Styleable.Chip_chipIconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipIconVisible = global::WaterReminder.Android.Resource.Styleable.Chip_chipIconVisible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipMinHeight = global::WaterReminder.Android.Resource.Styleable.Chip_chipMinHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipStartPadding = global::WaterReminder.Android.Resource.Styleable.Chip_chipStartPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipStrokeColor = global::WaterReminder.Android.Resource.Styleable.Chip_chipStrokeColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_chipStrokeWidth = global::WaterReminder.Android.Resource.Styleable.Chip_chipStrokeWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_closeIcon = global::WaterReminder.Android.Resource.Styleable.Chip_closeIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_closeIconEnabled = global::WaterReminder.Android.Resource.Styleable.Chip_closeIconEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_closeIconEndPadding = global::WaterReminder.Android.Resource.Styleable.Chip_closeIconEndPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_closeIconSize = global::WaterReminder.Android.Resource.Styleable.Chip_closeIconSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_closeIconStartPadding = global::WaterReminder.Android.Resource.Styleable.Chip_closeIconStartPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_closeIconTint = global::WaterReminder.Android.Resource.Styleable.Chip_closeIconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_closeIconVisible = global::WaterReminder.Android.Resource.Styleable.Chip_closeIconVisible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_hideMotionSpec = global::WaterReminder.Android.Resource.Styleable.Chip_hideMotionSpec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_iconEndPadding = global::WaterReminder.Android.Resource.Styleable.Chip_iconEndPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_iconStartPadding = global::WaterReminder.Android.Resource.Styleable.Chip_iconStartPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_rippleColor = global::WaterReminder.Android.Resource.Styleable.Chip_rippleColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_showMotionSpec = global::WaterReminder.Android.Resource.Styleable.Chip_showMotionSpec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_textEndPadding = global::WaterReminder.Android.Resource.Styleable.Chip_textEndPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Chip_textStartPadding = global::WaterReminder.Android.Resource.Styleable.Chip_textStartPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_Layout = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_title = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::WaterReminder.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ColorStateListItem = global::WaterReminder.Android.Resource.Styleable.ColorStateListItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ColorStateListItem_alpha = global::WaterReminder.Android.Resource.Styleable.ColorStateListItem_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ColorStateListItem_android_alpha = global::WaterReminder.Android.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ColorStateListItem_android_color = global::WaterReminder.Android.Resource.Styleable.ColorStateListItem_android_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CompoundButton = global::WaterReminder.Android.Resource.Styleable.CompoundButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CompoundButton_android_button = global::WaterReminder.Android.Resource.Styleable.CompoundButton_android_button;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CompoundButton_buttonCompat = global::WaterReminder.Android.Resource.Styleable.CompoundButton_buttonCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CompoundButton_buttonTint = global::WaterReminder.Android.Resource.Styleable.CompoundButton_buttonTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CompoundButton_buttonTintMode = global::WaterReminder.Android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_keylines = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_Layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::WaterReminder.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DesignTheme = global::WaterReminder.Android.Resource.Styleable.DesignTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::WaterReminder.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DesignTheme_bottomSheetStyle = global::WaterReminder.Android.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference = global::WaterReminder.Android.Resource.Styleable.DialogPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_android_dialogIcon = global::WaterReminder.Android.Resource.Styleable.DialogPreference_android_dialogIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_android_dialogLayout = global::WaterReminder.Android.Resource.Styleable.DialogPreference_android_dialogLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_android_dialogMessage = global::WaterReminder.Android.Resource.Styleable.DialogPreference_android_dialogMessage;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_android_dialogTitle = global::WaterReminder.Android.Resource.Styleable.DialogPreference_android_dialogTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_android_negativeButtonText = global::WaterReminder.Android.Resource.Styleable.DialogPreference_android_negativeButtonText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_android_positiveButtonText = global::WaterReminder.Android.Resource.Styleable.DialogPreference_android_positiveButtonText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_dialogIcon = global::WaterReminder.Android.Resource.Styleable.DialogPreference_dialogIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_dialogLayout = global::WaterReminder.Android.Resource.Styleable.DialogPreference_dialogLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_dialogMessage = global::WaterReminder.Android.Resource.Styleable.DialogPreference_dialogMessage;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_dialogTitle = global::WaterReminder.Android.Resource.Styleable.DialogPreference_dialogTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_negativeButtonText = global::WaterReminder.Android.Resource.Styleable.DialogPreference_negativeButtonText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DialogPreference_positiveButtonText = global::WaterReminder.Android.Resource.Styleable.DialogPreference_positiveButtonText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DrawerArrowToggle = global::WaterReminder.Android.Resource.Styleable.DrawerArrowToggle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::WaterReminder.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::WaterReminder.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DrawerArrowToggle_barLength = global::WaterReminder.Android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DrawerArrowToggle_color = global::WaterReminder.Android.Resource.Styleable.DrawerArrowToggle_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DrawerArrowToggle_drawableSize = global::WaterReminder.Android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::WaterReminder.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DrawerArrowToggle_spinBars = global::WaterReminder.Android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.DrawerArrowToggle_thickness = global::WaterReminder.Android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.EditTextPreference = global::WaterReminder.Android.Resource.Styleable.EditTextPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider = global::WaterReminder.Android.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_backgroundTint = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_borderWidth = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_elevation = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_fabCustomSize = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_fabSize = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_maxImageSize = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_rippleColor = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_showMotionSpec = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FloatingActionButton_useCompatPadding = global::WaterReminder.Android.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FlowLayout = global::WaterReminder.Android.Resource.Styleable.FlowLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FlowLayout_itemSpacing = global::WaterReminder.Android.Resource.Styleable.FlowLayout_itemSpacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FlowLayout_lineSpacing = global::WaterReminder.Android.Resource.Styleable.FlowLayout_lineSpacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamily = global::WaterReminder.Android.Resource.Styleable.FontFamily;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_android_font = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_android_font;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontStyle = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontWeight = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_font = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_font;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_fontStyle = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_fontWeight = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamilyFont_ttcIndex = global::WaterReminder.Android.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamily_fontProviderAuthority = global::WaterReminder.Android.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamily_fontProviderCerts = global::WaterReminder.Android.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::WaterReminder.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::WaterReminder.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamily_fontProviderPackage = global::WaterReminder.Android.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FontFamily_fontProviderQuery = global::WaterReminder.Android.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ForegroundLinearLayout = global::WaterReminder.Android.Resource.Styleable.ForegroundLinearLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::WaterReminder.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::WaterReminder.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::WaterReminder.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Fragment = global::WaterReminder.Android.Resource.Styleable.Fragment;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FragmentContainerView = global::WaterReminder.Android.Resource.Styleable.FragmentContainerView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FragmentContainerView_android_name = global::WaterReminder.Android.Resource.Styleable.FragmentContainerView_android_name;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.FragmentContainerView_android_tag = global::WaterReminder.Android.Resource.Styleable.FragmentContainerView_android_tag;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Fragment_android_id = global::WaterReminder.Android.Resource.Styleable.Fragment_android_id;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Fragment_android_name = global::WaterReminder.Android.Resource.Styleable.Fragment_android_name;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Fragment_android_tag = global::WaterReminder.Android.Resource.Styleable.Fragment_android_tag;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor = global::WaterReminder.Android.Resource.Styleable.GradientColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColorItem = global::WaterReminder.Android.Resource.Styleable.GradientColorItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColorItem_android_color = global::WaterReminder.Android.Resource.Styleable.GradientColorItem_android_color;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColorItem_android_offset = global::WaterReminder.Android.Resource.Styleable.GradientColorItem_android_offset;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_centerColor = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_centerColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_centerX = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_centerX;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_centerY = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_centerY;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_endColor = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_endColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_endX = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_endX;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_endY = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_endY;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_gradientRadius = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_startColor = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_startColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_startX = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_startX;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_startY = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_startY;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_tileMode = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_tileMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.GradientColor_android_type = global::WaterReminder.Android.Resource.Styleable.GradientColor_android_type;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_android_gravity = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_android_orientation = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_divider = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_Layout = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.LinearLayoutCompat_showDividers = global::WaterReminder.Android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ListPopupWindow = global::WaterReminder.Android.Resource.Styleable.ListPopupWindow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::WaterReminder.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::WaterReminder.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ListPreference = global::WaterReminder.Android.Resource.Styleable.ListPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ListPreference_android_entries = global::WaterReminder.Android.Resource.Styleable.ListPreference_android_entries;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ListPreference_android_entryValues = global::WaterReminder.Android.Resource.Styleable.ListPreference_android_entryValues;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ListPreference_entries = global::WaterReminder.Android.Resource.Styleable.ListPreference_entries;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ListPreference_entryValues = global::WaterReminder.Android.Resource.Styleable.ListPreference_entryValues;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ListPreference_useSimpleSummaryProvider = global::WaterReminder.Android.Resource.Styleable.ListPreference_useSimpleSummaryProvider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton = global::WaterReminder.Android.Resource.Styleable.MaterialButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_android_insetBottom = global::WaterReminder.Android.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_android_insetLeft = global::WaterReminder.Android.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_android_insetRight = global::WaterReminder.Android.Resource.Styleable.MaterialButton_android_insetRight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_android_insetTop = global::WaterReminder.Android.Resource.Styleable.MaterialButton_android_insetTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_backgroundTint = global::WaterReminder.Android.Resource.Styleable.MaterialButton_backgroundTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_backgroundTintMode = global::WaterReminder.Android.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_cornerRadius = global::WaterReminder.Android.Resource.Styleable.MaterialButton_cornerRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_icon = global::WaterReminder.Android.Resource.Styleable.MaterialButton_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_iconGravity = global::WaterReminder.Android.Resource.Styleable.MaterialButton_iconGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_iconPadding = global::WaterReminder.Android.Resource.Styleable.MaterialButton_iconPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_iconSize = global::WaterReminder.Android.Resource.Styleable.MaterialButton_iconSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_iconTint = global::WaterReminder.Android.Resource.Styleable.MaterialButton_iconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_iconTintMode = global::WaterReminder.Android.Resource.Styleable.MaterialButton_iconTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_rippleColor = global::WaterReminder.Android.Resource.Styleable.MaterialButton_rippleColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_strokeColor = global::WaterReminder.Android.Resource.Styleable.MaterialButton_strokeColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialButton_strokeWidth = global::WaterReminder.Android.Resource.Styleable.MaterialButton_strokeWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialCardView = global::WaterReminder.Android.Resource.Styleable.MaterialCardView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialCardView_strokeColor = global::WaterReminder.Android.Resource.Styleable.MaterialCardView_strokeColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialCardView_strokeWidth = global::WaterReminder.Android.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::WaterReminder.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuGroup = global::WaterReminder.Android.Resource.Styleable.MenuGroup;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuGroup_android_checkableBehavior = global::WaterReminder.Android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuGroup_android_enabled = global::WaterReminder.Android.Resource.Styleable.MenuGroup_android_enabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuGroup_android_id = global::WaterReminder.Android.Resource.Styleable.MenuGroup_android_id;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuGroup_android_menuCategory = global::WaterReminder.Android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuGroup_android_orderInCategory = global::WaterReminder.Android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuGroup_android_visible = global::WaterReminder.Android.Resource.Styleable.MenuGroup_android_visible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem = global::WaterReminder.Android.Resource.Styleable.MenuItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_actionLayout = global::WaterReminder.Android.Resource.Styleable.MenuItem_actionLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_actionProviderClass = global::WaterReminder.Android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_actionViewClass = global::WaterReminder.Android.Resource.Styleable.MenuItem_actionViewClass;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_alphabeticModifiers = global::WaterReminder.Android.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_checkable = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_checkable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_checked = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_checked;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_enabled = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_enabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_icon = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_id = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_id;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_menuCategory = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_numericShortcut = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_onClick = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_onClick;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_orderInCategory = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_title = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_titleCondensed = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_android_visible = global::WaterReminder.Android.Resource.Styleable.MenuItem_android_visible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_contentDescription = global::WaterReminder.Android.Resource.Styleable.MenuItem_contentDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_iconTint = global::WaterReminder.Android.Resource.Styleable.MenuItem_iconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_iconTintMode = global::WaterReminder.Android.Resource.Styleable.MenuItem_iconTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_numericModifiers = global::WaterReminder.Android.Resource.Styleable.MenuItem_numericModifiers;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_showAsAction = global::WaterReminder.Android.Resource.Styleable.MenuItem_showAsAction;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuItem_tooltipText = global::WaterReminder.Android.Resource.Styleable.MenuItem_tooltipText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView = global::WaterReminder.Android.Resource.Styleable.MenuView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView_android_headerBackground = global::WaterReminder.Android.Resource.Styleable.MenuView_android_headerBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView_android_horizontalDivider = global::WaterReminder.Android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView_android_itemBackground = global::WaterReminder.Android.Resource.Styleable.MenuView_android_itemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::WaterReminder.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView_android_itemTextAppearance = global::WaterReminder.Android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView_android_verticalDivider = global::WaterReminder.Android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView_android_windowAnimationStyle = global::WaterReminder.Android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView_preserveIconSpacing = global::WaterReminder.Android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MenuView_subMenuArrow = global::WaterReminder.Android.Resource.Styleable.MenuView_subMenuArrow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MultiSelectListPreference = global::WaterReminder.Android.Resource.Styleable.MultiSelectListPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MultiSelectListPreference_android_entries = global::WaterReminder.Android.Resource.Styleable.MultiSelectListPreference_android_entries;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MultiSelectListPreference_android_entryValues = global::WaterReminder.Android.Resource.Styleable.MultiSelectListPreference_android_entryValues;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MultiSelectListPreference_entries = global::WaterReminder.Android.Resource.Styleable.MultiSelectListPreference_entries;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MultiSelectListPreference_entryValues = global::WaterReminder.Android.Resource.Styleable.MultiSelectListPreference_entryValues;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxBinding = global::WaterReminder.Android.Resource.Styleable.MvxBinding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxBinding_MvxBind = global::WaterReminder.Android.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxBinding_MvxLang = global::WaterReminder.Android.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxControl = global::WaterReminder.Android.Resource.Styleable.MvxControl;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxControl_MvxTemplate = global::WaterReminder.Android.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxExpandableListView = global::WaterReminder.Android.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::WaterReminder.Android.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxListView = global::WaterReminder.Android.Resource.Styleable.MvxListView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::WaterReminder.Android.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxListView_MvxItemTemplate = global::WaterReminder.Android.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxRecyclerView = global::WaterReminder.Android.Resource.Styleable.MvxRecyclerView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.MvxRecyclerView_MvxTemplateSelector = global::WaterReminder.Android.Resource.Styleable.MvxRecyclerView_MvxTemplateSelector;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView = global::WaterReminder.Android.Resource.Styleable.NavigationView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_android_background = global::WaterReminder.Android.Resource.Styleable.NavigationView_android_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::WaterReminder.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_android_maxWidth = global::WaterReminder.Android.Resource.Styleable.NavigationView_android_maxWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_elevation = global::WaterReminder.Android.Resource.Styleable.NavigationView_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_headerLayout = global::WaterReminder.Android.Resource.Styleable.NavigationView_headerLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_itemBackground = global::WaterReminder.Android.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_itemHorizontalPadding = global::WaterReminder.Android.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_itemIconPadding = global::WaterReminder.Android.Resource.Styleable.NavigationView_itemIconPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_itemIconTint = global::WaterReminder.Android.Resource.Styleable.NavigationView_itemIconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_itemTextAppearance = global::WaterReminder.Android.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_itemTextColor = global::WaterReminder.Android.Resource.Styleable.NavigationView_itemTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.NavigationView_menu = global::WaterReminder.Android.Resource.Styleable.NavigationView_menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PopupWindow = global::WaterReminder.Android.Resource.Styleable.PopupWindow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PopupWindowBackgroundState = global::WaterReminder.Android.Resource.Styleable.PopupWindowBackgroundState;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::WaterReminder.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::WaterReminder.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PopupWindow_android_popupBackground = global::WaterReminder.Android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PopupWindow_overlapAnchor = global::WaterReminder.Android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference = global::WaterReminder.Android.Resource.Styleable.Preference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragment = global::WaterReminder.Android.Resource.Styleable.PreferenceFragment;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragmentCompat = global::WaterReminder.Android.Resource.Styleable.PreferenceFragmentCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem = global::WaterReminder.Android.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragmentCompat_android_divider = global::WaterReminder.Android.Resource.Styleable.PreferenceFragmentCompat_android_divider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight = global::WaterReminder.Android.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragmentCompat_android_layout = global::WaterReminder.Android.Resource.Styleable.PreferenceFragmentCompat_android_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem = global::WaterReminder.Android.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragment_android_divider = global::WaterReminder.Android.Resource.Styleable.PreferenceFragment_android_divider;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragment_android_dividerHeight = global::WaterReminder.Android.Resource.Styleable.PreferenceFragment_android_dividerHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceFragment_android_layout = global::WaterReminder.Android.Resource.Styleable.PreferenceFragment_android_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceGroup = global::WaterReminder.Android.Resource.Styleable.PreferenceGroup;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceGroup_android_orderingFromXml = global::WaterReminder.Android.Resource.Styleable.PreferenceGroup_android_orderingFromXml;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount = global::WaterReminder.Android.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceGroup_orderingFromXml = global::WaterReminder.Android.Resource.Styleable.PreferenceGroup_orderingFromXml;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceImageView = global::WaterReminder.Android.Resource.Styleable.PreferenceImageView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceImageView_android_maxHeight = global::WaterReminder.Android.Resource.Styleable.PreferenceImageView_android_maxHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceImageView_android_maxWidth = global::WaterReminder.Android.Resource.Styleable.PreferenceImageView_android_maxWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceImageView_maxHeight = global::WaterReminder.Android.Resource.Styleable.PreferenceImageView_maxHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceImageView_maxWidth = global::WaterReminder.Android.Resource.Styleable.PreferenceImageView_maxWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_preferenceInformationStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_preferenceInformationStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_preferenceScreenStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_preferenceScreenStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_preferenceStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_preferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_preferenceTheme = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_preferenceTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.PreferenceTheme_switchPreferenceStyle = global::WaterReminder.Android.Resource.Styleable.PreferenceTheme_switchPreferenceStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_allowDividerAbove = global::WaterReminder.Android.Resource.Styleable.Preference_allowDividerAbove;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_allowDividerBelow = global::WaterReminder.Android.Resource.Styleable.Preference_allowDividerBelow;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_defaultValue = global::WaterReminder.Android.Resource.Styleable.Preference_android_defaultValue;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_dependency = global::WaterReminder.Android.Resource.Styleable.Preference_android_dependency;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_enabled = global::WaterReminder.Android.Resource.Styleable.Preference_android_enabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_fragment = global::WaterReminder.Android.Resource.Styleable.Preference_android_fragment;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_icon = global::WaterReminder.Android.Resource.Styleable.Preference_android_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_iconSpaceReserved = global::WaterReminder.Android.Resource.Styleable.Preference_android_iconSpaceReserved;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_key = global::WaterReminder.Android.Resource.Styleable.Preference_android_key;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_layout = global::WaterReminder.Android.Resource.Styleable.Preference_android_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_order = global::WaterReminder.Android.Resource.Styleable.Preference_android_order;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_persistent = global::WaterReminder.Android.Resource.Styleable.Preference_android_persistent;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_selectable = global::WaterReminder.Android.Resource.Styleable.Preference_android_selectable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_shouldDisableView = global::WaterReminder.Android.Resource.Styleable.Preference_android_shouldDisableView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_singleLineTitle = global::WaterReminder.Android.Resource.Styleable.Preference_android_singleLineTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_summary = global::WaterReminder.Android.Resource.Styleable.Preference_android_summary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_title = global::WaterReminder.Android.Resource.Styleable.Preference_android_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_android_widgetLayout = global::WaterReminder.Android.Resource.Styleable.Preference_android_widgetLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_defaultValue = global::WaterReminder.Android.Resource.Styleable.Preference_defaultValue;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_dependency = global::WaterReminder.Android.Resource.Styleable.Preference_dependency;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_enableCopying = global::WaterReminder.Android.Resource.Styleable.Preference_enableCopying;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_enabled = global::WaterReminder.Android.Resource.Styleable.Preference_enabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_fragment = global::WaterReminder.Android.Resource.Styleable.Preference_fragment;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_icon = global::WaterReminder.Android.Resource.Styleable.Preference_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_iconSpaceReserved = global::WaterReminder.Android.Resource.Styleable.Preference_iconSpaceReserved;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_isPreferenceVisible = global::WaterReminder.Android.Resource.Styleable.Preference_isPreferenceVisible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_key = global::WaterReminder.Android.Resource.Styleable.Preference_key;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_layout = global::WaterReminder.Android.Resource.Styleable.Preference_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_order = global::WaterReminder.Android.Resource.Styleable.Preference_order;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_persistent = global::WaterReminder.Android.Resource.Styleable.Preference_persistent;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_selectable = global::WaterReminder.Android.Resource.Styleable.Preference_selectable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_shouldDisableView = global::WaterReminder.Android.Resource.Styleable.Preference_shouldDisableView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_singleLineTitle = global::WaterReminder.Android.Resource.Styleable.Preference_singleLineTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_summary = global::WaterReminder.Android.Resource.Styleable.Preference_summary;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_title = global::WaterReminder.Android.Resource.Styleable.Preference_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Preference_widgetLayout = global::WaterReminder.Android.Resource.Styleable.Preference_widgetLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecycleListView = global::WaterReminder.Android.Resource.Styleable.RecycleListView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::WaterReminder.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::WaterReminder.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView = global::WaterReminder.Android.Resource.Styleable.RecyclerView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_android_clipToPadding = global::WaterReminder.Android.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_android_descendantFocusability = global::WaterReminder.Android.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_android_orientation = global::WaterReminder.Android.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_fastScrollEnabled = global::WaterReminder.Android.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::WaterReminder.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::WaterReminder.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::WaterReminder.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::WaterReminder.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_layoutManager = global::WaterReminder.Android.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_reverseLayout = global::WaterReminder.Android.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_spanCount = global::WaterReminder.Android.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.RecyclerView_stackFromEnd = global::WaterReminder.Android.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ScrimInsetsFrameLayout = global::WaterReminder.Android.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::WaterReminder.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ScrollingViewBehavior_Layout = global::WaterReminder.Android.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::WaterReminder.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView = global::WaterReminder.Android.Resource.Styleable.SearchView;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_android_focusable = global::WaterReminder.Android.Resource.Styleable.SearchView_android_focusable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_android_imeOptions = global::WaterReminder.Android.Resource.Styleable.SearchView_android_imeOptions;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_android_inputType = global::WaterReminder.Android.Resource.Styleable.SearchView_android_inputType;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_android_maxWidth = global::WaterReminder.Android.Resource.Styleable.SearchView_android_maxWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_closeIcon = global::WaterReminder.Android.Resource.Styleable.SearchView_closeIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_commitIcon = global::WaterReminder.Android.Resource.Styleable.SearchView_commitIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_defaultQueryHint = global::WaterReminder.Android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_goIcon = global::WaterReminder.Android.Resource.Styleable.SearchView_goIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_iconifiedByDefault = global::WaterReminder.Android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_layout = global::WaterReminder.Android.Resource.Styleable.SearchView_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_queryBackground = global::WaterReminder.Android.Resource.Styleable.SearchView_queryBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_queryHint = global::WaterReminder.Android.Resource.Styleable.SearchView_queryHint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_searchHintIcon = global::WaterReminder.Android.Resource.Styleable.SearchView_searchHintIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_searchIcon = global::WaterReminder.Android.Resource.Styleable.SearchView_searchIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_submitBackground = global::WaterReminder.Android.Resource.Styleable.SearchView_submitBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_suggestionRowLayout = global::WaterReminder.Android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SearchView_voiceIcon = global::WaterReminder.Android.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SeekBarPreference = global::WaterReminder.Android.Resource.Styleable.SeekBarPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SeekBarPreference_adjustable = global::WaterReminder.Android.Resource.Styleable.SeekBarPreference_adjustable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SeekBarPreference_android_layout = global::WaterReminder.Android.Resource.Styleable.SeekBarPreference_android_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SeekBarPreference_android_max = global::WaterReminder.Android.Resource.Styleable.SeekBarPreference_android_max;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SeekBarPreference_min = global::WaterReminder.Android.Resource.Styleable.SeekBarPreference_min;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SeekBarPreference_seekBarIncrement = global::WaterReminder.Android.Resource.Styleable.SeekBarPreference_seekBarIncrement;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SeekBarPreference_showSeekBarValue = global::WaterReminder.Android.Resource.Styleable.SeekBarPreference_showSeekBarValue;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SeekBarPreference_updatesContinuously = global::WaterReminder.Android.Resource.Styleable.SeekBarPreference_updatesContinuously;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Snackbar = global::WaterReminder.Android.Resource.Styleable.Snackbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SnackbarLayout = global::WaterReminder.Android.Resource.Styleable.SnackbarLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SnackbarLayout_android_maxWidth = global::WaterReminder.Android.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SnackbarLayout_elevation = global::WaterReminder.Android.Resource.Styleable.SnackbarLayout_elevation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::WaterReminder.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Snackbar_snackbarButtonStyle = global::WaterReminder.Android.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Snackbar_snackbarStyle = global::WaterReminder.Android.Resource.Styleable.Snackbar_snackbarStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Spinner = global::WaterReminder.Android.Resource.Styleable.Spinner;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Spinner_android_dropDownWidth = global::WaterReminder.Android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Spinner_android_entries = global::WaterReminder.Android.Resource.Styleable.Spinner_android_entries;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Spinner_android_popupBackground = global::WaterReminder.Android.Resource.Styleable.Spinner_android_popupBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Spinner_android_prompt = global::WaterReminder.Android.Resource.Styleable.Spinner_android_prompt;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Spinner_popupTheme = global::WaterReminder.Android.Resource.Styleable.Spinner_popupTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.StateListDrawable = global::WaterReminder.Android.Resource.Styleable.StateListDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.StateListDrawableItem = global::WaterReminder.Android.Resource.Styleable.StateListDrawableItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.StateListDrawableItem_android_drawable = global::WaterReminder.Android.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.StateListDrawable_android_constantSize = global::WaterReminder.Android.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.StateListDrawable_android_dither = global::WaterReminder.Android.Resource.Styleable.StateListDrawable_android_dither;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::WaterReminder.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::WaterReminder.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.StateListDrawable_android_variablePadding = global::WaterReminder.Android.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.StateListDrawable_android_visible = global::WaterReminder.Android.Resource.Styleable.StateListDrawable_android_visible;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat = global::WaterReminder.Android.Resource.Styleable.SwitchCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_android_textOff = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_android_textOn = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_android_thumb = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_showText = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_showText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_splitTrack = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_switchMinWidth = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_switchPadding = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_switchTextAppearance = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_thumbTextPadding = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_thumbTint = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_thumbTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_thumbTintMode = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_track = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_track;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_trackTint = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_trackTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchCompat_trackTintMode = global::WaterReminder.Android.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference = global::WaterReminder.Android.Resource.Styleable.SwitchPreference;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_summaryOff = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_summaryOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_summaryOn = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_summaryOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_switchTextOff = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_switchTextOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreferenceCompat_switchTextOn = global::WaterReminder.Android.Resource.Styleable.SwitchPreferenceCompat_switchTextOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_android_disableDependentsState = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_android_disableDependentsState;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_android_summaryOff = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_android_summaryOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_android_summaryOn = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_android_summaryOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_android_switchTextOff = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_android_switchTextOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_android_switchTextOn = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_android_switchTextOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_disableDependentsState = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_disableDependentsState;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_summaryOff = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_summaryOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_summaryOn = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_summaryOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_switchTextOff = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_switchTextOff;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.SwitchPreference_switchTextOn = global::WaterReminder.Android.Resource.Styleable.SwitchPreference_switchTextOn;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabItem = global::WaterReminder.Android.Resource.Styleable.TabItem;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabItem_android_icon = global::WaterReminder.Android.Resource.Styleable.TabItem_android_icon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabItem_android_layout = global::WaterReminder.Android.Resource.Styleable.TabItem_android_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabItem_android_text = global::WaterReminder.Android.Resource.Styleable.TabItem_android_text;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout = global::WaterReminder.Android.Resource.Styleable.TabLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabBackground = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabBackground;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabContentStart = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabContentStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabGravity = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabIconTint = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabIconTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabIconTintMode = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabIndicator = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabIndicator;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabIndicatorColor = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabIndicatorGravity = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabIndicatorHeight = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabInlineLabel = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabMaxWidth = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabMinWidth = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabMinWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabMode = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabPadding = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabPadding;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabPaddingBottom = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabPaddingEnd = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabPaddingStart = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabPaddingTop = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabRippleColor = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabRippleColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabSelectedTextColor = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabTextAppearance = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabTextColor = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TabLayout_tabUnboundedRipple = global::WaterReminder.Android.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance = global::WaterReminder.Android.Resource.Styleable.TextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_fontFamily = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_shadowColor = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_shadowDx = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_shadowDy = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_shadowRadius = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_textColor = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_textColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_textColorHint = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_textColorLink = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_textFontWeight = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_textSize = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_textSize;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_textStyle = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_android_typeface = global::WaterReminder.Android.Resource.Styleable.TextAppearance_android_typeface;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_fontFamily = global::WaterReminder.Android.Resource.Styleable.TextAppearance_fontFamily;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_fontVariationSettings = global::WaterReminder.Android.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_textAllCaps = global::WaterReminder.Android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextAppearance_textLocale = global::WaterReminder.Android.Resource.Styleable.TextAppearance_textLocale;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout = global::WaterReminder.Android.Resource.Styleable.TextInputLayout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_android_hint = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_android_hint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_android_textColorHint = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_boxStrokeColor = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_counterEnabled = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_counterMaxLength = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_counterTextAppearance = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_errorEnabled = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_errorTextAppearance = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_helperText = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_helperText;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_helperTextEnabled = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_hintEnabled = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_hintTextAppearance = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_passwordToggleTint = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::WaterReminder.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ThemeEnforcement = global::WaterReminder.Android.Resource.Styleable.ThemeEnforcement;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::WaterReminder.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::WaterReminder.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::WaterReminder.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar = global::WaterReminder.Android.Resource.Styleable.Toolbar;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_android_gravity = global::WaterReminder.Android.Resource.Styleable.Toolbar_android_gravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_android_minHeight = global::WaterReminder.Android.Resource.Styleable.Toolbar_android_minHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_buttonGravity = global::WaterReminder.Android.Resource.Styleable.Toolbar_buttonGravity;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_collapseContentDescription = global::WaterReminder.Android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_collapseIcon = global::WaterReminder.Android.Resource.Styleable.Toolbar_collapseIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_contentInsetEnd = global::WaterReminder.Android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::WaterReminder.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_contentInsetLeft = global::WaterReminder.Android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_contentInsetRight = global::WaterReminder.Android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_contentInsetStart = global::WaterReminder.Android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::WaterReminder.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_logo = global::WaterReminder.Android.Resource.Styleable.Toolbar_logo;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_logoDescription = global::WaterReminder.Android.Resource.Styleable.Toolbar_logoDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_maxButtonHeight = global::WaterReminder.Android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_menu = global::WaterReminder.Android.Resource.Styleable.Toolbar_menu;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_navigationContentDescription = global::WaterReminder.Android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_navigationIcon = global::WaterReminder.Android.Resource.Styleable.Toolbar_navigationIcon;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_popupTheme = global::WaterReminder.Android.Resource.Styleable.Toolbar_popupTheme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_subtitle = global::WaterReminder.Android.Resource.Styleable.Toolbar_subtitle;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_subtitleTextAppearance = global::WaterReminder.Android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_subtitleTextColor = global::WaterReminder.Android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_title = global::WaterReminder.Android.Resource.Styleable.Toolbar_title;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_titleMargin = global::WaterReminder.Android.Resource.Styleable.Toolbar_titleMargin;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_titleMarginBottom = global::WaterReminder.Android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_titleMarginEnd = global::WaterReminder.Android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_titleMargins = global::WaterReminder.Android.Resource.Styleable.Toolbar_titleMargins;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_titleMarginStart = global::WaterReminder.Android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_titleMarginTop = global::WaterReminder.Android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_titleTextAppearance = global::WaterReminder.Android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.Toolbar_titleTextColor = global::WaterReminder.Android.Resource.Styleable.Toolbar_titleTextColor;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.View = global::WaterReminder.Android.Resource.Styleable.View;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ViewBackgroundHelper = global::WaterReminder.Android.Resource.Styleable.ViewBackgroundHelper;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ViewBackgroundHelper_android_background = global::WaterReminder.Android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::WaterReminder.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::WaterReminder.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ViewStubCompat = global::WaterReminder.Android.Resource.Styleable.ViewStubCompat;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ViewStubCompat_android_id = global::WaterReminder.Android.Resource.Styleable.ViewStubCompat_android_id;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ViewStubCompat_android_inflatedId = global::WaterReminder.Android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.ViewStubCompat_android_layout = global::WaterReminder.Android.Resource.Styleable.ViewStubCompat_android_layout;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.View_android_focusable = global::WaterReminder.Android.Resource.Styleable.View_android_focusable;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.View_android_theme = global::WaterReminder.Android.Resource.Styleable.View_android_theme;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.View_paddingEnd = global::WaterReminder.Android.Resource.Styleable.View_paddingEnd;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.View_paddingStart = global::WaterReminder.Android.Resource.Styleable.View_paddingStart;
+			global::MvvmCross.DroidX.RecyclerView.Resource.Styleable.View_theme = global::WaterReminder.Android.Resource.Styleable.View_theme;
 			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_fade_in = global::WaterReminder.Android.Resource.Animation.abc_fade_in;
 			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_fade_out = global::WaterReminder.Android.Resource.Animation.abc_fade_out;
 			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_grow_fade_in_from_bottom = global::WaterReminder.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -8875,1067 +11795,1067 @@ namespace WaterReminder.Android
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7F030006
-			public const int actionBarDivider = 2130903046;
-			
 			// aapt resource value: 0x7F030007
-			public const int actionBarItemBackground = 2130903047;
+			public const int actionBarDivider = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int actionBarPopupTheme = 2130903048;
+			public const int actionBarItemBackground = 2130903048;
 			
 			// aapt resource value: 0x7F030009
-			public const int actionBarSize = 2130903049;
+			public const int actionBarPopupTheme = 2130903049;
 			
 			// aapt resource value: 0x7F03000A
-			public const int actionBarSplitStyle = 2130903050;
+			public const int actionBarSize = 2130903050;
 			
 			// aapt resource value: 0x7F03000B
-			public const int actionBarStyle = 2130903051;
+			public const int actionBarSplitStyle = 2130903051;
 			
 			// aapt resource value: 0x7F03000C
-			public const int actionBarTabBarStyle = 2130903052;
+			public const int actionBarStyle = 2130903052;
 			
 			// aapt resource value: 0x7F03000D
-			public const int actionBarTabStyle = 2130903053;
+			public const int actionBarTabBarStyle = 2130903053;
 			
 			// aapt resource value: 0x7F03000E
-			public const int actionBarTabTextStyle = 2130903054;
+			public const int actionBarTabStyle = 2130903054;
 			
 			// aapt resource value: 0x7F03000F
-			public const int actionBarTheme = 2130903055;
+			public const int actionBarTabTextStyle = 2130903055;
 			
 			// aapt resource value: 0x7F030010
-			public const int actionBarWidgetTheme = 2130903056;
+			public const int actionBarTheme = 2130903056;
 			
 			// aapt resource value: 0x7F030011
-			public const int actionButtonStyle = 2130903057;
+			public const int actionBarWidgetTheme = 2130903057;
 			
 			// aapt resource value: 0x7F030012
-			public const int actionDropDownStyle = 2130903058;
+			public const int actionButtonStyle = 2130903058;
 			
 			// aapt resource value: 0x7F030013
-			public const int actionLayout = 2130903059;
+			public const int actionDropDownStyle = 2130903059;
 			
 			// aapt resource value: 0x7F030014
-			public const int actionMenuTextAppearance = 2130903060;
+			public const int actionLayout = 2130903060;
 			
 			// aapt resource value: 0x7F030015
-			public const int actionMenuTextColor = 2130903061;
+			public const int actionMenuTextAppearance = 2130903061;
 			
 			// aapt resource value: 0x7F030016
-			public const int actionModeBackground = 2130903062;
+			public const int actionMenuTextColor = 2130903062;
 			
 			// aapt resource value: 0x7F030017
-			public const int actionModeCloseButtonStyle = 2130903063;
+			public const int actionModeBackground = 2130903063;
 			
 			// aapt resource value: 0x7F030018
-			public const int actionModeCloseDrawable = 2130903064;
+			public const int actionModeCloseButtonStyle = 2130903064;
 			
 			// aapt resource value: 0x7F030019
-			public const int actionModeCopyDrawable = 2130903065;
+			public const int actionModeCloseDrawable = 2130903065;
 			
 			// aapt resource value: 0x7F03001A
-			public const int actionModeCutDrawable = 2130903066;
+			public const int actionModeCopyDrawable = 2130903066;
 			
 			// aapt resource value: 0x7F03001B
-			public const int actionModeFindDrawable = 2130903067;
+			public const int actionModeCutDrawable = 2130903067;
 			
 			// aapt resource value: 0x7F03001C
-			public const int actionModePasteDrawable = 2130903068;
+			public const int actionModeFindDrawable = 2130903068;
 			
 			// aapt resource value: 0x7F03001D
-			public const int actionModePopupWindowStyle = 2130903069;
+			public const int actionModePasteDrawable = 2130903069;
 			
 			// aapt resource value: 0x7F03001E
-			public const int actionModeSelectAllDrawable = 2130903070;
+			public const int actionModePopupWindowStyle = 2130903070;
 			
 			// aapt resource value: 0x7F03001F
-			public const int actionModeShareDrawable = 2130903071;
+			public const int actionModeSelectAllDrawable = 2130903071;
 			
 			// aapt resource value: 0x7F030020
-			public const int actionModeSplitBackground = 2130903072;
+			public const int actionModeShareDrawable = 2130903072;
 			
 			// aapt resource value: 0x7F030021
-			public const int actionModeStyle = 2130903073;
+			public const int actionModeSplitBackground = 2130903073;
 			
 			// aapt resource value: 0x7F030022
-			public const int actionModeWebSearchDrawable = 2130903074;
+			public const int actionModeStyle = 2130903074;
 			
 			// aapt resource value: 0x7F030023
-			public const int actionOverflowButtonStyle = 2130903075;
+			public const int actionModeWebSearchDrawable = 2130903075;
 			
 			// aapt resource value: 0x7F030024
-			public const int actionOverflowMenuStyle = 2130903076;
+			public const int actionOverflowButtonStyle = 2130903076;
 			
 			// aapt resource value: 0x7F030025
-			public const int actionProviderClass = 2130903077;
+			public const int actionOverflowMenuStyle = 2130903077;
 			
 			// aapt resource value: 0x7F030026
-			public const int actionViewClass = 2130903078;
+			public const int actionProviderClass = 2130903078;
 			
 			// aapt resource value: 0x7F030027
-			public const int activityChooserViewStyle = 2130903079;
+			public const int actionViewClass = 2130903079;
 			
 			// aapt resource value: 0x7F030028
-			public const int adjustable = 2130903080;
+			public const int activityChooserViewStyle = 2130903080;
 			
 			// aapt resource value: 0x7F030029
-			public const int ahBarColor = 2130903081;
+			public const int adjustable = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int ahBarLength = 2130903082;
+			public const int ahBarColor = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int ahBarWidth = 2130903083;
+			public const int ahBarLength = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int ahCircleColor = 2130903084;
+			public const int ahBarWidth = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int ahDelayMillis = 2130903085;
+			public const int ahCircleColor = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int ahRadius = 2130903086;
+			public const int ahDelayMillis = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int ahRimColor = 2130903087;
+			public const int ahRadius = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int ahRimWidth = 2130903088;
+			public const int ahRimColor = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int ahSpinSpeed = 2130903089;
+			public const int ahRimWidth = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int ahText = 2130903090;
+			public const int ahSpinSpeed = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int ahTextColor = 2130903091;
+			public const int ahText = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int ahTextSize = 2130903092;
+			public const int ahTextColor = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int alertDialogButtonGroupStyle = 2130903093;
+			public const int ahTextSize = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int alertDialogCenterButtons = 2130903094;
+			public const int alertDialogButtonGroupStyle = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int alertDialogStyle = 2130903095;
+			public const int alertDialogCenterButtons = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int alertDialogTheme = 2130903096;
+			public const int alertDialogStyle = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int allowDividerAbove = 2130903097;
+			public const int alertDialogTheme = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int allowDividerAfterLastItem = 2130903098;
+			public const int allowDividerAbove = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int allowDividerBelow = 2130903099;
+			public const int allowDividerAfterLastItem = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int allowStacking = 2130903100;
+			public const int allowDividerBelow = 2130903100;
 			
 			// aapt resource value: 0x7F03003D
-			public const int alpha = 2130903101;
+			public const int allowStacking = 2130903101;
 			
 			// aapt resource value: 0x7F03003E
-			public const int alphabeticModifiers = 2130903102;
+			public const int alpha = 2130903102;
 			
 			// aapt resource value: 0x7F03003F
-			public const int arrowHeadLength = 2130903103;
+			public const int alphabeticModifiers = 2130903103;
 			
 			// aapt resource value: 0x7F030040
-			public const int arrowShaftLength = 2130903104;
+			public const int arrowHeadLength = 2130903104;
 			
 			// aapt resource value: 0x7F030041
-			public const int autoCompleteTextViewStyle = 2130903105;
+			public const int arrowShaftLength = 2130903105;
 			
 			// aapt resource value: 0x7F030042
-			public const int autoSizeMaxTextSize = 2130903106;
+			public const int autoCompleteTextViewStyle = 2130903106;
 			
 			// aapt resource value: 0x7F030043
-			public const int autoSizeMinTextSize = 2130903107;
+			public const int autoSizeMaxTextSize = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int autoSizePresetSizes = 2130903108;
+			public const int autoSizeMinTextSize = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int autoSizeStepGranularity = 2130903109;
+			public const int autoSizePresetSizes = 2130903109;
 			
 			// aapt resource value: 0x7F030046
-			public const int autoSizeTextType = 2130903110;
+			public const int autoSizeStepGranularity = 2130903110;
 			
 			// aapt resource value: 0x7F030047
-			public const int background = 2130903111;
+			public const int autoSizeTextType = 2130903111;
 			
 			// aapt resource value: 0x7F030048
-			public const int backgroundSplit = 2130903112;
+			public const int background = 2130903112;
 			
 			// aapt resource value: 0x7F030049
-			public const int backgroundStacked = 2130903113;
+			public const int backgroundSplit = 2130903113;
 			
 			// aapt resource value: 0x7F03004A
-			public const int backgroundTint = 2130903114;
+			public const int backgroundStacked = 2130903114;
 			
 			// aapt resource value: 0x7F03004B
-			public const int backgroundTintMode = 2130903115;
+			public const int backgroundTint = 2130903115;
 			
 			// aapt resource value: 0x7F03004C
-			public const int barLength = 2130903116;
+			public const int backgroundTintMode = 2130903116;
 			
 			// aapt resource value: 0x7F03004D
-			public const int behavior_autoHide = 2130903117;
+			public const int barLength = 2130903117;
 			
 			// aapt resource value: 0x7F03004E
-			public const int behavior_fitToContents = 2130903118;
+			public const int behavior_autoHide = 2130903118;
 			
 			// aapt resource value: 0x7F03004F
-			public const int behavior_hideable = 2130903119;
+			public const int behavior_fitToContents = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int behavior_overlapTop = 2130903120;
+			public const int behavior_hideable = 2130903120;
 			
 			// aapt resource value: 0x7F030051
-			public const int behavior_peekHeight = 2130903121;
+			public const int behavior_overlapTop = 2130903121;
 			
 			// aapt resource value: 0x7F030052
-			public const int behavior_skipCollapsed = 2130903122;
-			
-			// aapt resource value: 0x7F030054
-			public const int borderlessButtonStyle = 2130903124;
+			public const int behavior_peekHeight = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int borderWidth = 2130903123;
+			public const int behavior_skipCollapsed = 2130903123;
 			
 			// aapt resource value: 0x7F030055
-			public const int bottomAppBarStyle = 2130903125;
+			public const int borderlessButtonStyle = 2130903125;
+			
+			// aapt resource value: 0x7F030054
+			public const int borderWidth = 2130903124;
 			
 			// aapt resource value: 0x7F030056
-			public const int bottomNavigationStyle = 2130903126;
+			public const int bottomAppBarStyle = 2130903126;
 			
 			// aapt resource value: 0x7F030057
-			public const int bottomSheetDialogTheme = 2130903127;
+			public const int bottomNavigationStyle = 2130903127;
 			
 			// aapt resource value: 0x7F030058
-			public const int bottomSheetStyle = 2130903128;
+			public const int bottomSheetDialogTheme = 2130903128;
 			
 			// aapt resource value: 0x7F030059
-			public const int boxBackgroundColor = 2130903129;
+			public const int bottomSheetStyle = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int boxBackgroundMode = 2130903130;
+			public const int boxBackgroundColor = 2130903130;
 			
 			// aapt resource value: 0x7F03005B
-			public const int boxCollapsedPaddingTop = 2130903131;
+			public const int boxBackgroundMode = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int boxCornerRadiusBottomEnd = 2130903132;
+			public const int boxCollapsedPaddingTop = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int boxCornerRadiusBottomStart = 2130903133;
+			public const int boxCornerRadiusBottomEnd = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int boxCornerRadiusTopEnd = 2130903134;
+			public const int boxCornerRadiusBottomStart = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int boxCornerRadiusTopStart = 2130903135;
+			public const int boxCornerRadiusTopEnd = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int boxStrokeColor = 2130903136;
+			public const int boxCornerRadiusTopStart = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int boxStrokeWidth = 2130903137;
+			public const int boxStrokeColor = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int buttonBarButtonStyle = 2130903138;
+			public const int boxStrokeWidth = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int buttonBarNegativeButtonStyle = 2130903139;
+			public const int buttonBarButtonStyle = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int buttonBarNeutralButtonStyle = 2130903140;
+			public const int buttonBarNegativeButtonStyle = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int buttonBarPositiveButtonStyle = 2130903141;
+			public const int buttonBarNeutralButtonStyle = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int buttonBarStyle = 2130903142;
+			public const int buttonBarPositiveButtonStyle = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int buttonCompat = 2130903143;
+			public const int buttonBarStyle = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int buttonGravity = 2130903144;
+			public const int buttonCompat = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int buttonIconDimen = 2130903145;
+			public const int buttonGravity = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int buttonPanelSideLayout = 2130903146;
+			public const int buttonIconDimen = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int buttonStyle = 2130903147;
+			public const int buttonPanelSideLayout = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int buttonStyleSmall = 2130903148;
+			public const int buttonStyle = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int buttonTint = 2130903149;
+			public const int buttonStyleSmall = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int buttonTintMode = 2130903150;
+			public const int buttonTint = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int cardBackgroundColor = 2130903151;
+			public const int buttonTintMode = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int cardCornerRadius = 2130903152;
+			public const int cardBackgroundColor = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int cardElevation = 2130903153;
+			public const int cardCornerRadius = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int cardMaxElevation = 2130903154;
+			public const int cardElevation = 2130903154;
 			
 			// aapt resource value: 0x7F030073
-			public const int cardPreventCornerOverlap = 2130903155;
+			public const int cardMaxElevation = 2130903155;
 			
 			// aapt resource value: 0x7F030074
-			public const int cardUseCompatPadding = 2130903156;
+			public const int cardPreventCornerOverlap = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int cardViewStyle = 2130903157;
+			public const int cardUseCompatPadding = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int checkBoxPreferenceStyle = 2130903158;
+			public const int cardViewStyle = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int checkboxStyle = 2130903159;
+			public const int checkBoxPreferenceStyle = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int checkedChip = 2130903160;
+			public const int checkboxStyle = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int checkedIcon = 2130903161;
+			public const int checkedChip = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int checkedIconEnabled = 2130903162;
+			public const int checkedIcon = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int checkedIconVisible = 2130903163;
+			public const int checkedIconEnabled = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int checkedTextViewStyle = 2130903164;
+			public const int checkedIconVisible = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int chipBackgroundColor = 2130903165;
+			public const int checkedTextViewStyle = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int chipCornerRadius = 2130903166;
+			public const int chipBackgroundColor = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int chipEndPadding = 2130903167;
+			public const int chipCornerRadius = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int chipGroupStyle = 2130903168;
+			public const int chipEndPadding = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int chipIcon = 2130903169;
+			public const int chipGroupStyle = 2130903169;
 			
 			// aapt resource value: 0x7F030082
-			public const int chipIconEnabled = 2130903170;
+			public const int chipIcon = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int chipIconSize = 2130903171;
+			public const int chipIconEnabled = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int chipIconTint = 2130903172;
+			public const int chipIconSize = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int chipIconVisible = 2130903173;
+			public const int chipIconTint = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int chipMinHeight = 2130903174;
+			public const int chipIconVisible = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int chipSpacing = 2130903175;
+			public const int chipMinHeight = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int chipSpacingHorizontal = 2130903176;
+			public const int chipSpacing = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int chipSpacingVertical = 2130903177;
+			public const int chipSpacingHorizontal = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int chipStandaloneStyle = 2130903178;
+			public const int chipSpacingVertical = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int chipStartPadding = 2130903179;
+			public const int chipStandaloneStyle = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int chipStrokeColor = 2130903180;
+			public const int chipStartPadding = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int chipStrokeWidth = 2130903181;
+			public const int chipStrokeColor = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int chipStyle = 2130903182;
+			public const int chipStrokeWidth = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int closeIcon = 2130903183;
+			public const int chipStyle = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int closeIconEnabled = 2130903184;
+			public const int closeIcon = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int closeIconEndPadding = 2130903185;
+			public const int closeIconEnabled = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int closeIconSize = 2130903186;
+			public const int closeIconEndPadding = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int closeIconStartPadding = 2130903187;
+			public const int closeIconSize = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int closeIconTint = 2130903188;
+			public const int closeIconStartPadding = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int closeIconVisible = 2130903189;
+			public const int closeIconTint = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int closeItemLayout = 2130903190;
+			public const int closeIconVisible = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int collapseContentDescription = 2130903191;
-			
-			// aapt resource value: 0x7F030099
-			public const int collapsedTitleGravity = 2130903193;
-			
-			// aapt resource value: 0x7F03009A
-			public const int collapsedTitleTextAppearance = 2130903194;
+			public const int closeItemLayout = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int collapseIcon = 2130903192;
+			public const int collapseContentDescription = 2130903192;
+			
+			// aapt resource value: 0x7F03009A
+			public const int collapsedTitleGravity = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int color = 2130903195;
+			public const int collapsedTitleTextAppearance = 2130903195;
+			
+			// aapt resource value: 0x7F030099
+			public const int collapseIcon = 2130903193;
 			
 			// aapt resource value: 0x7F03009C
-			public const int colorAccent = 2130903196;
+			public const int color = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int colorBackgroundFloating = 2130903197;
+			public const int colorAccent = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int colorButtonNormal = 2130903198;
+			public const int colorBackgroundFloating = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int colorControlActivated = 2130903199;
+			public const int colorButtonNormal = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int colorControlHighlight = 2130903200;
+			public const int colorControlActivated = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int colorControlNormal = 2130903201;
+			public const int colorControlHighlight = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int colorError = 2130903202;
+			public const int colorControlNormal = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int colorPrimary = 2130903203;
+			public const int colorError = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int colorPrimaryDark = 2130903204;
+			public const int colorPrimary = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int colorSecondary = 2130903205;
+			public const int colorPrimaryDark = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int colorSwitchThumbNormal = 2130903206;
+			public const int colorSecondary = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int commitIcon = 2130903207;
+			public const int colorSwitchThumbNormal = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int contentDescription = 2130903208;
+			public const int commitIcon = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int contentInsetEnd = 2130903209;
+			public const int contentDescription = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int contentInsetEndWithActions = 2130903210;
+			public const int contentInsetEnd = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int contentInsetLeft = 2130903211;
+			public const int contentInsetEndWithActions = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int contentInsetRight = 2130903212;
+			public const int contentInsetLeft = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int contentInsetStart = 2130903213;
+			public const int contentInsetRight = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int contentInsetStartWithNavigation = 2130903214;
+			public const int contentInsetStart = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int contentPadding = 2130903215;
+			public const int contentInsetStartWithNavigation = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int contentPaddingBottom = 2130903216;
+			public const int contentPadding = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int contentPaddingLeft = 2130903217;
+			public const int contentPaddingBottom = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int contentPaddingRight = 2130903218;
+			public const int contentPaddingLeft = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int contentPaddingTop = 2130903219;
+			public const int contentPaddingRight = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int contentScrim = 2130903220;
+			public const int contentPaddingTop = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int controlBackground = 2130903221;
+			public const int contentScrim = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int coordinatorLayoutStyle = 2130903222;
+			public const int controlBackground = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int cornerRadius = 2130903223;
+			public const int coordinatorLayoutStyle = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int counterEnabled = 2130903224;
+			public const int cornerRadius = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int counterMaxLength = 2130903225;
+			public const int counterEnabled = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int counterOverflowTextAppearance = 2130903226;
+			public const int counterMaxLength = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int counterTextAppearance = 2130903227;
+			public const int counterOverflowTextAppearance = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int customNavigationLayout = 2130903228;
+			public const int counterTextAppearance = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int defaultQueryHint = 2130903229;
+			public const int customNavigationLayout = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int defaultValue = 2130903230;
+			public const int defaultQueryHint = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int dependency = 2130903231;
+			public const int defaultValue = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int dialogCornerRadius = 2130903232;
+			public const int dependency = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int dialogIcon = 2130903233;
+			public const int dialogCornerRadius = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int dialogLayout = 2130903234;
+			public const int dialogIcon = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int dialogMessage = 2130903235;
+			public const int dialogLayout = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int dialogPreferenceStyle = 2130903236;
+			public const int dialogMessage = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int dialogPreferredPadding = 2130903237;
+			public const int dialogPreferenceStyle = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int dialogTheme = 2130903238;
+			public const int dialogPreferredPadding = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int dialogTitle = 2130903239;
+			public const int dialogTheme = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int disableDependentsState = 2130903240;
+			public const int dialogTitle = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int displayOptions = 2130903241;
+			public const int disableDependentsState = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int divider = 2130903242;
+			public const int displayOptions = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int dividerHorizontal = 2130903243;
+			public const int divider = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int dividerPadding = 2130903244;
+			public const int dividerHorizontal = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int dividerVertical = 2130903245;
+			public const int dividerPadding = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int drawableBottomCompat = 2130903246;
+			public const int dividerVertical = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int drawableEndCompat = 2130903247;
+			public const int drawableBottomCompat = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int drawableLeftCompat = 2130903248;
+			public const int drawableEndCompat = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int drawableRightCompat = 2130903249;
+			public const int drawableLeftCompat = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int drawableSize = 2130903250;
+			public const int drawableRightCompat = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int drawableStartCompat = 2130903251;
+			public const int drawableSize = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int drawableTint = 2130903252;
+			public const int drawableStartCompat = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int drawableTintMode = 2130903253;
+			public const int drawableTint = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int drawableTopCompat = 2130903254;
+			public const int drawableTintMode = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int drawerArrowStyle = 2130903255;
-			
-			// aapt resource value: 0x7F0300D9
-			public const int dropdownListPreferredItemHeight = 2130903257;
+			public const int drawableTopCompat = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int dropDownListViewStyle = 2130903256;
+			public const int drawerArrowStyle = 2130903256;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int dropdownPreferenceStyle = 2130903258;
+			public const int dropdownListPreferredItemHeight = 2130903258;
+			
+			// aapt resource value: 0x7F0300D9
+			public const int dropDownListViewStyle = 2130903257;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int editTextBackground = 2130903259;
+			public const int dropdownPreferenceStyle = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int editTextColor = 2130903260;
+			public const int editTextBackground = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int editTextPreferenceStyle = 2130903261;
+			public const int editTextColor = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int editTextStyle = 2130903262;
+			public const int editTextPreferenceStyle = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int elevation = 2130903263;
+			public const int editTextStyle = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int enableCopying = 2130903264;
+			public const int elevation = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int enabled = 2130903265;
+			public const int enableCopying = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int enforceMaterialTheme = 2130903266;
+			public const int enabled = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int enforceTextAppearance = 2130903267;
+			public const int enforceMaterialTheme = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int entries = 2130903268;
+			public const int enforceTextAppearance = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int entryValues = 2130903269;
+			public const int entries = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int errorEnabled = 2130903270;
+			public const int entryValues = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int errorTextAppearance = 2130903271;
+			public const int errorEnabled = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int expandActivityOverflowButtonDrawable = 2130903272;
+			public const int errorTextAppearance = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int expanded = 2130903273;
+			public const int expandActivityOverflowButtonDrawable = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int expandedTitleGravity = 2130903274;
+			public const int expanded = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int expandedTitleMargin = 2130903275;
+			public const int expandedTitleGravity = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int expandedTitleMarginBottom = 2130903276;
+			public const int expandedTitleMargin = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int expandedTitleMarginEnd = 2130903277;
+			public const int expandedTitleMarginBottom = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int expandedTitleMarginStart = 2130903278;
+			public const int expandedTitleMarginEnd = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int expandedTitleMarginTop = 2130903279;
+			public const int expandedTitleMarginStart = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int expandedTitleTextAppearance = 2130903280;
+			public const int expandedTitleMarginTop = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int fabAlignmentMode = 2130903281;
+			public const int expandedTitleTextAppearance = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int fabCradleMargin = 2130903282;
+			public const int fabAlignmentMode = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int fabCradleRoundedCornerRadius = 2130903283;
+			public const int fabCradleMargin = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int fabCradleVerticalOffset = 2130903284;
+			public const int fabCradleRoundedCornerRadius = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int fabCustomSize = 2130903285;
+			public const int fabCradleVerticalOffset = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int fabSize = 2130903286;
+			public const int fabCustomSize = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int fastScrollEnabled = 2130903287;
+			public const int fabSize = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int fastScrollHorizontalThumbDrawable = 2130903288;
+			public const int fastScrollEnabled = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int fastScrollHorizontalTrackDrawable = 2130903289;
+			public const int fastScrollHorizontalThumbDrawable = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int fastScrollVerticalThumbDrawable = 2130903290;
+			public const int fastScrollHorizontalTrackDrawable = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int fastScrollVerticalTrackDrawable = 2130903291;
+			public const int fastScrollVerticalThumbDrawable = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int firstBaselineToTopHeight = 2130903292;
+			public const int fastScrollVerticalTrackDrawable = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int floatingActionButtonStyle = 2130903293;
+			public const int firstBaselineToTopHeight = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int font = 2130903294;
+			public const int floatingActionButtonStyle = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int fontFamily = 2130903295;
+			public const int font = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int fontProviderAuthority = 2130903296;
+			public const int fontFamily = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int fontProviderCerts = 2130903297;
+			public const int fontProviderAuthority = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int fontProviderFetchStrategy = 2130903298;
+			public const int fontProviderCerts = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int fontProviderFetchTimeout = 2130903299;
+			public const int fontProviderFetchStrategy = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int fontProviderPackage = 2130903300;
+			public const int fontProviderFetchTimeout = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int fontProviderQuery = 2130903301;
+			public const int fontProviderPackage = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int fontProviderSystemFontFamily = 2130903302;
+			public const int fontProviderQuery = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int fontStyle = 2130903303;
+			public const int fontProviderSystemFontFamily = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int fontVariationSettings = 2130903304;
+			public const int fontStyle = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int fontWeight = 2130903305;
+			public const int fontVariationSettings = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int foregroundInsidePadding = 2130903306;
+			public const int fontWeight = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int fragment = 2130903307;
+			public const int foregroundInsidePadding = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int gapBetweenBars = 2130903308;
+			public const int fragment = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int goIcon = 2130903309;
+			public const int gapBetweenBars = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int headerLayout = 2130903310;
+			public const int goIcon = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int height = 2130903311;
+			public const int headerLayout = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int helperText = 2130903312;
+			public const int height = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int helperTextEnabled = 2130903313;
+			public const int helperText = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int helperTextTextAppearance = 2130903314;
+			public const int helperTextEnabled = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int hideMotionSpec = 2130903315;
+			public const int helperTextTextAppearance = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int hideOnContentScroll = 2130903316;
+			public const int hideMotionSpec = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int hideOnScroll = 2130903317;
+			public const int hideOnContentScroll = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int hintAnimationEnabled = 2130903318;
+			public const int hideOnScroll = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int hintEnabled = 2130903319;
+			public const int hintAnimationEnabled = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int hintTextAppearance = 2130903320;
+			public const int hintEnabled = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int homeAsUpIndicator = 2130903321;
+			public const int hintTextAppearance = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int homeLayout = 2130903322;
+			public const int homeAsUpIndicator = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int hoveredFocusedTranslationZ = 2130903323;
+			public const int homeLayout = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int icon = 2130903324;
+			public const int hoveredFocusedTranslationZ = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int iconEndPadding = 2130903325;
+			public const int icon = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int iconGravity = 2130903326;
-			
-			// aapt resource value: 0x7F030125
-			public const int iconifiedByDefault = 2130903333;
+			public const int iconEndPadding = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int iconPadding = 2130903327;
-			
-			// aapt resource value: 0x7F030120
-			public const int iconSize = 2130903328;
-			
-			// aapt resource value: 0x7F030121
-			public const int iconSpaceReserved = 2130903329;
-			
-			// aapt resource value: 0x7F030122
-			public const int iconStartPadding = 2130903330;
-			
-			// aapt resource value: 0x7F030123
-			public const int iconTint = 2130903331;
-			
-			// aapt resource value: 0x7F030124
-			public const int iconTintMode = 2130903332;
+			public const int iconGravity = 2130903327;
 			
 			// aapt resource value: 0x7F030126
-			public const int imageButtonStyle = 2130903334;
+			public const int iconifiedByDefault = 2130903334;
+			
+			// aapt resource value: 0x7F030120
+			public const int iconPadding = 2130903328;
+			
+			// aapt resource value: 0x7F030121
+			public const int iconSize = 2130903329;
+			
+			// aapt resource value: 0x7F030122
+			public const int iconSpaceReserved = 2130903330;
+			
+			// aapt resource value: 0x7F030123
+			public const int iconStartPadding = 2130903331;
+			
+			// aapt resource value: 0x7F030124
+			public const int iconTint = 2130903332;
+			
+			// aapt resource value: 0x7F030125
+			public const int iconTintMode = 2130903333;
 			
 			// aapt resource value: 0x7F030127
-			public const int indeterminateProgressStyle = 2130903335;
+			public const int imageButtonStyle = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int initialActivityCount = 2130903336;
+			public const int indeterminateProgressStyle = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int initialExpandedChildrenCount = 2130903337;
+			public const int initialActivityCount = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int insetForeground = 2130903338;
+			public const int initialExpandedChildrenCount = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int isLightTheme = 2130903339;
+			public const int insetForeground = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int isPreferenceVisible = 2130903340;
+			public const int isLightTheme = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int itemBackground = 2130903341;
+			public const int isPreferenceVisible = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int itemHorizontalPadding = 2130903342;
+			public const int itemBackground = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int itemHorizontalTranslationEnabled = 2130903343;
+			public const int itemHorizontalPadding = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int itemIconPadding = 2130903344;
+			public const int itemHorizontalTranslationEnabled = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int itemIconSize = 2130903345;
+			public const int itemIconPadding = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int itemIconTint = 2130903346;
+			public const int itemIconSize = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int itemPadding = 2130903347;
+			public const int itemIconTint = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int itemSpacing = 2130903348;
+			public const int itemPadding = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int itemTextAppearance = 2130903349;
+			public const int itemSpacing = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int itemTextAppearanceActive = 2130903350;
+			public const int itemTextAppearance = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int itemTextAppearanceInactive = 2130903351;
+			public const int itemTextAppearanceActive = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int itemTextColor = 2130903352;
+			public const int itemTextAppearanceInactive = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int key = 2130903353;
+			public const int itemTextColor = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int keylines = 2130903354;
+			public const int key = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int labelVisibilityMode = 2130903355;
+			public const int keylines = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int lastBaselineToBottomHeight = 2130903356;
+			public const int labelVisibilityMode = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int layout = 2130903357;
+			public const int lastBaselineToBottomHeight = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int layoutManager = 2130903358;
+			public const int layout = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int layout_anchor = 2130903359;
+			public const int layoutManager = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int layout_anchorGravity = 2130903360;
+			public const int layout_anchor = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int layout_behavior = 2130903361;
+			public const int layout_anchorGravity = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int layout_collapseMode = 2130903362;
+			public const int layout_behavior = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int layout_collapseParallaxMultiplier = 2130903363;
+			public const int layout_collapseMode = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int layout_dodgeInsetEdges = 2130903364;
+			public const int layout_collapseParallaxMultiplier = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int layout_insetEdge = 2130903365;
+			public const int layout_dodgeInsetEdges = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int layout_keyline = 2130903366;
+			public const int layout_insetEdge = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int layout_scrollFlags = 2130903367;
+			public const int layout_keyline = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int layout_scrollInterpolator = 2130903368;
+			public const int layout_scrollFlags = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int liftOnScroll = 2130903369;
+			public const int layout_scrollInterpolator = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int lineHeight = 2130903370;
+			public const int liftOnScroll = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int lineSpacing = 2130903371;
+			public const int lineHeight = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int listChoiceBackgroundIndicator = 2130903372;
+			public const int lineSpacing = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int listChoiceIndicatorMultipleAnimated = 2130903373;
+			public const int listChoiceBackgroundIndicator = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int listChoiceIndicatorSingleAnimated = 2130903374;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int listDividerAlertDialog = 2130903375;
+			public const int listChoiceIndicatorSingleAnimated = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int listItemLayout = 2130903376;
+			public const int listDividerAlertDialog = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int listLayout = 2130903377;
+			public const int listItemLayout = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int listMenuViewStyle = 2130903378;
+			public const int listLayout = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int listPopupWindowStyle = 2130903379;
+			public const int listMenuViewStyle = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int listPreferredItemHeight = 2130903380;
+			public const int listPopupWindowStyle = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int listPreferredItemHeightLarge = 2130903381;
+			public const int listPreferredItemHeight = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int listPreferredItemHeightSmall = 2130903382;
+			public const int listPreferredItemHeightLarge = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int listPreferredItemPaddingEnd = 2130903383;
+			public const int listPreferredItemHeightSmall = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int listPreferredItemPaddingLeft = 2130903384;
+			public const int listPreferredItemPaddingEnd = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int listPreferredItemPaddingRight = 2130903385;
+			public const int listPreferredItemPaddingLeft = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int listPreferredItemPaddingStart = 2130903386;
+			public const int listPreferredItemPaddingRight = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int logo = 2130903387;
+			public const int listPreferredItemPaddingStart = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int logoDescription = 2130903388;
+			public const int logo = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int materialButtonStyle = 2130903389;
+			public const int logoDescription = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int materialCardViewStyle = 2130903390;
+			public const int materialButtonStyle = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int maxActionInlineWidth = 2130903391;
+			public const int materialCardViewStyle = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int maxButtonHeight = 2130903392;
+			public const int maxActionInlineWidth = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int maxHeight = 2130903393;
+			public const int maxButtonHeight = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int maxImageSize = 2130903394;
+			public const int maxHeight = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int maxWidth = 2130903395;
+			public const int maxImageSize = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int measureWithLargestChild = 2130903396;
+			public const int maxWidth = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int menu = 2130903397;
+			public const int measureWithLargestChild = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int min = 2130903398;
+			public const int menu = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int multiChoiceItemLayout = 2130903399;
+			public const int min = 2130903399;
+			
+			// aapt resource value: 0x7F030168
+			public const int multiChoiceItemLayout = 2130903400;
 			
 			// aapt resource value: 0x7F030000
 			public const int MvxBind = 2130903040;
@@ -9955,638 +12875,641 @@ namespace WaterReminder.Android
 			// aapt resource value: 0x7F030005
 			public const int MvxTemplate = 2130903045;
 			
-			// aapt resource value: 0x7F030168
-			public const int navigationContentDescription = 2130903400;
+			// aapt resource value: 0x7F030006
+			public const int MvxTemplateSelector = 2130903046;
 			
 			// aapt resource value: 0x7F030169
-			public const int navigationIcon = 2130903401;
+			public const int navigationContentDescription = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int navigationMode = 2130903402;
+			public const int navigationIcon = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int navigationViewStyle = 2130903403;
+			public const int navigationMode = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int negativeButtonText = 2130903404;
+			public const int navigationViewStyle = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int nestedScrollViewStyle = 2130903405;
+			public const int negativeButtonText = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int numericModifiers = 2130903406;
+			public const int nestedScrollViewStyle = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int order = 2130903407;
+			public const int numericModifiers = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int orderingFromXml = 2130903408;
+			public const int order = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int overlapAnchor = 2130903409;
+			public const int orderingFromXml = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int paddingBottomNoButtons = 2130903410;
+			public const int overlapAnchor = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int paddingEnd = 2130903411;
+			public const int paddingBottomNoButtons = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int paddingStart = 2130903412;
+			public const int paddingEnd = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int paddingTopNoTitle = 2130903413;
+			public const int paddingStart = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int panelBackground = 2130903414;
+			public const int paddingTopNoTitle = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int panelMenuListTheme = 2130903415;
+			public const int panelBackground = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int panelMenuListWidth = 2130903416;
+			public const int panelMenuListTheme = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int passwordToggleContentDescription = 2130903417;
+			public const int panelMenuListWidth = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int passwordToggleDrawable = 2130903418;
+			public const int passwordToggleContentDescription = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int passwordToggleEnabled = 2130903419;
+			public const int passwordToggleDrawable = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int passwordToggleTint = 2130903420;
+			public const int passwordToggleEnabled = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int passwordToggleTintMode = 2130903421;
+			public const int passwordToggleTint = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int persistent = 2130903422;
+			public const int passwordToggleTintMode = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int popupMenuStyle = 2130903423;
+			public const int persistent = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int popupTheme = 2130903424;
+			public const int popupMenuStyle = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int popupWindowStyle = 2130903425;
+			public const int popupTheme = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int positiveButtonText = 2130903426;
+			public const int popupWindowStyle = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int preferenceCategoryStyle = 2130903427;
+			public const int positiveButtonText = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int preferenceCategoryTitleTextAppearance = 2130903428;
+			public const int preferenceCategoryStyle = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int preferenceFragmentCompatStyle = 2130903429;
+			public const int preferenceCategoryTitleTextAppearance = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int preferenceFragmentListStyle = 2130903430;
+			public const int preferenceFragmentCompatStyle = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int preferenceFragmentStyle = 2130903431;
+			public const int preferenceFragmentListStyle = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int preferenceInformationStyle = 2130903432;
+			public const int preferenceFragmentStyle = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int preferenceScreenStyle = 2130903433;
+			public const int preferenceInformationStyle = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int preferenceStyle = 2130903434;
+			public const int preferenceScreenStyle = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int preferenceTheme = 2130903435;
+			public const int preferenceStyle = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int preserveIconSpacing = 2130903436;
+			public const int preferenceTheme = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int pressedTranslationZ = 2130903437;
+			public const int preserveIconSpacing = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int progressBarPadding = 2130903438;
+			public const int pressedTranslationZ = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int progressBarStyle = 2130903439;
+			public const int progressBarPadding = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int queryBackground = 2130903440;
+			public const int progressBarStyle = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int queryHint = 2130903441;
+			public const int queryBackground = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int queryPatterns = 2130903442;
+			public const int queryHint = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int radioButtonStyle = 2130903443;
+			public const int queryPatterns = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int ratingBarStyle = 2130903444;
+			public const int radioButtonStyle = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int ratingBarStyleIndicator = 2130903445;
+			public const int ratingBarStyle = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int ratingBarStyleSmall = 2130903446;
+			public const int ratingBarStyleIndicator = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int recyclerViewStyle = 2130903447;
+			public const int ratingBarStyleSmall = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int reverseLayout = 2130903448;
+			public const int recyclerViewStyle = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int rippleColor = 2130903449;
+			public const int reverseLayout = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int scrimAnimationDuration = 2130903450;
+			public const int rippleColor = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int scrimBackground = 2130903451;
+			public const int scrimAnimationDuration = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int scrimVisibleHeightTrigger = 2130903452;
+			public const int scrimBackground = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int searchHintIcon = 2130903453;
+			public const int scrimVisibleHeightTrigger = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int searchIcon = 2130903454;
+			public const int searchHintIcon = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int searchViewStyle = 2130903455;
+			public const int searchIcon = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int seekBarIncrement = 2130903456;
+			public const int searchViewStyle = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int seekBarPreferenceStyle = 2130903457;
+			public const int seekBarIncrement = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int seekBarStyle = 2130903458;
+			public const int seekBarPreferenceStyle = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int selectable = 2130903459;
+			public const int seekBarStyle = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int selectableItemBackground = 2130903460;
+			public const int selectable = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int selectableItemBackgroundBorderless = 2130903461;
+			public const int selectableItemBackground = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int shortcutMatchRequired = 2130903462;
+			public const int selectableItemBackgroundBorderless = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int shouldDisableView = 2130903463;
+			public const int shortcutMatchRequired = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int showAsAction = 2130903464;
+			public const int shouldDisableView = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int showDividers = 2130903465;
+			public const int showAsAction = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int showMotionSpec = 2130903466;
+			public const int showDividers = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int showSeekBarValue = 2130903467;
+			public const int showMotionSpec = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int showText = 2130903468;
+			public const int showSeekBarValue = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int showTitle = 2130903469;
+			public const int showText = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int singleChoiceItemLayout = 2130903470;
+			public const int showTitle = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int singleLine = 2130903471;
+			public const int singleChoiceItemLayout = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int singleLineTitle = 2130903472;
+			public const int singleLine = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int singleSelection = 2130903473;
+			public const int singleLineTitle = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int snackbarButtonStyle = 2130903474;
+			public const int singleSelection = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int snackbarStyle = 2130903475;
+			public const int snackbarButtonStyle = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int spanCount = 2130903476;
+			public const int snackbarStyle = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int spinBars = 2130903477;
+			public const int spanCount = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int spinnerDropDownItemStyle = 2130903478;
+			public const int spinBars = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int spinnerStyle = 2130903479;
+			public const int spinnerDropDownItemStyle = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int splitTrack = 2130903480;
+			public const int spinnerStyle = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int srcCompat = 2130903481;
+			public const int splitTrack = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int stackFromEnd = 2130903482;
+			public const int srcCompat = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int state_above_anchor = 2130903483;
+			public const int stackFromEnd = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int state_collapsed = 2130903484;
+			public const int state_above_anchor = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int state_collapsible = 2130903485;
+			public const int state_collapsed = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int state_liftable = 2130903486;
+			public const int state_collapsible = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int state_lifted = 2130903487;
+			public const int state_liftable = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int statusBarBackground = 2130903488;
+			public const int state_lifted = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int statusBarScrim = 2130903489;
+			public const int statusBarBackground = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int strokeColor = 2130903490;
+			public const int statusBarScrim = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int strokeWidth = 2130903491;
+			public const int strokeColor = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int subMenuArrow = 2130903492;
+			public const int strokeWidth = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int submitBackground = 2130903493;
+			public const int subMenuArrow = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int subtitle = 2130903494;
+			public const int submitBackground = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int subtitleTextAppearance = 2130903495;
+			public const int subtitle = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int subtitleTextColor = 2130903496;
+			public const int subtitleTextAppearance = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int subtitleTextStyle = 2130903497;
+			public const int subtitleTextColor = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int suggestionRowLayout = 2130903498;
+			public const int subtitleTextStyle = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int summary = 2130903499;
+			public const int suggestionRowLayout = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int summaryOff = 2130903500;
+			public const int summary = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int summaryOn = 2130903501;
+			public const int summaryOff = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int switchMinWidth = 2130903502;
+			public const int summaryOn = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int switchPadding = 2130903503;
+			public const int switchMinWidth = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int switchPreferenceCompatStyle = 2130903504;
+			public const int switchPadding = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int switchPreferenceStyle = 2130903505;
+			public const int switchPreferenceCompatStyle = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int switchStyle = 2130903506;
+			public const int switchPreferenceStyle = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int switchTextAppearance = 2130903507;
+			public const int switchStyle = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int switchTextOff = 2130903508;
+			public const int switchTextAppearance = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int switchTextOn = 2130903509;
+			public const int switchTextOff = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int tabBackground = 2130903510;
+			public const int switchTextOn = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int tabContentStart = 2130903511;
+			public const int tabBackground = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int tabGravity = 2130903512;
+			public const int tabContentStart = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int tabIconTint = 2130903513;
+			public const int tabGravity = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int tabIconTintMode = 2130903514;
+			public const int tabIconTint = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int tabIndicator = 2130903515;
+			public const int tabIconTintMode = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int tabIndicatorAnimationDuration = 2130903516;
+			public const int tabIndicator = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int tabIndicatorColor = 2130903517;
+			public const int tabIndicatorAnimationDuration = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int tabIndicatorFullWidth = 2130903518;
+			public const int tabIndicatorColor = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int tabIndicatorGravity = 2130903519;
+			public const int tabIndicatorFullWidth = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int tabIndicatorHeight = 2130903520;
+			public const int tabIndicatorGravity = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int tabInlineLabel = 2130903521;
+			public const int tabIndicatorHeight = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int tabMaxWidth = 2130903522;
+			public const int tabInlineLabel = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int tabMinWidth = 2130903523;
+			public const int tabMaxWidth = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int tabMode = 2130903524;
+			public const int tabMinWidth = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int tabPadding = 2130903525;
+			public const int tabMode = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int tabPaddingBottom = 2130903526;
+			public const int tabPadding = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int tabPaddingEnd = 2130903527;
+			public const int tabPaddingBottom = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int tabPaddingStart = 2130903528;
+			public const int tabPaddingEnd = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int tabPaddingTop = 2130903529;
+			public const int tabPaddingStart = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int tabRippleColor = 2130903530;
+			public const int tabPaddingTop = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int tabSelectedTextColor = 2130903531;
+			public const int tabRippleColor = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int tabStyle = 2130903532;
+			public const int tabSelectedTextColor = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int tabTextAppearance = 2130903533;
+			public const int tabStyle = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int tabTextColor = 2130903534;
+			public const int tabTextAppearance = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int tabUnboundedRipple = 2130903535;
+			public const int tabTextColor = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int textAllCaps = 2130903536;
+			public const int tabUnboundedRipple = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int textAppearanceBody1 = 2130903537;
+			public const int textAllCaps = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int textAppearanceBody2 = 2130903538;
+			public const int textAppearanceBody1 = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int textAppearanceButton = 2130903539;
+			public const int textAppearanceBody2 = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int textAppearanceCaption = 2130903540;
+			public const int textAppearanceButton = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int textAppearanceHeadline1 = 2130903541;
+			public const int textAppearanceCaption = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int textAppearanceHeadline2 = 2130903542;
+			public const int textAppearanceHeadline1 = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int textAppearanceHeadline3 = 2130903543;
+			public const int textAppearanceHeadline2 = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int textAppearanceHeadline4 = 2130903544;
+			public const int textAppearanceHeadline3 = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int textAppearanceHeadline5 = 2130903545;
+			public const int textAppearanceHeadline4 = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int textAppearanceHeadline6 = 2130903546;
+			public const int textAppearanceHeadline5 = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int textAppearanceLargePopupMenu = 2130903547;
+			public const int textAppearanceHeadline6 = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int textAppearanceListItem = 2130903548;
+			public const int textAppearanceLargePopupMenu = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int textAppearanceListItemSecondary = 2130903549;
+			public const int textAppearanceListItem = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int textAppearanceListItemSmall = 2130903550;
+			public const int textAppearanceListItemSecondary = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int textAppearanceOverline = 2130903551;
+			public const int textAppearanceListItemSmall = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int textAppearancePopupMenuHeader = 2130903552;
+			public const int textAppearanceOverline = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int textAppearanceSearchResultSubtitle = 2130903553;
+			public const int textAppearancePopupMenuHeader = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int textAppearanceSearchResultTitle = 2130903554;
+			public const int textAppearanceSearchResultSubtitle = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int textAppearanceSmallPopupMenu = 2130903555;
+			public const int textAppearanceSearchResultTitle = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int textAppearanceSubtitle1 = 2130903556;
+			public const int textAppearanceSmallPopupMenu = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int textAppearanceSubtitle2 = 2130903557;
+			public const int textAppearanceSubtitle1 = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int textColorAlertDialogListItem = 2130903558;
+			public const int textAppearanceSubtitle2 = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int textColorSearchUrl = 2130903559;
+			public const int textColorAlertDialogListItem = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int textEndPadding = 2130903560;
+			public const int textColorSearchUrl = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int textInputStyle = 2130903561;
+			public const int textEndPadding = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int textLocale = 2130903562;
+			public const int textInputStyle = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int textStartPadding = 2130903563;
+			public const int textLocale = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int theme = 2130903564;
+			public const int textStartPadding = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int thickness = 2130903565;
+			public const int theme = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int thumbTextPadding = 2130903566;
+			public const int thickness = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int thumbTint = 2130903567;
+			public const int thumbTextPadding = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int thumbTintMode = 2130903568;
+			public const int thumbTint = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int tickMark = 2130903569;
+			public const int thumbTintMode = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int tickMarkTint = 2130903570;
+			public const int tickMark = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int tickMarkTintMode = 2130903571;
+			public const int tickMarkTint = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int tint = 2130903572;
+			public const int tickMarkTintMode = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int tintMode = 2130903573;
+			public const int tint = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int title = 2130903574;
+			public const int tintMode = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int titleEnabled = 2130903575;
+			public const int title = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int titleMargin = 2130903576;
+			public const int titleEnabled = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int titleMarginBottom = 2130903577;
+			public const int titleMargin = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int titleMarginEnd = 2130903578;
-			
-			// aapt resource value: 0x7F03021D
-			public const int titleMargins = 2130903581;
+			public const int titleMarginBottom = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int titleMarginStart = 2130903579;
-			
-			// aapt resource value: 0x7F03021C
-			public const int titleMarginTop = 2130903580;
+			public const int titleMarginEnd = 2130903579;
 			
 			// aapt resource value: 0x7F03021E
-			public const int titleTextAppearance = 2130903582;
+			public const int titleMargins = 2130903582;
+			
+			// aapt resource value: 0x7F03021C
+			public const int titleMarginStart = 2130903580;
+			
+			// aapt resource value: 0x7F03021D
+			public const int titleMarginTop = 2130903581;
 			
 			// aapt resource value: 0x7F03021F
-			public const int titleTextColor = 2130903583;
+			public const int titleTextAppearance = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int titleTextStyle = 2130903584;
+			public const int titleTextColor = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int toolbarId = 2130903585;
+			public const int titleTextStyle = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int toolbarNavigationButtonStyle = 2130903586;
+			public const int toolbarId = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int toolbarStyle = 2130903587;
+			public const int toolbarNavigationButtonStyle = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int tooltipForegroundColor = 2130903588;
+			public const int toolbarStyle = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int tooltipFrameBackground = 2130903589;
+			public const int tooltipForegroundColor = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int tooltipText = 2130903590;
+			public const int tooltipFrameBackground = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int track = 2130903591;
+			public const int tooltipText = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int trackTint = 2130903592;
+			public const int track = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int trackTintMode = 2130903593;
+			public const int trackTint = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int ttcIndex = 2130903594;
+			public const int trackTintMode = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int updatesContinuously = 2130903595;
+			public const int ttcIndex = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int useCompatPadding = 2130903596;
+			public const int updatesContinuously = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int useSimpleSummaryProvider = 2130903597;
+			public const int useCompatPadding = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int viewInflaterClass = 2130903598;
+			public const int useSimpleSummaryProvider = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int voiceIcon = 2130903599;
+			public const int viewInflaterClass = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int widgetLayout = 2130903600;
+			public const int voiceIcon = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int windowActionBar = 2130903601;
+			public const int widgetLayout = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int windowActionBarOverlay = 2130903602;
+			public const int windowActionBar = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int windowActionModeOverlay = 2130903603;
+			public const int windowActionBarOverlay = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int windowFixedHeightMajor = 2130903604;
+			public const int windowActionModeOverlay = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int windowFixedHeightMinor = 2130903605;
+			public const int windowFixedHeightMajor = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int windowFixedWidthMajor = 2130903606;
+			public const int windowFixedHeightMinor = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int windowFixedWidthMinor = 2130903607;
+			public const int windowFixedWidthMajor = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int windowMinWidthMajor = 2130903608;
+			public const int windowFixedWidthMinor = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int windowMinWidthMinor = 2130903609;
+			public const int windowMinWidthMajor = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int windowNoTitle = 2130903610;
+			public const int windowMinWidthMinor = 2130903610;
+			
+			// aapt resource value: 0x7F03023B
+			public const int windowNoTitle = 2130903611;
 			
 			static Attribute()
 			{
@@ -12788,295 +15711,298 @@ namespace WaterReminder.Android
 			public const int right_side = 2131296429;
 			
 			// aapt resource value: 0x7F0900AE
-			public const int save_non_transition_alpha = 2131296430;
+			public const int rl_list = 2131296430;
 			
 			// aapt resource value: 0x7F0900AF
-			public const int save_overlay_view = 2131296431;
+			public const int save_non_transition_alpha = 2131296431;
 			
 			// aapt resource value: 0x7F0900B0
-			public const int screen = 2131296432;
+			public const int save_overlay_view = 2131296432;
 			
 			// aapt resource value: 0x7F0900B1
-			public const int scroll = 2131296433;
-			
-			// aapt resource value: 0x7F0900B5
-			public const int scrollable = 2131296437;
+			public const int screen = 2131296433;
 			
 			// aapt resource value: 0x7F0900B2
-			public const int scrollIndicatorDown = 2131296434;
-			
-			// aapt resource value: 0x7F0900B3
-			public const int scrollIndicatorUp = 2131296435;
-			
-			// aapt resource value: 0x7F0900B4
-			public const int scrollView = 2131296436;
+			public const int scroll = 2131296434;
 			
 			// aapt resource value: 0x7F0900B6
-			public const int search_badge = 2131296438;
+			public const int scrollable = 2131296438;
+			
+			// aapt resource value: 0x7F0900B3
+			public const int scrollIndicatorDown = 2131296435;
+			
+			// aapt resource value: 0x7F0900B4
+			public const int scrollIndicatorUp = 2131296436;
+			
+			// aapt resource value: 0x7F0900B5
+			public const int scrollView = 2131296437;
 			
 			// aapt resource value: 0x7F0900B7
-			public const int search_bar = 2131296439;
+			public const int search_badge = 2131296439;
 			
 			// aapt resource value: 0x7F0900B8
-			public const int search_button = 2131296440;
+			public const int search_bar = 2131296440;
 			
 			// aapt resource value: 0x7F0900B9
-			public const int search_close_btn = 2131296441;
+			public const int search_button = 2131296441;
 			
 			// aapt resource value: 0x7F0900BA
-			public const int search_edit_frame = 2131296442;
+			public const int search_close_btn = 2131296442;
 			
 			// aapt resource value: 0x7F0900BB
-			public const int search_go_btn = 2131296443;
+			public const int search_edit_frame = 2131296443;
 			
 			// aapt resource value: 0x7F0900BC
-			public const int search_mag_icon = 2131296444;
+			public const int search_go_btn = 2131296444;
 			
 			// aapt resource value: 0x7F0900BD
-			public const int search_plate = 2131296445;
+			public const int search_mag_icon = 2131296445;
 			
 			// aapt resource value: 0x7F0900BE
-			public const int search_src_text = 2131296446;
+			public const int search_plate = 2131296446;
 			
 			// aapt resource value: 0x7F0900BF
-			public const int search_voice_btn = 2131296447;
+			public const int search_src_text = 2131296447;
 			
 			// aapt resource value: 0x7F0900C0
-			public const int seekbar = 2131296448;
+			public const int search_voice_btn = 2131296448;
 			
 			// aapt resource value: 0x7F0900C1
-			public const int seekbar_value = 2131296449;
-			
-			// aapt resource value: 0x7F0900C3
-			public const int selected = 2131296451;
+			public const int seekbar = 2131296449;
 			
 			// aapt resource value: 0x7F0900C2
-			public const int select_dialog_listview = 2131296450;
+			public const int seekbar_value = 2131296450;
+			
+			// aapt resource value: 0x7F0900C4
+			public const int selected = 2131296452;
+			
+			// aapt resource value: 0x7F0900C3
+			public const int select_dialog_listview = 2131296451;
 			
 			// aapt resource value: 0x7F090006
 			public const int SHIFT = 2131296262;
 			
-			// aapt resource value: 0x7F0900C4
-			public const int shortcut = 2131296452;
-			
 			// aapt resource value: 0x7F0900C5
-			public const int showCustom = 2131296453;
+			public const int shortcut = 2131296453;
 			
 			// aapt resource value: 0x7F0900C6
-			public const int showHome = 2131296454;
+			public const int showCustom = 2131296454;
 			
 			// aapt resource value: 0x7F0900C7
-			public const int showTitle = 2131296455;
+			public const int showHome = 2131296455;
 			
 			// aapt resource value: 0x7F0900C8
-			public const int smallLabel = 2131296456;
+			public const int showTitle = 2131296456;
 			
 			// aapt resource value: 0x7F0900C9
-			public const int snackbar_action = 2131296457;
+			public const int smallLabel = 2131296457;
 			
 			// aapt resource value: 0x7F0900CA
-			public const int snackbar_text = 2131296458;
+			public const int snackbar_action = 2131296458;
 			
 			// aapt resource value: 0x7F0900CB
-			public const int snap = 2131296459;
+			public const int snackbar_text = 2131296459;
 			
 			// aapt resource value: 0x7F0900CC
-			public const int snapMargins = 2131296460;
+			public const int snap = 2131296460;
 			
 			// aapt resource value: 0x7F0900CD
-			public const int spacer = 2131296461;
+			public const int snapMargins = 2131296461;
 			
 			// aapt resource value: 0x7F0900CE
-			public const int special_effects_controller_view_tag = 2131296462;
+			public const int spacer = 2131296462;
 			
 			// aapt resource value: 0x7F0900CF
-			public const int spinner = 2131296463;
+			public const int special_effects_controller_view_tag = 2131296463;
 			
 			// aapt resource value: 0x7F0900D0
-			public const int spinnerNation = 2131296464;
+			public const int spinner = 2131296464;
 			
 			// aapt resource value: 0x7F0900D1
-			public const int split_action_bar = 2131296465;
+			public const int spinnerNation = 2131296465;
 			
 			// aapt resource value: 0x7F0900D2
-			public const int src_atop = 2131296466;
+			public const int split_action_bar = 2131296466;
 			
 			// aapt resource value: 0x7F0900D3
-			public const int src_in = 2131296467;
+			public const int src_atop = 2131296467;
 			
 			// aapt resource value: 0x7F0900D4
-			public const int src_over = 2131296468;
+			public const int src_in = 2131296468;
 			
 			// aapt resource value: 0x7F0900D5
-			public const int start = 2131296469;
+			public const int src_over = 2131296469;
 			
 			// aapt resource value: 0x7F0900D6
-			public const int status_bar_latest_event_content = 2131296470;
+			public const int start = 2131296470;
 			
 			// aapt resource value: 0x7F0900D7
-			public const int stretch = 2131296471;
+			public const int status_bar_latest_event_content = 2131296471;
 			
 			// aapt resource value: 0x7F0900D8
-			public const int submenuarrow = 2131296472;
+			public const int stretch = 2131296472;
 			
 			// aapt resource value: 0x7F0900D9
-			public const int submit_area = 2131296473;
+			public const int submenuarrow = 2131296473;
 			
 			// aapt resource value: 0x7F0900DA
-			public const int switchWidget = 2131296474;
+			public const int submit_area = 2131296474;
+			
+			// aapt resource value: 0x7F0900DB
+			public const int switchWidget = 2131296475;
 			
 			// aapt resource value: 0x7F090007
 			public const int SYM = 2131296263;
 			
-			// aapt resource value: 0x7F0900DB
-			public const int tabMode = 2131296475;
-			
 			// aapt resource value: 0x7F0900DC
-			public const int tag_accessibility_actions = 2131296476;
+			public const int tabMode = 2131296476;
 			
 			// aapt resource value: 0x7F0900DD
-			public const int tag_accessibility_clickable_spans = 2131296477;
+			public const int tag_accessibility_actions = 2131296477;
 			
 			// aapt resource value: 0x7F0900DE
-			public const int tag_accessibility_heading = 2131296478;
+			public const int tag_accessibility_clickable_spans = 2131296478;
 			
 			// aapt resource value: 0x7F0900DF
-			public const int tag_accessibility_pane_title = 2131296479;
+			public const int tag_accessibility_heading = 2131296479;
 			
 			// aapt resource value: 0x7F0900E0
-			public const int tag_on_apply_window_listener = 2131296480;
+			public const int tag_accessibility_pane_title = 2131296480;
 			
 			// aapt resource value: 0x7F0900E1
-			public const int tag_on_receive_content_listener = 2131296481;
+			public const int tag_on_apply_window_listener = 2131296481;
 			
 			// aapt resource value: 0x7F0900E2
-			public const int tag_on_receive_content_mime_types = 2131296482;
+			public const int tag_on_receive_content_listener = 2131296482;
 			
 			// aapt resource value: 0x7F0900E3
-			public const int tag_screen_reader_focusable = 2131296483;
+			public const int tag_on_receive_content_mime_types = 2131296483;
 			
 			// aapt resource value: 0x7F0900E4
-			public const int tag_state_description = 2131296484;
+			public const int tag_screen_reader_focusable = 2131296484;
 			
 			// aapt resource value: 0x7F0900E5
-			public const int tag_transition_group = 2131296485;
+			public const int tag_state_description = 2131296485;
 			
 			// aapt resource value: 0x7F0900E6
-			public const int tag_unhandled_key_event_manager = 2131296486;
+			public const int tag_transition_group = 2131296486;
 			
 			// aapt resource value: 0x7F0900E7
-			public const int tag_unhandled_key_listeners = 2131296487;
+			public const int tag_unhandled_key_event_manager = 2131296487;
 			
 			// aapt resource value: 0x7F0900E8
-			public const int tag_window_insets_animation_callback = 2131296488;
+			public const int tag_unhandled_key_listeners = 2131296488;
 			
 			// aapt resource value: 0x7F0900E9
-			public const int text = 2131296489;
+			public const int tag_window_insets_animation_callback = 2131296489;
 			
 			// aapt resource value: 0x7F0900EA
-			public const int text2 = 2131296490;
-			
-			// aapt resource value: 0x7F0900F0
-			public const int textinput_counter = 2131296496;
-			
-			// aapt resource value: 0x7F0900F1
-			public const int textinput_error = 2131296497;
-			
-			// aapt resource value: 0x7F0900F2
-			public const int textinput_helper_text = 2131296498;
+			public const int text = 2131296490;
 			
 			// aapt resource value: 0x7F0900EB
-			public const int textSpacerNoButtons = 2131296491;
+			public const int text2 = 2131296491;
 			
-			// aapt resource value: 0x7F0900EC
-			public const int textSpacerNoTitle = 2131296492;
+			// aapt resource value: 0x7F0900F1
+			public const int textinput_counter = 2131296497;
 			
-			// aapt resource value: 0x7F0900ED
-			public const int textStart = 2131296493;
-			
-			// aapt resource value: 0x7F0900EE
-			public const int textViewStatus = 2131296494;
-			
-			// aapt resource value: 0x7F0900EF
-			public const int text_input_password_toggle = 2131296495;
+			// aapt resource value: 0x7F0900F2
+			public const int textinput_error = 2131296498;
 			
 			// aapt resource value: 0x7F0900F3
-			public const int time = 2131296499;
+			public const int textinput_helper_text = 2131296499;
+			
+			// aapt resource value: 0x7F0900EC
+			public const int textSpacerNoButtons = 2131296492;
+			
+			// aapt resource value: 0x7F0900ED
+			public const int textSpacerNoTitle = 2131296493;
+			
+			// aapt resource value: 0x7F0900EE
+			public const int textStart = 2131296494;
+			
+			// aapt resource value: 0x7F0900EF
+			public const int textViewStatus = 2131296495;
+			
+			// aapt resource value: 0x7F0900F0
+			public const int text_input_password_toggle = 2131296496;
 			
 			// aapt resource value: 0x7F0900F4
-			public const int title = 2131296500;
+			public const int time = 2131296500;
 			
 			// aapt resource value: 0x7F0900F5
-			public const int titleDividerNoCustom = 2131296501;
+			public const int title = 2131296501;
 			
 			// aapt resource value: 0x7F0900F6
-			public const int title_template = 2131296502;
+			public const int titleDividerNoCustom = 2131296502;
 			
 			// aapt resource value: 0x7F0900F7
-			public const int top = 2131296503;
+			public const int title_template = 2131296503;
 			
 			// aapt resource value: 0x7F0900F8
-			public const int topPanel = 2131296504;
+			public const int top = 2131296504;
 			
 			// aapt resource value: 0x7F0900F9
-			public const int touch_outside = 2131296505;
+			public const int topPanel = 2131296505;
 			
 			// aapt resource value: 0x7F0900FA
-			public const int transition_current_scene = 2131296506;
+			public const int touch_outside = 2131296506;
 			
 			// aapt resource value: 0x7F0900FB
-			public const int transition_layout_save = 2131296507;
+			public const int transition_current_scene = 2131296507;
 			
 			// aapt resource value: 0x7F0900FC
-			public const int transition_position = 2131296508;
+			public const int transition_layout_save = 2131296508;
 			
 			// aapt resource value: 0x7F0900FD
-			public const int transition_scene_layoutid_cache = 2131296509;
+			public const int transition_position = 2131296509;
 			
 			// aapt resource value: 0x7F0900FE
-			public const int transition_transform = 2131296510;
+			public const int transition_scene_layoutid_cache = 2131296510;
 			
 			// aapt resource value: 0x7F0900FF
-			public const int txt_versionname = 2131296511;
+			public const int transition_transform = 2131296511;
 			
 			// aapt resource value: 0x7F090100
-			public const int @unchecked = 2131296512;
+			public const int txt_versionname = 2131296512;
 			
 			// aapt resource value: 0x7F090101
-			public const int uniform = 2131296513;
+			public const int @unchecked = 2131296513;
 			
 			// aapt resource value: 0x7F090102
-			public const int unlabeled = 2131296514;
+			public const int uniform = 2131296514;
 			
 			// aapt resource value: 0x7F090103
-			public const int up = 2131296515;
+			public const int unlabeled = 2131296515;
 			
 			// aapt resource value: 0x7F090104
-			public const int useLogo = 2131296516;
+			public const int up = 2131296516;
 			
 			// aapt resource value: 0x7F090105
-			public const int view_offset_helper = 2131296517;
+			public const int useLogo = 2131296517;
 			
 			// aapt resource value: 0x7F090106
-			public const int view_tree_lifecycle_owner = 2131296518;
+			public const int view_offset_helper = 2131296518;
 			
 			// aapt resource value: 0x7F090107
-			public const int view_tree_saved_state_registry_owner = 2131296519;
+			public const int view_tree_lifecycle_owner = 2131296519;
 			
 			// aapt resource value: 0x7F090108
-			public const int view_tree_view_model_store_owner = 2131296520;
+			public const int view_tree_saved_state_registry_owner = 2131296520;
 			
 			// aapt resource value: 0x7F090109
-			public const int visible = 2131296521;
+			public const int view_tree_view_model_store_owner = 2131296521;
 			
 			// aapt resource value: 0x7F09010A
-			public const int visible_removing_fragment_view_tag = 2131296522;
+			public const int visible = 2131296522;
 			
 			// aapt resource value: 0x7F09010B
-			public const int withText = 2131296523;
+			public const int visible_removing_fragment_view_tag = 2131296523;
 			
 			// aapt resource value: 0x7F09010C
-			public const int wrap_content = 2131296524;
+			public const int withText = 2131296524;
+			
+			// aapt resource value: 0x7F09010D
+			public const int wrap_content = 2131296525;
 			
 			static Id()
 			{
@@ -13388,121 +16314,124 @@ namespace WaterReminder.Android
 			public const int loadingprogress = 2131492927;
 			
 			// aapt resource value: 0x7F0C0040
-			public const int mtrl_layout_snackbar = 2131492928;
+			public const int more_tips_single_item = 2131492928;
 			
 			// aapt resource value: 0x7F0C0041
-			public const int mtrl_layout_snackbar_include = 2131492929;
+			public const int mtrl_layout_snackbar = 2131492929;
 			
 			// aapt resource value: 0x7F0C0042
-			public const int notification_action = 2131492930;
+			public const int mtrl_layout_snackbar_include = 2131492930;
 			
 			// aapt resource value: 0x7F0C0043
-			public const int notification_action_tombstone = 2131492931;
+			public const int notification_action = 2131492931;
 			
 			// aapt resource value: 0x7F0C0044
-			public const int notification_media_action = 2131492932;
+			public const int notification_action_tombstone = 2131492932;
 			
 			// aapt resource value: 0x7F0C0045
-			public const int notification_media_cancel_action = 2131492933;
+			public const int notification_media_action = 2131492933;
 			
 			// aapt resource value: 0x7F0C0046
-			public const int notification_template_big_media = 2131492934;
+			public const int notification_media_cancel_action = 2131492934;
 			
 			// aapt resource value: 0x7F0C0047
-			public const int notification_template_big_media_custom = 2131492935;
+			public const int notification_template_big_media = 2131492935;
 			
 			// aapt resource value: 0x7F0C0048
-			public const int notification_template_big_media_narrow = 2131492936;
+			public const int notification_template_big_media_custom = 2131492936;
 			
 			// aapt resource value: 0x7F0C0049
-			public const int notification_template_big_media_narrow_custom = 2131492937;
+			public const int notification_template_big_media_narrow = 2131492937;
 			
 			// aapt resource value: 0x7F0C004A
-			public const int notification_template_custom_big = 2131492938;
+			public const int notification_template_big_media_narrow_custom = 2131492938;
 			
 			// aapt resource value: 0x7F0C004B
-			public const int notification_template_icon_group = 2131492939;
+			public const int notification_template_custom_big = 2131492939;
 			
 			// aapt resource value: 0x7F0C004C
-			public const int notification_template_lines_media = 2131492940;
+			public const int notification_template_icon_group = 2131492940;
 			
 			// aapt resource value: 0x7F0C004D
-			public const int notification_template_media = 2131492941;
+			public const int notification_template_lines_media = 2131492941;
 			
 			// aapt resource value: 0x7F0C004E
-			public const int notification_template_media_custom = 2131492942;
+			public const int notification_template_media = 2131492942;
 			
 			// aapt resource value: 0x7F0C004F
-			public const int notification_template_part_chronometer = 2131492943;
+			public const int notification_template_media_custom = 2131492943;
 			
 			// aapt resource value: 0x7F0C0050
-			public const int notification_template_part_time = 2131492944;
+			public const int notification_template_part_chronometer = 2131492944;
 			
 			// aapt resource value: 0x7F0C0051
-			public const int preference = 2131492945;
+			public const int notification_template_part_time = 2131492945;
 			
 			// aapt resource value: 0x7F0C0052
-			public const int preference_category = 2131492946;
+			public const int preference = 2131492946;
 			
 			// aapt resource value: 0x7F0C0053
-			public const int preference_category_material = 2131492947;
+			public const int preference_category = 2131492947;
 			
 			// aapt resource value: 0x7F0C0054
-			public const int preference_dialog_edittext = 2131492948;
+			public const int preference_category_material = 2131492948;
 			
 			// aapt resource value: 0x7F0C0055
-			public const int preference_dropdown = 2131492949;
+			public const int preference_dialog_edittext = 2131492949;
 			
 			// aapt resource value: 0x7F0C0056
-			public const int preference_dropdown_material = 2131492950;
+			public const int preference_dropdown = 2131492950;
 			
 			// aapt resource value: 0x7F0C0057
-			public const int preference_information = 2131492951;
+			public const int preference_dropdown_material = 2131492951;
 			
 			// aapt resource value: 0x7F0C0058
-			public const int preference_information_material = 2131492952;
+			public const int preference_information = 2131492952;
 			
 			// aapt resource value: 0x7F0C0059
-			public const int preference_list_fragment = 2131492953;
+			public const int preference_information_material = 2131492953;
 			
 			// aapt resource value: 0x7F0C005A
-			public const int preference_material = 2131492954;
+			public const int preference_list_fragment = 2131492954;
 			
 			// aapt resource value: 0x7F0C005B
-			public const int preference_recyclerview = 2131492955;
+			public const int preference_material = 2131492955;
 			
 			// aapt resource value: 0x7F0C005C
-			public const int preference_widget_checkbox = 2131492956;
+			public const int preference_recyclerview = 2131492956;
 			
 			// aapt resource value: 0x7F0C005D
-			public const int preference_widget_seekbar = 2131492957;
+			public const int preference_widget_checkbox = 2131492957;
 			
 			// aapt resource value: 0x7F0C005E
-			public const int preference_widget_seekbar_material = 2131492958;
+			public const int preference_widget_seekbar = 2131492958;
 			
 			// aapt resource value: 0x7F0C005F
-			public const int preference_widget_switch = 2131492959;
+			public const int preference_widget_seekbar_material = 2131492959;
 			
 			// aapt resource value: 0x7F0C0060
-			public const int preference_widget_switch_compat = 2131492960;
+			public const int preference_widget_switch = 2131492960;
 			
 			// aapt resource value: 0x7F0C0061
-			public const int select_dialog_item_material = 2131492961;
+			public const int preference_widget_switch_compat = 2131492961;
 			
 			// aapt resource value: 0x7F0C0062
-			public const int select_dialog_multichoice_material = 2131492962;
+			public const int select_dialog_item_material = 2131492962;
 			
 			// aapt resource value: 0x7F0C0063
-			public const int select_dialog_singlechoice_material = 2131492963;
+			public const int select_dialog_multichoice_material = 2131492963;
 			
 			// aapt resource value: 0x7F0C0064
-			public const int spinner_drop_down_item = 2131492964;
+			public const int select_dialog_singlechoice_material = 2131492964;
 			
 			// aapt resource value: 0x7F0C0065
-			public const int spinner_item = 2131492965;
+			public const int spinner_drop_down_item = 2131492965;
 			
 			// aapt resource value: 0x7F0C0066
-			public const int support_simple_spinner_dropdown_item = 2131492966;
+			public const int spinner_item = 2131492966;
+			
+			// aapt resource value: 0x7F0C0067
+			public const int support_simple_spinner_dropdown_item = 2131492967;
 			
 			static Layout()
 			{
@@ -15489,37 +18418,37 @@ namespace WaterReminder.Android
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030047,0x7F030048,0x7F030049,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300BC,0x7F0300C9,0x7F0300CA,0x7F0300DF,0x7F03010F,0x7F030114,0x7F030119,0x7F03011A,0x7F03011C,0x7F030127,0x7F030133,0x7F03015B,0x7F03016A,0x7F030180,0x7F03018E,0x7F03018F,0x7F0301C6,0x7F0301C9,0x7F030216,0x7F030220 }
+			// aapt resource value: { 0x7F030048,0x7F030049,0x7F03004A,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300BD,0x7F0300CA,0x7F0300CB,0x7F0300E0,0x7F030110,0x7F030115,0x7F03011A,0x7F03011B,0x7F03011D,0x7F030128,0x7F030134,0x7F03015C,0x7F03016B,0x7F030181,0x7F03018F,0x7F030190,0x7F0301C7,0x7F0301CA,0x7F030217,0x7F030221 }
 			public static int[] ActionBar = new int[] {
-					2130903111,
 					2130903112,
 					2130903113,
-					2130903209,
+					2130903114,
 					2130903210,
 					2130903211,
 					2130903212,
 					2130903213,
 					2130903214,
-					2130903228,
-					2130903241,
+					2130903215,
+					2130903229,
 					2130903242,
-					2130903263,
-					2130903311,
-					2130903316,
-					2130903321,
+					2130903243,
+					2130903264,
+					2130903312,
+					2130903317,
 					2130903322,
-					2130903324,
-					2130903335,
-					2130903347,
-					2130903387,
-					2130903402,
-					2130903424,
-					2130903438,
+					2130903323,
+					2130903325,
+					2130903336,
+					2130903348,
+					2130903388,
+					2130903403,
+					2130903425,
 					2130903439,
-					2130903494,
-					2130903497,
-					2130903574,
-					2130903584};
+					2130903440,
+					2130903495,
+					2130903498,
+					2130903575,
+					2130903585};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -15626,14 +18555,14 @@ namespace WaterReminder.Android
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030047,0x7F030048,0x7F030096,0x7F03010F,0x7F0301C9,0x7F030220 }
+			// aapt resource value: { 0x7F030048,0x7F030049,0x7F030097,0x7F030110,0x7F0301CA,0x7F030221 }
 			public static int[] ActionMode = new int[] {
-					2130903111,
 					2130903112,
-					2130903190,
-					2130903311,
-					2130903497,
-					2130903584};
+					2130903113,
+					2130903191,
+					2130903312,
+					2130903498,
+					2130903585};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -15653,10 +18582,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300E8,0x7F030128 }
+			// aapt resource value: { 0x7F0300E9,0x7F030129 }
 			public static int[] ActivityChooserView = new int[] {
-					2130903272,
-					2130903336};
+					2130903273,
+					2130903337};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -15664,16 +18593,16 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030069,0x7F03006A,0x7F030150,0x7F030151,0x7F030167,0x7F0301AD,0x7F0301AE }
+			// aapt resource value: { 0x10100F2,0x7F03006A,0x7F03006B,0x7F030151,0x7F030152,0x7F030168,0x7F0301AE,0x7F0301AF }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903145,
 					2130903146,
-					2130903376,
+					2130903147,
 					2130903377,
-					2130903399,
-					2130903469,
-					2130903470};
+					2130903378,
+					2130903400,
+					2130903470,
+					2130903471};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -15756,21 +18685,21 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300DF,0x7F0300E9,0x7F030149 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300E0,0x7F0300EA,0x7F03014A }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903263,
-					2130903273,
-					2130903369};
+					2130903264,
+					2130903274,
+					2130903370};
 			
-			// aapt resource value: { 0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF }
+			// aapt resource value: { 0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903484,
 					2130903485,
 					2130903486,
-					2130903487};
+					2130903487,
+					2130903488};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -15799,10 +18728,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030147,0x7F030148 }
+			// aapt resource value: { 0x7F030148,0x7F030149 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903367,
-					2130903368};
+					2130903368,
+					2130903369};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -15813,12 +18742,12 @@ namespace WaterReminder.Android
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F0301B9,0x7F030214,0x7F030215 }
+			// aapt resource value: { 0x1010119,0x7F0301BA,0x7F030215,0x7F030216 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903481,
-					2130903572,
-					2130903573};
+					2130903482,
+					2130903573,
+					2130903574};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -15832,12 +18761,12 @@ namespace WaterReminder.Android
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F030211,0x7F030212,0x7F030213 }
+			// aapt resource value: { 0x1010142,0x7F030212,0x7F030213,0x7F030214 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903569,
 					2130903570,
-					2130903571};
+					2130903571,
+					2130903572};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -15882,29 +18811,29 @@ namespace WaterReminder.Android
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300FC,0x7F0300FF,0x7F030108,0x7F03013C,0x7F03014A,0x7F0301F0,0x7F03020A }
+			// aapt resource value: { 0x1010034,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300FD,0x7F030100,0x7F030109,0x7F03013D,0x7F03014B,0x7F0301F1,0x7F03020B }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903106,
 					2130903107,
 					2130903108,
 					2130903109,
 					2130903110,
-					2130903246,
+					2130903111,
 					2130903247,
 					2130903248,
 					2130903249,
-					2130903251,
+					2130903250,
 					2130903252,
 					2130903253,
 					2130903254,
-					2130903292,
-					2130903295,
-					2130903304,
-					2130903356,
-					2130903370,
-					2130903536,
-					2130903562};
+					2130903255,
+					2130903293,
+					2130903296,
+					2130903305,
+					2130903357,
+					2130903371,
+					2130903537,
+					2130903563};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -15969,11 +18898,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030027,0x7F030035,0x7F030036,0x7F030037,0x7F030038,0x7F030041,0x7F030054,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F03006B,0x7F03006C,0x7F030077,0x7F03007C,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300A6,0x7F0300B5,0x7F0300C0,0x7F0300C5,0x7F0300C6,0x7F0300CB,0x7F0300CD,0x7F0300D8,0x7F0300D9,0x7F0300DB,0x7F0300DC,0x7F0300DE,0x7F030119,0x7F030126,0x7F03014C,0x7F03014D,0x7F03014E,0x7F03014F,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F030176,0x7F030177,0x7F030178,0x7F03017F,0x7F030181,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F03019F,0x7F0301A2,0x7F0301A4,0x7F0301A5,0x7F0301B6,0x7F0301B7,0x7F0301D2,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030206,0x7F030207,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F03022E,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030028,0x7F030036,0x7F030037,0x7F030038,0x7F030039,0x7F030042,0x7F030055,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F03006C,0x7F03006D,0x7F030078,0x7F03007D,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F0300A7,0x7F0300B6,0x7F0300C1,0x7F0300C6,0x7F0300C7,0x7F0300CC,0x7F0300CE,0x7F0300D9,0x7F0300DA,0x7F0300DC,0x7F0300DD,0x7F0300DF,0x7F03011A,0x7F030127,0x7F03014D,0x7F03014E,0x7F03014F,0x7F030150,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F030177,0x7F030178,0x7F030179,0x7F030180,0x7F030182,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F0301A0,0x7F0301A3,0x7F0301A5,0x7F0301A6,0x7F0301B7,0x7F0301B8,0x7F0301D3,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030207,0x7F030208,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F03022F,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
-					2130903046,
 					2130903047,
 					2130903048,
 					2130903049,
@@ -15986,7 +18914,7 @@ namespace WaterReminder.Android
 					2130903056,
 					2130903057,
 					2130903058,
-					2130903060,
+					2130903059,
 					2130903061,
 					2130903062,
 					2130903063,
@@ -16003,23 +18931,23 @@ namespace WaterReminder.Android
 					2130903074,
 					2130903075,
 					2130903076,
-					2130903079,
-					2130903093,
+					2130903077,
+					2130903080,
 					2130903094,
 					2130903095,
 					2130903096,
-					2130903105,
-					2130903124,
-					2130903138,
+					2130903097,
+					2130903106,
+					2130903125,
 					2130903139,
 					2130903140,
 					2130903141,
 					2130903142,
-					2130903147,
+					2130903143,
 					2130903148,
-					2130903159,
-					2130903164,
-					2130903196,
+					2130903149,
+					2130903160,
+					2130903165,
 					2130903197,
 					2130903198,
 					2130903199,
@@ -16028,25 +18956,25 @@ namespace WaterReminder.Android
 					2130903202,
 					2130903203,
 					2130903204,
-					2130903206,
-					2130903221,
-					2130903232,
-					2130903237,
+					2130903205,
+					2130903207,
+					2130903222,
+					2130903233,
 					2130903238,
-					2130903243,
-					2130903245,
-					2130903256,
+					2130903239,
+					2130903244,
+					2130903246,
 					2130903257,
-					2130903259,
+					2130903258,
 					2130903260,
-					2130903262,
-					2130903321,
-					2130903334,
-					2130903372,
+					2130903261,
+					2130903263,
+					2130903322,
+					2130903335,
 					2130903373,
 					2130903374,
 					2130903375,
-					2130903378,
+					2130903376,
 					2130903379,
 					2130903380,
 					2130903381,
@@ -16055,38 +18983,38 @@ namespace WaterReminder.Android
 					2130903384,
 					2130903385,
 					2130903386,
-					2130903414,
+					2130903387,
 					2130903415,
 					2130903416,
-					2130903423,
-					2130903425,
-					2130903443,
+					2130903417,
+					2130903424,
+					2130903426,
 					2130903444,
 					2130903445,
 					2130903446,
-					2130903455,
-					2130903458,
-					2130903460,
+					2130903447,
+					2130903456,
+					2130903459,
 					2130903461,
-					2130903478,
+					2130903462,
 					2130903479,
-					2130903506,
-					2130903547,
+					2130903480,
+					2130903507,
 					2130903548,
 					2130903549,
 					2130903550,
-					2130903552,
+					2130903551,
 					2130903553,
 					2130903554,
 					2130903555,
-					2130903558,
+					2130903556,
 					2130903559,
-					2130903586,
+					2130903560,
 					2130903587,
 					2130903588,
 					2130903589,
-					2130903598,
-					2130903601,
+					2130903590,
+					2130903599,
 					2130903602,
 					2130903603,
 					2130903604,
@@ -16095,7 +19023,8 @@ namespace WaterReminder.Android
 					2130903607,
 					2130903608,
 					2130903609,
-					2130903610};
+					2130903610,
+					2130903611};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -16472,10 +19401,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x101030E,0x7F0301A4 }
+			// aapt resource value: { 0x101030E,0x7F0301A5 }
 			public static int[] BackgroundStyle = new int[] {
 					16843534,
-					2130903460};
+					2130903461};
 			
 			// aapt resource value: 0
 			public const int BackgroundStyle_android_selectableItemBackground = 0;
@@ -16483,14 +19412,14 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int BackgroundStyle_selectableItemBackground = 1;
 			
-			// aapt resource value: { 0x7F03004A,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F030115 }
+			// aapt resource value: { 0x7F03004B,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F030116 }
 			public static int[] BottomAppBar = new int[] {
-					2130903114,
-					2130903281,
+					2130903115,
 					2130903282,
 					2130903283,
 					2130903284,
-					2130903317};
+					2130903285,
+					2130903318};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -16510,18 +19439,18 @@ namespace WaterReminder.Android
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300DF,0x7F03012D,0x7F03012F,0x7F030131,0x7F030132,0x7F030136,0x7F030137,0x7F030138,0x7F03013B,0x7F030165 }
+			// aapt resource value: { 0x7F0300E0,0x7F03012E,0x7F030130,0x7F030132,0x7F030133,0x7F030137,0x7F030138,0x7F030139,0x7F03013C,0x7F030166 }
 			public static int[] BottomNavigationView = new int[] {
-					2130903263,
-					2130903341,
-					2130903343,
-					2130903345,
+					2130903264,
+					2130903342,
+					2130903344,
 					2130903346,
-					2130903350,
+					2130903347,
 					2130903351,
 					2130903352,
-					2130903355,
-					2130903397};
+					2130903353,
+					2130903356,
+					2130903398};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -16553,12 +19482,12 @@ namespace WaterReminder.Android
 			// aapt resource value: 9
 			public const int BottomNavigationView_menu = 9;
 			
-			// aapt resource value: { 0x7F03004E,0x7F03004F,0x7F030051,0x7F030052 }
+			// aapt resource value: { 0x7F03004F,0x7F030050,0x7F030052,0x7F030053 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130903118,
 					2130903119,
-					2130903121,
-					2130903122};
+					2130903120,
+					2130903122,
+					2130903123};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
@@ -16572,17 +19501,17 @@ namespace WaterReminder.Android
 			// aapt resource value: 3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
-			// aapt resource value: { 0x7F03003C }
+			// aapt resource value: { 0x7F03003D }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903100};
+					2130903101};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x7F030192,0x7F0301A6 }
+			// aapt resource value: { 0x7F030193,0x7F0301A7 }
 			public static int[] Capability = new int[] {
-					2130903442,
-					2130903462};
+					2130903443,
+					2130903463};
 			
 			// aapt resource value: 0
 			public const int Capability_queryPatterns = 0;
@@ -16590,21 +19519,21 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int Capability_shortcutMatchRequired = 1;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903151,
 					2130903152,
 					2130903153,
 					2130903154,
 					2130903155,
 					2130903156,
-					2130903215,
+					2130903157,
 					2130903216,
 					2130903217,
 					2130903218,
-					2130903219};
+					2130903219,
+					2130903220};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -16645,14 +19574,14 @@ namespace WaterReminder.Android
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F0300C8,0x7F0301CC,0x7F0301CD }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F0300C9,0x7F0301CD,0x7F0301CE }
 			public static int[] CheckBoxPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
-					2130903240,
-					2130903500,
-					2130903501};
+					2130903241,
+					2130903501,
+					2130903502};
 			
 			// aapt resource value: 2
 			public const int CheckBoxPreference_android_disableDependentsState = 2;
@@ -16672,51 +19601,51 @@ namespace WaterReminder.Android
 			// aapt resource value: 5
 			public const int CheckBoxPreference_summaryOn = 5;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030113,0x7F03011D,0x7F030122,0x7F030199,0x7F0301AA,0x7F030208,0x7F03020B }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007E,0x7F03007F,0x7F030080,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F03008C,0x7F03008D,0x7F03008E,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030114,0x7F03011E,0x7F030123,0x7F03019A,0x7F0301AB,0x7F030209,0x7F03020C }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
 					16843039,
 					16843087,
 					16843237,
-					2130903161,
 					2130903162,
 					2130903163,
-					2130903165,
+					2130903164,
 					2130903166,
 					2130903167,
-					2130903169,
+					2130903168,
 					2130903170,
 					2130903171,
 					2130903172,
 					2130903173,
 					2130903174,
-					2130903179,
+					2130903175,
 					2130903180,
 					2130903181,
-					2130903183,
+					2130903182,
 					2130903184,
 					2130903185,
 					2130903186,
 					2130903187,
 					2130903188,
 					2130903189,
-					2130903315,
-					2130903325,
-					2130903330,
-					2130903449,
-					2130903466,
-					2130903560,
-					2130903563};
+					2130903190,
+					2130903316,
+					2130903326,
+					2130903331,
+					2130903450,
+					2130903467,
+					2130903561,
+					2130903564};
 			
-			// aapt resource value: { 0x7F030078,0x7F030087,0x7F030088,0x7F030089,0x7F0301AF,0x7F0301B1 }
+			// aapt resource value: { 0x7F030079,0x7F030088,0x7F030089,0x7F03008A,0x7F0301B0,0x7F0301B2 }
 			public static int[] ChipGroup = new int[] {
-					2130903160,
-					2130903175,
+					2130903161,
 					2130903176,
 					2130903177,
-					2130903471,
-					2130903473};
+					2130903178,
+					2130903472,
+					2130903474};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -16838,24 +19767,24 @@ namespace WaterReminder.Android
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F030099,0x7F03009A,0x7F0300B4,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F03019A,0x7F03019C,0x7F0301C1,0x7F030216,0x7F030217,0x7F030221 }
+			// aapt resource value: { 0x7F03009A,0x7F03009B,0x7F0300B5,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F03019B,0x7F03019D,0x7F0301C2,0x7F030217,0x7F030218,0x7F030222 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903193,
 					2130903194,
-					2130903220,
-					2130903274,
+					2130903195,
+					2130903221,
 					2130903275,
 					2130903276,
 					2130903277,
 					2130903278,
 					2130903279,
 					2130903280,
-					2130903450,
-					2130903452,
-					2130903489,
-					2130903574,
+					2130903281,
+					2130903451,
+					2130903453,
+					2130903490,
 					2130903575,
-					2130903585};
+					2130903576,
+					2130903586};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -16887,10 +19816,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F030142,0x7F030143 }
+			// aapt resource value: { 0x7F030143,0x7F030144 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903362,
-					2130903363};
+					2130903363,
+					2130903364};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -16916,11 +19845,11 @@ namespace WaterReminder.Android
 			// aapt resource value: 15
 			public const int CollapsingToolbarLayout_toolbarId = 15;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F03003D }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F03003E }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903101};
+					2130903102};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -16931,12 +19860,12 @@ namespace WaterReminder.Android
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030067,0x7F03006D,0x7F03006E }
+			// aapt resource value: { 0x1010107,0x7F030068,0x7F03006E,0x7F03006F }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903143,
-					2130903149,
-					2130903150};
+					2130903144,
+					2130903150,
+					2130903151};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -16950,23 +19879,23 @@ namespace WaterReminder.Android
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F03013A,0x7F0301C0 }
+			// aapt resource value: { 0x7F03013B,0x7F0301C1 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903354,
-					2130903488};
+					2130903355,
+					2130903489};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F03013F,0x7F030140,0x7F030141,0x7F030144,0x7F030145,0x7F030146 }
+			// aapt resource value: { 0x10100B3,0x7F030140,0x7F030141,0x7F030142,0x7F030145,0x7F030146,0x7F030147 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903359,
 					2130903360,
 					2130903361,
-					2130903364,
+					2130903362,
 					2130903365,
-					2130903366};
+					2130903366,
+					2130903367};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -16992,10 +19921,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F030057,0x7F030058 }
+			// aapt resource value: { 0x7F030058,0x7F030059 }
 			public static int[] DesignTheme = new int[] {
-					2130903127,
-					2130903128};
+					2130903128,
+					2130903129};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -17003,7 +19932,7 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F0300C7,0x7F03016C,0x7F030182 }
+			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300C8,0x7F03016D,0x7F030183 }
 			public static int[] DialogPreference = new int[] {
 					16843250,
 					16843251,
@@ -17011,12 +19940,12 @@ namespace WaterReminder.Android
 					16843253,
 					16843254,
 					16843255,
-					2130903233,
 					2130903234,
 					2130903235,
-					2130903239,
-					2130903404,
-					2130903426};
+					2130903236,
+					2130903240,
+					2130903405,
+					2130903427};
 			
 			// aapt resource value: 2
 			public const int DialogPreference_android_dialogIcon = 2;
@@ -17054,16 +19983,16 @@ namespace WaterReminder.Android
 			// aapt resource value: 11
 			public const int DialogPreference_positiveButtonText = 11;
 			
-			// aapt resource value: { 0x7F03003F,0x7F030040,0x7F03004C,0x7F03009B,0x7F0300D2,0x7F03010C,0x7F0301B5,0x7F03020D }
+			// aapt resource value: { 0x7F030040,0x7F030041,0x7F03004D,0x7F03009C,0x7F0300D3,0x7F03010D,0x7F0301B6,0x7F03020E }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903103,
 					2130903104,
-					2130903116,
-					2130903195,
-					2130903250,
-					2130903308,
-					2130903477,
-					2130903565};
+					2130903105,
+					2130903117,
+					2130903196,
+					2130903251,
+					2130903309,
+					2130903478,
+					2130903566};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -17089,28 +20018,28 @@ namespace WaterReminder.Android
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F03022D }
+			// aapt resource value: { 0x7F03022E }
 			public static int[] EditTextPreference = new int[] {
-					2130903597};
+					2130903598};
 			
 			// aapt resource value: 0
 			public const int EditTextPreference_useSimpleSummaryProvider = 0;
 			
-			// aapt resource value: { 0x7F03004A,0x7F03004B,0x7F030053,0x7F0300DF,0x7F0300F5,0x7F0300F6,0x7F030113,0x7F03011B,0x7F030162,0x7F03018D,0x7F030199,0x7F0301AA,0x7F03022C }
+			// aapt resource value: { 0x7F03004B,0x7F03004C,0x7F030054,0x7F0300E0,0x7F0300F6,0x7F0300F7,0x7F030114,0x7F03011C,0x7F030163,0x7F03018E,0x7F03019A,0x7F0301AB,0x7F03022D }
 			public static int[] FloatingActionButton = new int[] {
-					2130903114,
 					2130903115,
-					2130903123,
-					2130903263,
-					2130903285,
+					2130903116,
+					2130903124,
+					2130903264,
 					2130903286,
-					2130903315,
-					2130903323,
-					2130903394,
-					2130903437,
-					2130903449,
-					2130903466,
-					2130903596};
+					2130903287,
+					2130903316,
+					2130903324,
+					2130903395,
+					2130903438,
+					2130903450,
+					2130903467,
+					2130903597};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -17118,9 +20047,9 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F03004D }
+			// aapt resource value: { 0x7F03004E }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903117};
+					2130903118};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -17158,10 +20087,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F030134,0x7F03014B }
+			// aapt resource value: { 0x7F030135,0x7F03014C }
 			public static int[] FlowLayout = new int[] {
-					2130903348,
-					2130903371};
+					2130903349,
+					2130903372};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -17169,28 +20098,28 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030106 }
+			// aapt resource value: { 0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F030107 }
 			public static int[] FontFamily = new int[] {
-					2130903296,
 					2130903297,
 					2130903298,
 					2130903299,
 					2130903300,
 					2130903301,
-					2130903302};
+					2130903302,
+					2130903303};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300FE,0x7F030107,0x7F030108,0x7F030109,0x7F03022A }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300FF,0x7F030108,0x7F030109,0x7F03010A,0x7F03022B }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903294,
-					2130903303,
+					2130903295,
 					2130903304,
 					2130903305,
-					2130903594};
+					2130903306,
+					2130903595};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -17243,11 +20172,11 @@ namespace WaterReminder.Android
 			// aapt resource value: 6
 			public const int FontFamily_fontProviderSystemFontFamily = 6;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F03010A }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F03010B }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903306};
+					2130903307};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -17346,17 +20275,17 @@ namespace WaterReminder.Android
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300CA,0x7F0300CC,0x7F030164,0x7F0301A9 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300CB,0x7F0300CD,0x7F030165,0x7F0301AA }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903242,
-					2130903244,
-					2130903396,
-					2130903465};
+					2130903243,
+					2130903245,
+					2130903397,
+					2130903466};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -17415,13 +20344,13 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F0300E4,0x7F0300E5,0x7F03022D }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F0300E5,0x7F0300E6,0x7F03022E }
 			public static int[] ListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903268,
 					2130903269,
-					2130903597};
+					2130903270,
+					2130903598};
 			
 			// aapt resource value: 0
 			public const int ListPreference_android_entries = 0;
@@ -17438,24 +20367,24 @@ namespace WaterReminder.Android
 			// aapt resource value: 4
 			public const int ListPreference_useSimpleSummaryProvider = 4;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03004A,0x7F03004B,0x7F0300B7,0x7F03011C,0x7F03011E,0x7F03011F,0x7F030120,0x7F030123,0x7F030124,0x7F030199,0x7F0301C2,0x7F0301C3 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03004B,0x7F03004C,0x7F0300B8,0x7F03011D,0x7F03011F,0x7F030120,0x7F030121,0x7F030124,0x7F030125,0x7F03019A,0x7F0301C3,0x7F0301C4 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903114,
 					2130903115,
-					2130903223,
-					2130903324,
-					2130903326,
+					2130903116,
+					2130903224,
+					2130903325,
 					2130903327,
 					2130903328,
-					2130903331,
+					2130903329,
 					2130903332,
-					2130903449,
-					2130903490,
-					2130903491};
+					2130903333,
+					2130903450,
+					2130903491,
+					2130903492};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -17505,10 +20434,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F0301C2,0x7F0301C3 }
+			// aapt resource value: { 0x7F0301C3,0x7F0301C4 }
 			public static int[] MaterialCardView = new int[] {
-					2130903490,
-					2130903491};
+					2130903491,
+					2130903492};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -17516,27 +20445,26 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030057,0x7F030058,0x7F030080,0x7F03008A,0x7F03008E,0x7F03009C,0x7F03009D,0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F0300DE,0x7F0300FD,0x7F03015D,0x7F03015E,0x7F03016B,0x7F03019B,0x7F0301B2,0x7F0301EC,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FF,0x7F030204,0x7F030205,0x7F030209 }
+			// aapt resource value: { 0x7F030058,0x7F030059,0x7F030081,0x7F03008B,0x7F03008F,0x7F03009D,0x7F03009E,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300DF,0x7F0300FE,0x7F03015E,0x7F03015F,0x7F03016C,0x7F03019C,0x7F0301B3,0x7F0301ED,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F030200,0x7F030205,0x7F030206,0x7F03020A }
 			public static int[] MaterialComponentsTheme = new int[] {
-					2130903127,
 					2130903128,
-					2130903168,
-					2130903178,
-					2130903182,
-					2130903196,
+					2130903129,
+					2130903169,
+					2130903179,
+					2130903183,
 					2130903197,
-					2130903203,
+					2130903198,
 					2130903204,
 					2130903205,
-					2130903262,
-					2130903293,
-					2130903389,
+					2130903206,
+					2130903263,
+					2130903294,
 					2130903390,
-					2130903403,
-					2130903451,
-					2130903474,
-					2130903532,
-					2130903537,
+					2130903391,
+					2130903404,
+					2130903452,
+					2130903475,
+					2130903533,
 					2130903538,
 					2130903539,
 					2130903540,
@@ -17546,10 +20474,11 @@ namespace WaterReminder.Android
 					2130903544,
 					2130903545,
 					2130903546,
-					2130903551,
-					2130903556,
+					2130903547,
+					2130903552,
 					2130903557,
-					2130903561};
+					2130903558,
+					2130903562};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -17674,7 +20603,7 @@ namespace WaterReminder.Android
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030013,0x7F030025,0x7F030026,0x7F03003E,0x7F0300A8,0x7F030123,0x7F030124,0x7F03016E,0x7F0301A8,0x7F030226 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030014,0x7F030026,0x7F030027,0x7F03003F,0x7F0300A9,0x7F030124,0x7F030125,0x7F03016F,0x7F0301A9,0x7F030227 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -17689,16 +20618,16 @@ namespace WaterReminder.Android
 					16843236,
 					16843237,
 					16843375,
-					2130903059,
-					2130903077,
+					2130903060,
 					2130903078,
-					2130903102,
-					2130903208,
-					2130903331,
+					2130903079,
+					2130903103,
+					2130903209,
 					2130903332,
-					2130903406,
-					2130903464,
-					2130903590};
+					2130903333,
+					2130903407,
+					2130903465,
+					2130903591};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -17769,7 +20698,7 @@ namespace WaterReminder.Android
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03018C,0x7F0301C4 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03018D,0x7F0301C5 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -17778,8 +20707,8 @@ namespace WaterReminder.Android
 					16843055,
 					16843056,
 					16843057,
-					2130903436,
-					2130903492};
+					2130903437,
+					2130903493};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -17808,12 +20737,12 @@ namespace WaterReminder.Android
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F0300E4,0x7F0300E5 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F0300E5,0x7F0300E6 }
 			public static int[] MultiSelectListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903268,
-					2130903269};
+					2130903269,
+					2130903270};
 			
 			// aapt resource value: 0
 			public const int MultiSelectListPreference_android_entries = 0;
@@ -17863,20 +20792,27 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int MvxListView_MvxItemTemplate = 1;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300DF,0x7F03010E,0x7F03012D,0x7F03012E,0x7F030130,0x7F030132,0x7F030135,0x7F030138,0x7F030165 }
+			// aapt resource value: { 0x7F030006 }
+			public static int[] MvxRecyclerView = new int[] {
+					2130903046};
+			
+			// aapt resource value: 0
+			public const int MvxRecyclerView_MvxTemplateSelector = 0;
+			
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300E0,0x7F03010F,0x7F03012E,0x7F03012F,0x7F030131,0x7F030133,0x7F030136,0x7F030139,0x7F030166 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903263,
-					2130903310,
-					2130903341,
+					2130903264,
+					2130903311,
 					2130903342,
-					2130903344,
-					2130903346,
-					2130903349,
-					2130903352,
-					2130903397};
+					2130903343,
+					2130903345,
+					2130903347,
+					2130903350,
+					2130903353,
+					2130903398};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -17914,15 +20850,15 @@ namespace WaterReminder.Android
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030171 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030172 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903409};
+					2130903410};
 			
-			// aapt resource value: { 0x7F0301BB }
+			// aapt resource value: { 0x7F0301BC }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903483};
+					2130903484};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -17936,7 +20872,7 @@ namespace WaterReminder.Android
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F030039,0x7F03003B,0x7F0300BE,0x7F0300BF,0x7F0300E0,0x7F0300E1,0x7F03010B,0x7F03011C,0x7F030121,0x7F03012C,0x7F030139,0x7F03013D,0x7F03016F,0x7F03017E,0x7F0301A3,0x7F0301A7,0x7F0301B0,0x7F0301CB,0x7F030216,0x7F030230 }
+			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03003A,0x7F03003C,0x7F0300BF,0x7F0300C0,0x7F0300E1,0x7F0300E2,0x7F03010C,0x7F03011D,0x7F030122,0x7F03012D,0x7F03013A,0x7F03013E,0x7F030170,0x7F03017F,0x7F0301A4,0x7F0301A8,0x7F0301B1,0x7F0301CC,0x7F030217,0x7F030231 }
 			public static int[] Preference = new int[] {
 					16842754,
 					16842765,
@@ -17954,40 +20890,40 @@ namespace WaterReminder.Android
 					16843491,
 					16844124,
 					16844129,
-					2130903097,
-					2130903099,
-					2130903230,
+					2130903098,
+					2130903100,
 					2130903231,
-					2130903264,
+					2130903232,
 					2130903265,
-					2130903307,
-					2130903324,
-					2130903329,
-					2130903340,
-					2130903353,
-					2130903357,
-					2130903407,
-					2130903422,
-					2130903459,
-					2130903463,
-					2130903472,
-					2130903499,
-					2130903574,
-					2130903600};
+					2130903266,
+					2130903308,
+					2130903325,
+					2130903330,
+					2130903341,
+					2130903354,
+					2130903358,
+					2130903408,
+					2130903423,
+					2130903460,
+					2130903464,
+					2130903473,
+					2130903500,
+					2130903575,
+					2130903601};
 			
-			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03003A }
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03003B }
 			public static int[] PreferenceFragment = new int[] {
 					16842994,
 					16843049,
 					16843050,
-					2130903098};
+					2130903099};
 			
-			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03003A }
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03003B }
 			public static int[] PreferenceFragmentCompat = new int[] {
 					16842994,
 					16843049,
 					16843050,
-					2130903098};
+					2130903099};
 			
 			// aapt resource value: 3
 			public const int PreferenceFragmentCompat_allowDividerAfterLastItem = 3;
@@ -18013,11 +20949,11 @@ namespace WaterReminder.Android
 			// aapt resource value: 0
 			public const int PreferenceFragment_android_layout = 0;
 			
-			// aapt resource value: { 0x10101E7,0x7F030129,0x7F030170 }
+			// aapt resource value: { 0x10101E7,0x7F03012A,0x7F030171 }
 			public static int[] PreferenceGroup = new int[] {
 					16843239,
-					2130903337,
-					2130903408};
+					2130903338,
+					2130903409};
 			
 			// aapt resource value: 0
 			public const int PreferenceGroup_android_orderingFromXml = 0;
@@ -18028,12 +20964,12 @@ namespace WaterReminder.Android
 			// aapt resource value: 2
 			public const int PreferenceGroup_orderingFromXml = 2;
 			
-			// aapt resource value: { 0x101011F,0x1010120,0x7F030161,0x7F030163 }
+			// aapt resource value: { 0x101011F,0x1010120,0x7F030162,0x7F030164 }
 			public static int[] PreferenceImageView = new int[] {
 					16843039,
 					16843040,
-					2130903393,
-					2130903395};
+					2130903394,
+					2130903396};
 			
 			// aapt resource value: 1
 			public const int PreferenceImageView_android_maxHeight = 1;
@@ -18047,13 +20983,12 @@ namespace WaterReminder.Android
 			// aapt resource value: 3
 			public const int PreferenceImageView_maxWidth = 3;
 			
-			// aapt resource value: { 0x7F030076,0x7F0300C4,0x7F0300DA,0x7F0300DD,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F0301A1,0x7F0301D0,0x7F0301D1 }
+			// aapt resource value: { 0x7F030077,0x7F0300C5,0x7F0300DB,0x7F0300DE,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F0301A2,0x7F0301D1,0x7F0301D2 }
 			public static int[] PreferenceTheme = new int[] {
-					2130903158,
-					2130903236,
-					2130903258,
-					2130903261,
-					2130903427,
+					2130903159,
+					2130903237,
+					2130903259,
+					2130903262,
 					2130903428,
 					2130903429,
 					2130903430,
@@ -18062,9 +20997,10 @@ namespace WaterReminder.Android
 					2130903433,
 					2130903434,
 					2130903435,
-					2130903457,
-					2130903504,
-					2130903505};
+					2130903436,
+					2130903458,
+					2130903505,
+					2130903506};
 			
 			// aapt resource value: 0
 			public const int PreferenceTheme_checkBoxPreferenceStyle = 0;
@@ -18222,9 +21158,8 @@ namespace WaterReminder.Android
 			// aapt resource value: 35
 			public const int Preference_widgetLayout = 35;
 			
-			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F030034 }
+			// aapt resource value: { 0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F030034,0x7F030035 }
 			public static int[] ProgressWheel = new int[] {
-					2130903081,
 					2130903082,
 					2130903083,
 					2130903084,
@@ -18235,7 +21170,8 @@ namespace WaterReminder.Android
 					2130903089,
 					2130903090,
 					2130903091,
-					2130903092};
+					2130903092,
+					2130903093};
 			
 			// aapt resource value: 0
 			public const int ProgressWheel_ahBarColor = 0;
@@ -18273,10 +21209,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 11
 			public const int ProgressWheel_ahTextSize = 11;
 			
-			// aapt resource value: { 0x7F030172,0x7F030175 }
+			// aapt resource value: { 0x7F030173,0x7F030176 }
 			public static int[] RecycleListView = new int[] {
-					2130903410,
-					2130903413};
+					2130903411,
+					2130903414};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -18284,20 +21220,20 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F03013E,0x7F030198,0x7F0301B4,0x7F0301BA }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F03013F,0x7F030199,0x7F0301B5,0x7F0301BB }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
-					2130903287,
 					2130903288,
 					2130903289,
 					2130903290,
 					2130903291,
-					2130903358,
-					2130903448,
-					2130903476,
-					2130903482};
+					2130903292,
+					2130903359,
+					2130903449,
+					2130903477,
+					2130903483};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -18335,39 +21271,39 @@ namespace WaterReminder.Android
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F03012A }
+			// aapt resource value: { 0x7F03012B }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903338};
+					2130903339};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F030050 }
+			// aapt resource value: { 0x7F030051 }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903120};
+					2130903121};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F03008F,0x7F0300A7,0x7F0300BD,0x7F03010D,0x7F030125,0x7F03013D,0x7F030190,0x7F030191,0x7F03019D,0x7F03019E,0x7F0301C5,0x7F0301CA,0x7F03022F }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030090,0x7F0300A8,0x7F0300BE,0x7F03010E,0x7F030126,0x7F03013E,0x7F030191,0x7F030192,0x7F03019E,0x7F03019F,0x7F0301C6,0x7F0301CB,0x7F030230 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903183,
-					2130903207,
-					2130903229,
-					2130903309,
-					2130903333,
-					2130903357,
-					2130903440,
+					2130903184,
+					2130903208,
+					2130903230,
+					2130903310,
+					2130903334,
+					2130903358,
 					2130903441,
-					2130903453,
+					2130903442,
 					2130903454,
-					2130903493,
-					2130903498,
-					2130903599};
+					2130903455,
+					2130903494,
+					2130903499,
+					2130903600};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -18420,15 +21356,15 @@ namespace WaterReminder.Android
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x10100F2,0x1010136,0x7F030028,0x7F030166,0x7F0301A0,0x7F0301AB,0x7F03022B }
+			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F030167,0x7F0301A1,0x7F0301AC,0x7F03022C }
 			public static int[] SeekBarPreference = new int[] {
 					16842994,
 					16843062,
-					2130903080,
-					2130903398,
-					2130903456,
-					2130903467,
-					2130903595};
+					2130903081,
+					2130903399,
+					2130903457,
+					2130903468,
+					2130903596};
 			
 			// aapt resource value: 2
 			public const int SeekBarPreference_adjustable = 2;
@@ -18451,16 +21387,16 @@ namespace WaterReminder.Android
 			// aapt resource value: 6
 			public const int SeekBarPreference_updatesContinuously = 6;
 			
-			// aapt resource value: { 0x7F0301B2,0x7F0301B3 }
+			// aapt resource value: { 0x7F0301B3,0x7F0301B4 }
 			public static int[] Snackbar = new int[] {
-					2130903474,
-					2130903475};
+					2130903475,
+					2130903476};
 			
-			// aapt resource value: { 0x101011F,0x7F0300DF,0x7F03015F }
+			// aapt resource value: { 0x101011F,0x7F0300E0,0x7F030160 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903263,
-					2130903391};
+					2130903264,
+					2130903392};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -18477,13 +21413,13 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030180 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030181 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903424};
+					2130903425};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -18534,22 +21470,22 @@ namespace WaterReminder.Android
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301AC,0x7F0301B8,0x7F0301CE,0x7F0301CF,0x7F0301D3,0x7F03020E,0x7F03020F,0x7F030210,0x7F030227,0x7F030228,0x7F030229 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301AD,0x7F0301B9,0x7F0301CF,0x7F0301D0,0x7F0301D4,0x7F03020F,0x7F030210,0x7F030211,0x7F030228,0x7F030229,0x7F03022A }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903468,
-					2130903480,
-					2130903502,
+					2130903469,
+					2130903481,
 					2130903503,
-					2130903507,
-					2130903566,
+					2130903504,
+					2130903508,
 					2130903567,
 					2130903568,
-					2130903591,
+					2130903569,
 					2130903592,
-					2130903593};
+					2130903593,
+					2130903594};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -18593,31 +21529,31 @@ namespace WaterReminder.Android
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F0300C8,0x7F0301CC,0x7F0301CD,0x7F0301D4,0x7F0301D5 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F0300C9,0x7F0301CD,0x7F0301CE,0x7F0301D5,0x7F0301D6 }
 			public static int[] SwitchPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903240,
-					2130903500,
+					2130903241,
 					2130903501,
-					2130903508,
-					2130903509};
+					2130903502,
+					2130903509,
+					2130903510};
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F0300C8,0x7F0301CC,0x7F0301CD,0x7F0301D4,0x7F0301D5 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F0300C9,0x7F0301CD,0x7F0301CE,0x7F0301D5,0x7F0301D6 }
 			public static int[] SwitchPreferenceCompat = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903240,
-					2130903500,
+					2130903241,
 					2130903501,
-					2130903508,
-					2130903509};
+					2130903502,
+					2130903509,
+					2130903510};
 			
 			// aapt resource value: 2
 			public const int SwitchPreferenceCompat_android_disableDependentsState = 2;
@@ -18694,9 +21630,8 @@ namespace WaterReminder.Android
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301ED,0x7F0301EE,0x7F0301EF }
+			// aapt resource value: { 0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301EE,0x7F0301EF,0x7F0301F0 }
 			public static int[] TabLayout = new int[] {
-					2130903510,
 					2130903511,
 					2130903512,
 					2130903513,
@@ -18718,9 +21653,10 @@ namespace WaterReminder.Android
 					2130903529,
 					2130903530,
 					2130903531,
-					2130903533,
+					2130903532,
 					2130903534,
-					2130903535};
+					2130903535,
+					2130903536};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -18797,7 +21733,7 @@ namespace WaterReminder.Android
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0300FF,0x7F030108,0x7F0301F0,0x7F03020A }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F030100,0x7F030109,0x7F0301F1,0x7F03020B }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -18811,10 +21747,10 @@ namespace WaterReminder.Android
 					16843108,
 					16843692,
 					16844165,
-					2130903295,
-					2130903304,
-					2130903536,
-					2130903562};
+					2130903296,
+					2130903305,
+					2130903537,
+					2130903563};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -18864,11 +21800,10 @@ namespace WaterReminder.Android
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300E6,0x7F0300E7,0x7F030110,0x7F030111,0x7F030112,0x7F030116,0x7F030117,0x7F030118,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300E7,0x7F0300E8,0x7F030111,0x7F030112,0x7F030113,0x7F030117,0x7F030118,0x7F030119,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130903129,
 					2130903130,
 					2130903131,
 					2130903132,
@@ -18877,23 +21812,24 @@ namespace WaterReminder.Android
 					2130903135,
 					2130903136,
 					2130903137,
-					2130903224,
+					2130903138,
 					2130903225,
 					2130903226,
 					2130903227,
-					2130903270,
+					2130903228,
 					2130903271,
-					2130903312,
+					2130903272,
 					2130903313,
 					2130903314,
-					2130903318,
+					2130903315,
 					2130903319,
 					2130903320,
-					2130903417,
+					2130903321,
 					2130903418,
 					2130903419,
 					2130903420,
-					2130903421};
+					2130903421,
+					2130903422};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -18979,11 +21915,11 @@ namespace WaterReminder.Android
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0300E2,0x7F0300E3 }
+			// aapt resource value: { 0x1010034,0x7F0300E3,0x7F0300E4 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903266,
-					2130903267};
+					2130903267,
+					2130903268};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -18994,38 +21930,38 @@ namespace WaterReminder.Android
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030068,0x7F030097,0x7F030098,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F03015B,0x7F03015C,0x7F030160,0x7F030165,0x7F030168,0x7F030169,0x7F030180,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F030216,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030069,0x7F030098,0x7F030099,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F03015C,0x7F03015D,0x7F030161,0x7F030166,0x7F030169,0x7F03016A,0x7F030181,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F030217,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903144,
-					2130903191,
+					2130903145,
 					2130903192,
-					2130903209,
+					2130903193,
 					2130903210,
 					2130903211,
 					2130903212,
 					2130903213,
 					2130903214,
-					2130903387,
+					2130903215,
 					2130903388,
-					2130903392,
-					2130903397,
-					2130903400,
+					2130903389,
+					2130903393,
+					2130903398,
 					2130903401,
-					2130903424,
-					2130903494,
+					2130903402,
+					2130903425,
 					2130903495,
 					2130903496,
-					2130903574,
-					2130903576,
+					2130903497,
+					2130903575,
 					2130903577,
 					2130903578,
 					2130903579,
 					2130903580,
 					2130903581,
 					2130903582,
-					2130903583};
+					2130903583,
+					2130903584};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -19117,19 +22053,19 @@ namespace WaterReminder.Android
 			// aapt resource value: 29
 			public const int Toolbar_titleTextColor = 29;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030173,0x7F030174,0x7F03020C }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030174,0x7F030175,0x7F03020D }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903411,
 					2130903412,
-					2130903564};
+					2130903413,
+					2130903565};
 			
-			// aapt resource value: { 0x10100D4,0x7F03004A,0x7F03004B }
+			// aapt resource value: { 0x10100D4,0x7F03004B,0x7F03004C }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903114,
-					2130903115};
+					2130903115,
+					2130903116};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;

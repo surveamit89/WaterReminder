@@ -2,17 +2,19 @@
 using System.Threading.Tasks;
 using System.Windows.Input;
 using MvvmCross.Commands;
+using WaterReminder.DataService;
 using Xamarin.Essentials;
 
 namespace WaterReminder.ViewModel
 {
-    public class HomeViewModel:BaseViewModel
+    public class HomeViewModel : BaseViewModel
     {
-        
+
         //Property
         private double _intakeWater;
         private double _totalIntakeWater;
         private double _selectedQuantityWater;
+        private string _homeTip;
         private ICommand _drunkWaterCommand;
         private ICommand _moreTipsCommand;
 
@@ -21,6 +23,16 @@ namespace WaterReminder.ViewModel
             IntakeWater = 300;
             TotalIntakeWater = 30000;
             SelectedQuantityWater = 300;
+            ShowHomeTip();
+        }
+
+        private void ShowHomeTip()
+        {
+            int tipCounter = Convert.ToInt32(AppData.GetProfileData(AppDataKey.TipCounter));
+            if (tipCounter< WaterGuideList.Count)
+            {
+                HomeTip = WaterGuideList[tipCounter].Tips;
+            }
         }
 
         public string DisplayTotalIntakeWater
@@ -33,6 +45,16 @@ namespace WaterReminder.ViewModel
             get { return SelectedQuantityWater + " ml"; }
         }
 
+        public string HomeTip
+        {
+            get { return _homeTip; }
+            set
+            {
+                _homeTip = value;
+                RaisePropertyChanged(() => HomeTip);
+            }
+        }
+
         public double IntakeWater
         {
             get { return _intakeWater; }
@@ -42,7 +64,7 @@ namespace WaterReminder.ViewModel
                 RaisePropertyChanged(() => IntakeWater);
             }
         }
-        
+
         public double TotalIntakeWater
         {
             get => _totalIntakeWater;
@@ -56,7 +78,7 @@ namespace WaterReminder.ViewModel
         }
 
         //command
-        
+
         public ICommand DrunkWaterCommand
         {
             get
@@ -85,6 +107,18 @@ namespace WaterReminder.ViewModel
             {
                 IntakeWater = TotalIntakeWater;
             }
+
+            int tipCounter = Convert.ToInt32(AppData.GetProfileData(AppDataKey.TipCounter));
+            if (tipCounter >= WaterGuideList.Count - 1)
+            {
+                AppData.SetProfileData(AppDataKey.TipCounter, null);
+            }
+            else
+            {
+                AppData.SetProfileData(AppDataKey.TipCounter, Convert.ToString(tipCounter + 1));
+            }
+
+            ShowHomeTip();
         }
 
         private async Task ShowMoreTips()
