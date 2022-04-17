@@ -15,7 +15,7 @@ namespace WaterReminder.Android
     {
         public override void OnReceive(Context context, Intent intent)
         {
-            GenerateNotification.SendNotification();
+            GenerateNotification.SendNotification(context,intent);
         }
     }
 }

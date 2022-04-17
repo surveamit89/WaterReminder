@@ -5,11 +5,11 @@ using MvvmCross.ViewModels;
 
 namespace WaterReminder.Model
 {
-    public class SwitchCupModel: MvxViewModel
+    public class ReminderScheduleModel : MvxViewModel
     {
-        public string DisplayCupSize { get; set; }
-       
-        public double CupSize { get; set; }
+        public string DisplayMinutes{ get; set; }
+
+        public int SelectedMinutes { get; set; }
 
         private bool _isSelected { get; set; }
         public bool IsSelected
@@ -22,7 +22,7 @@ namespace WaterReminder.Model
             }
         }
 
-        public ICommand SelectCupCommand { get; set; }
+        public ICommand SelectScheduleCommand { get; set; }
 
         private ICommand _selectCommand;
 
@@ -36,7 +36,7 @@ namespace WaterReminder.Model
 
         private void ProcessSelectCommand()
         {
-            SelectCupCommand?.Execute(this);
+            SelectScheduleCommand?.Execute(this);
         }
     }
 }

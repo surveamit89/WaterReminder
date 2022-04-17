@@ -19,6 +19,8 @@ namespace WaterReminder.ViewModel
         private ICommand _saveContinueCommand;
         private ICommand _closeCommand;
         private ICommand _openDialogueCommand;
+        private ICommand _scheduleReminderCommand;
+
 
         public ProfileViewModel()
         {
@@ -76,6 +78,20 @@ namespace WaterReminder.ViewModel
                 _openDialogueCommand = _openDialogueCommand ?? new MvxAsyncCommand<ProfileDialogueEnum>(OpenDialogue);
                 return _openDialogueCommand;
             }
+        }
+
+        public ICommand ScheduleReminderCommand
+        {
+            get
+            {
+                _scheduleReminderCommand = _scheduleReminderCommand ?? new MvxAsyncCommand(ScheduleReminder);
+                return _scheduleReminderCommand;
+            }
+        }
+
+        private async Task ScheduleReminder()
+        {
+            await NavigationService.Navigate<ReminderScheduleViewModel>();
         }
 
         private async Task SaveContinue()

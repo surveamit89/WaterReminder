@@ -17,12 +17,12 @@ namespace WaterReminder.Android
     {
         internal string _randomNumber;
         readonly DateTime _jan1st1970 = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
-        public void StartBackgroundNotificationService(int id)
+        public void StartBackgroundNotificationService(int id,int min)
         {
             Random generator = new Random();
             _randomNumber = generator.Next(100000, 999999).ToString("D6");
 
-            long repeateForMinute = 10000; // In milliseconds   
+            long repeateForMinute =min * 60000; // In milliseconds   
             long totalMilliSeconds = (long)(DateTime.Now.ToUniversalTime() - _jan1st1970).TotalMilliseconds;
             if (totalMilliSeconds < JavaSystem.CurrentTimeMillis())
             {
@@ -65,20 +65,24 @@ namespace WaterReminder.Android
 
     public static class GenerateNotification
     {
-        public static void SendNotification()
+        public static void SendNotification(Context context, Intent intent)
         {
-            var notification = new NotificationModel();
-            notification.Title = "Water Reminder";
-            notification.Message = DateTime.Now.ToString("hh:mm tt");
+            if (AppData.GetIsReminderScheduleSaved())
+            {
+                var notification = new NotificationModel();
+                notification.Title = "Water Reminder";
+                //notification.Message = DateTime.Now.ToString("hh:mm tt");
+                notification.Message = "It's time to drink water";
 
 
-            Intent intent = new Intent(Application.Context, typeof(SplashActivity));
-            intent.PutExtra("is_from_notification", true);
-            intent.PutExtra("notification_json_string", JsonConvert.SerializeObject(notification));
-            intent.AddFlags(ActivityFlags.ClearTop);
-            var pendingIntent = PendingIntent.GetActivity(Application.Context, Convert.ToInt32(100), intent, PendingIntentFlags.OneShot);
+                //Intent intent = new Intent(Application.Context, typeof(SplashActivity));
+                intent.PutExtra("is_from_notification", true);
+                intent.PutExtra("notification_json_string", JsonConvert.SerializeObject(notification));
+                intent.AddFlags(ActivityFlags.ClearTop);
+                var pendingIntent = PendingIntent.GetActivity(context, Convert.ToInt32(100), intent, PendingIntentFlags.OneShot);
 
-            ProcessNotificationOnDevice(pendingIntent, notification);
+                ProcessNotificationOnDevice(pendingIntent, notification);
+            }
         }
 
         static void ProcessNotificationOnDevice(PendingIntent pendingIntent, NotificationModel not)
@@ -138,8 +142,10 @@ namespace WaterReminder.Android
             //notificationBuilder.SetSound(soundUri);
 
             var notification = notificationBuilder.Build();
-
+            Random random = new Random();
+            //int randomNumber = random.Next(9999 - 1000) + 1000;
             notificationManager.Notify(Convert.ToInt32(not.NotificatioID), notification);
+            //notificationManager.Notify(Convert.ToInt32(not.NotificatioID), notification);
         }
     }
 }

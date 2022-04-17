@@ -25,13 +25,7 @@ namespace WaterReminder.ViewModel
         private ICommand _moreTipsCommand;
         private ICommand _deleteRecordCommand;
         private ICommand _changeIntakeCommand;
-
-        public HomeViewModel()
-        {
-            Mvx.IoCProvider.Resolve<IStartService>().StartBackgroundNotificationService(Constant.NotificationSericeID);
-        }
-
-
+        
         public override void ViewAppearing()
         {
             IntakeWater = Convert.ToDouble(AppData.GetData(AppDataKey.ProfileIntakeTaken));

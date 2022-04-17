@@ -15,6 +15,8 @@ namespace WaterReminder.DataService
         public static string ProfileIntakeTaken = "profile_intake_taken";
         public static string IntakeCupSize = "intake_cup_size";
         public static string TodaysRecords = "todays_records";
+        public static string ReminderSchedule = "reminder_schedule";
+        public static string IsReminderScheduleSaved = "is_reminder_schedule_saved";
     }
 
     public class AppData
@@ -38,6 +40,16 @@ namespace WaterReminder.DataService
         public static string GetData(string requestedKey)
         {
             var response = Preferences.Get(requestedKey, null);
+            return response;
+        }
+        public static void SetIsReminderScheduleSaved(bool requestedValue)
+        {
+            Preferences.Set(AppDataKey.IsReminderScheduleSaved, requestedValue);
+        }
+
+        public static bool GetIsReminderScheduleSaved()
+        {
+            var response = Preferences.Get(AppDataKey.IsReminderScheduleSaved, false);
             return response;
         }
     }

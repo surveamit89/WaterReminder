@@ -82,6 +82,7 @@
     <Compile Include="Activity\ChangeSizeActivity.cs" />
     <Compile Include="StartServiceAndroid.cs" />
     <Compile Include="ScheduledAlarmHandler.cs" />
+    <Compile Include="Activity\ReminderScheduleActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -297,6 +298,14 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\cup_size_single_item.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\activity_reminder_schedule.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\reminder_single_item.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
