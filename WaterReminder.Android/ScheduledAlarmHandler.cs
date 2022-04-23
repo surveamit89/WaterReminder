@@ -67,13 +67,13 @@ namespace WaterReminder.Android
 
             try
             {
-                notificationBuilder.SetContentText(notification.Message+" "+DateTime.Now.ToString("hh:mm:ss tt"));
+                notificationBuilder.SetContentText(notification.Message);//+" "+DateTime.Now.ToString("hh:mm:ss tt"));
                 string htmlText = "<b>" + notification.Title + "</b>";
                 notificationBuilder.SetContentTitle(HtmlCompat.FromHtml(htmlText, 0));
             }
             catch (System.Exception)
             {
-                notificationBuilder.SetContentText(notification.Message+" " + DateTime.Now.ToString("hh:mm:ss tt"));
+                notificationBuilder.SetContentText(notification.Message);//+" " + DateTime.Now.ToString("hh:mm:ss tt"));
                 string htmlText = "<b>" + notification.Title + "</b>";
                 notificationBuilder.SetContentTitle(HtmlCompat.FromHtml(htmlText, 0));
             }
