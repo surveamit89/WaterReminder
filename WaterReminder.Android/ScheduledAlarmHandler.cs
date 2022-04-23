@@ -74,15 +74,22 @@ namespace WaterReminder.Android
                 notificationBuilder.SetContentTitle(HtmlCompat.FromHtml(htmlText, 0));
             }
 
-            if (Build.VERSION.SdkInt >= BuildVersionCodes.Lollipop)
+            try
             {
-                notificationBuilder.SetSmallIcon(Resource.Mipmap.ic_launcher);
-                notificationBuilder.SetColor(Resource.Color.colorAccent);
+                if (Build.VERSION.SdkInt >= BuildVersionCodes.Lollipop)
+                {
+                    notificationBuilder.SetSmallIcon(Resource.Mipmap.ic_launcher);
+                    notificationBuilder.SetColor(Resource.Color.colorAccent);
+                }
+                else
+                {
+                    notificationBuilder.SetSmallIcon(Resource.Mipmap.ic_launcher);
+                    notificationBuilder.SetLargeIcon(BitmapFactory.DecodeResource(Application.Context.Resources, Resource.Mipmap.ic_launcher));
+                }
             }
-            else
+            catch (Exception ex)
             {
-                notificationBuilder.SetSmallIcon(Resource.Mipmap.ic_launcher);
-                notificationBuilder.SetLargeIcon(BitmapFactory.DecodeResource(Application.Context.Resources, Resource.Mipmap.ic_launcher));
+
             }
 
             notificationBuilder.SetStyle(new NotificationCompat.BigTextStyle());
