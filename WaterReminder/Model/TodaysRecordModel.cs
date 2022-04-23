@@ -7,8 +7,16 @@ using WaterReminder.ViewModel;
 
 namespace WaterReminder.Model
 {
+    public class SelectedDateRecordModel
+    {
+        public string ActivityDate { get; set; }
+        public double TotalIntakeTaken { get; set; }
+        public ObservableCollection<TodaysRecordModel> Records { get; set; }
+
+    }
     public class TodaysRecordModel:BaseViewModel
     {
+        public string ActivityDate { get; set; }
         public string ActivityTime { get; set; }
         public double Intake { get; set; }
         public string DisplayIntake { get; set; }

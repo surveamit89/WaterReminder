@@ -15,6 +15,7 @@
     <PackageReference Include="MvvmCross" Version="7.0.0" />
     <PackageReference Include="Acr.UserDialogs" Version="7.2.0.562" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microcharts" Version="0.9.5.9" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="MvvmCross" />
@@ -28,6 +29,7 @@
     <None Remove="Model\MoreTips\" />
     <None Remove="Acr.UserDialogs" />
     <None Remove="Newtonsoft.Json" />
+    <None Remove="Microcharts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModel\" />

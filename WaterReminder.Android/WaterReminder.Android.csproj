@@ -346,6 +346,9 @@
     <PackageReference Include="Xamarin.AndroidX.RecyclerView">
       <Version>1.1.0.8</Version>
     </PackageReference>
+    <PackageReference Include="Microcharts">
+      <Version>0.9.5.9</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WaterReminder\WaterReminder.csproj">

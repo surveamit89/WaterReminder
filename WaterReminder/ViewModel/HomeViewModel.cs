@@ -25,6 +25,7 @@ namespace WaterReminder.ViewModel
         private ICommand _moreTipsCommand;
         private ICommand _deleteRecordCommand;
         private ICommand _changeIntakeCommand;
+        private string TodaysDate = DateTime.Now.ToString("dd/M/yyyy");
         
         public override void ViewAppearing()
         {
@@ -122,6 +123,17 @@ namespace WaterReminder.ViewModel
             }
         }
 
+        private ObservableCollection<SelectedDateRecordModel> _allRecords;
+        public ObservableCollection<SelectedDateRecordModel> AllRecords
+        {
+            get { return _allRecords; }
+            set
+            {
+                _allRecords = value;
+                RaisePropertyChanged(() => AllRecords);
+            }
+        }
+
         //command
 
 
@@ -211,6 +223,7 @@ namespace WaterReminder.ViewModel
             TodaysRecords.Add(
                 new TodaysRecordModel
                 {
+                    ActivityDate= TodaysDate,
                     ActivityTime = DateTime.Now.ToString("hh:mm tt"),
                     Intake = SelectedQuantityWater,
                     DisplayIntake = DisplaySelectedQuantityWater,
@@ -222,26 +235,38 @@ namespace WaterReminder.ViewModel
 
         private void DisplayTodaysRecord()
         {
-            string jsonData = AppData.GetData(AppDataKey.TodaysRecords);
+            string jsonData = AppData.GetData(AppDataKey.AllRecords);
             if (string.IsNullOrEmpty(jsonData))
             {
+                AllRecords = new ObservableCollection<SelectedDateRecordModel>();
                 TodaysRecords = new ObservableCollection<TodaysRecordModel>();
             }
             else
             {
+                AllRecords = new ObservableCollection<SelectedDateRecordModel>();
                 TodaysRecords = new ObservableCollection<TodaysRecordModel>();
-                var records = JsonConvert.DeserializeObject<IList<TodaysRecordModel>>(jsonData);
-                foreach (var item in records)
+
+                var records = JsonConvert.DeserializeObject<IList<SelectedDateRecordModel>>(jsonData);
+                var todaysRecord = records.Where(t => t.ActivityDate.Equals(TodaysDate));
+                AllRecords = new ObservableCollection<SelectedDateRecordModel>(records);
+                IntakeWater = 0;
+                if (todaysRecord!=null && todaysRecord.Count()>0)
                 {
-                    TodaysRecords.Add(new TodaysRecordModel
+                    foreach (var item in todaysRecord?.FirstOrDefault(a => a.ActivityDate == TodaysDate).Records)
                     {
-                        ActivityTime = item.ActivityTime,
-                        Intake = item.Intake,
-                        DisplayIntake = item.DisplayIntake,
-                        DeleteRecordCommand = DeleteRecordCommand
-                    });
-                }
-                TodaysRecords = new ObservableCollection<TodaysRecordModel>(TodaysRecords.Reverse());
+                        TodaysRecords.Add(new TodaysRecordModel
+                        {
+                            ActivityDate = item.ActivityDate,
+                            ActivityTime = item.ActivityTime,
+                            Intake = item.Intake,
+                            DisplayIntake = item.DisplayIntake,
+                            DeleteRecordCommand = DeleteRecordCommand
+                        });
+                        IntakeWater += item.Intake;
+                    }
+                    TodaysRecords = new ObservableCollection<TodaysRecordModel>(TodaysRecords.Reverse());
+                    SaveIntakeData(IntakeWater);
+                }   
             }
 
         }
@@ -270,10 +295,29 @@ namespace WaterReminder.ViewModel
         }
         private void SaveRecordsData(ObservableCollection<TodaysRecordModel> todaysRecords)
         {
-            string jsonData = JsonConvert.SerializeObject(todaysRecords);
+            if (AllRecords!=null && AllRecords.Count>0)
+            {
+                var found = AllRecords.FirstOrDefault(a => a.ActivityDate == TodaysDate);
+                if (found!=null)
+                {
+                    AllRecords.FirstOrDefault(a => a.ActivityDate == TodaysDate).TotalIntakeTaken = IntakeWater;
+                    AllRecords.FirstOrDefault(a => a.ActivityDate == TodaysDate).Records = todaysRecords;
+                }
+                else
+                {
+                    AllRecords.Add(new SelectedDateRecordModel { ActivityDate = TodaysDate, Records = todaysRecords,TotalIntakeTaken= IntakeWater });
+                }
+            }
+            else
+            {
+                AllRecords = new ObservableCollection<SelectedDateRecordModel>();
+                AllRecords.Add(new SelectedDateRecordModel { ActivityDate = TodaysDate, Records = todaysRecords, TotalIntakeTaken = IntakeWater });
+            }
+            AllRecords =new ObservableCollection<SelectedDateRecordModel>( AllRecords.OrderBy(a => a.ActivityDate));
+            string jsonData = JsonConvert.SerializeObject(AllRecords);
             if (!string.IsNullOrEmpty(jsonData))
             {
-                AppData.SetData(AppDataKey.TodaysRecords, jsonData);
+                AppData.SetData(AppDataKey.AllRecords, jsonData);
             }
         }
 

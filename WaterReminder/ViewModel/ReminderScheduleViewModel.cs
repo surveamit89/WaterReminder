@@ -87,6 +87,7 @@ namespace WaterReminder.ViewModel
                 item.IsSelected = item.SelectedMinutes == selectedItem.SelectedMinutes ? true : false;
             }
             AppData.SetData(AppDataKey.ReminderSchedule, selectedItem.SelectedMinutes.ToString());
+            Mvx.IoCProvider.Resolve<IStartService>().CancelBackgroundNotificationService(Constant.NotificationSericeID);
             Mvx.IoCProvider.Resolve<IStartService>().StartBackgroundNotificationService(Constant.NotificationSericeID, selectedItem.SelectedMinutes);
         }
 

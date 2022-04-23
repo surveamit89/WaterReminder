@@ -14,7 +14,7 @@ namespace WaterReminder.DataService
         public static string TipCounter = "tip_counter";
         public static string ProfileIntakeTaken = "profile_intake_taken";
         public static string IntakeCupSize = "intake_cup_size";
-        public static string TodaysRecords = "todays_records";
+        public static string AllRecords = "all_records";
         public static string ReminderSchedule = "reminder_schedule";
         public static string IsReminderScheduleSaved = "is_reminder_schedule_saved";
     }
