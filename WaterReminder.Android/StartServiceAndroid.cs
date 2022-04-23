@@ -76,6 +76,9 @@ namespace WaterReminder.Android
 
             var pendingIntent = PendingIntent.GetBroadcast(Application.Context, Convert.ToInt32(_randomNumber), intent, PendingIntentFlags.Immutable);
             var alarmManager = GetAlarmManager();
+            alarmManager.Cancel(pendingIntent);
+            var notificationManager = NotificationManagerCompat.From(Application.Context);
+            notificationManager.CancelAll();
             alarmManager.SetRepeating(AlarmType.RtcWakeup, totalMilliSeconds, repeateForMinute, pendingIntent);
         }
 

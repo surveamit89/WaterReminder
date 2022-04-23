@@ -13,7 +13,11 @@ using WaterReminder.Model;
 
 namespace WaterReminder.Android
 {
-    [BroadcastReceiver(Enabled = true, Label = "Local Notifications Broadcast Receiver")]
+    [BroadcastReceiver(Name = "com.waterreminder.app.ScheduledAlarmHandler", Enabled = true, Label = "Local Notifications Broadcast Receiver", Permission = "com.google.android.c2dm.permission.SEND")]
+    [IntentFilter(new string[] { "com.google.android.c2dm.intent.RECEIVE" }, Categories = new string[] { "@PACKAGE_NAME@" })]
+    [IntentFilter(new string[] { "com.google.android.c2dm.intent.REGISTRATION" }, Categories = new string[] { "@PACKAGE_NAME@" })]
+    [IntentFilter(new string[] { "com.google.android.gcm.intent.RETRY" }, Categories = new string[] { "@PACKAGE_NAME@" })]
+    [IntentFilter(new[] { Intent.ActionBootCompleted }, Categories = new[] { Intent.CategoryDefault })]
     public class ScheduledAlarmHandler : BroadcastReceiver
     {
         //public override void OnReceive(Context context, Intent intent)

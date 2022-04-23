@@ -70,14 +70,28 @@ namespace WaterReminder.ViewModel
             Entries = new ObservableCollection<ChartEntry>();
             for (int i = 0; i < 7; i++)
             {
-                Entries.Add(new ChartEntry(Convert.ToSingle(AllRecords[i].TotalIntakeTaken))
+                if (AllRecords.Count>i && AllRecords[i].TotalIntakeTaken > 0)
                 {
-                    Color = GetColor(AllRecords[i].TotalIntakeTaken),
-                    Label = AllRecords[i].ActivityDate,
-                    ValueLabel= string.Format(Constant.IntakGoalFormat, AllRecords[i].TotalIntakeTaken.ToString()),
-                    TextColor= Constant.BlackColor,
-                    ValueLabelColor=Constant.AppColor
-                });
+                    Entries.Add(new ChartEntry(Convert.ToSingle(AllRecords[i].TotalIntakeTaken))
+                    {
+                        Color = GetColor(AllRecords[i].TotalIntakeTaken),
+                        Label = AllRecords[i].ActivityDate,
+                        ValueLabel = string.Format(Constant.IntakGoalFormat, AllRecords[i].TotalIntakeTaken.ToString()),
+                        TextColor = Constant.BlackColor,
+                        ValueLabelColor = Constant.AppColor
+                    });
+                }
+                else
+                {
+                    Entries.Add(new ChartEntry(0)
+                    {
+                        Color = GetColor(0),
+                        Label = DateTime.Now.AddDays(-i).ToString("dd/m/yyyy"),
+                        ValueLabel = string.Format(Constant.IntakGoalFormat, 0),
+                        TextColor = Constant.BlackColor,
+                        ValueLabelColor = Constant.AppColor
+                    });
+                }
             }
         }
 
